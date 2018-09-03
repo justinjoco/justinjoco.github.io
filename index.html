@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Complete Bootstrap 4 Website Layout</title>
+  <title>Justin Joco Personal Website</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -16,7 +16,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+    <a class="navbar-brand" href="#"><img src="images/transparent_logo.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -27,16 +27,19 @@
           <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Team</a>
+          <a class="nav-link" href="#experiences">Experiences</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Connect</a>
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#connect">Connect</a>
         </li>
       </ul>
     </div>
@@ -47,82 +50,225 @@
 
 <!--- Image Slider -->
 <div id="slides" class="carousel slide" data-ride="carousel">
-  <ul class="carousel-indicators">
-    <li data-target="#slides" data-slide-to-"0" class="active"></li>
-    <li data-target="#slides" data-slide-to-"1"></li>
-    <li data-target="#slides" data-slide-to-"2"></li>
-
-  </ul>
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/background.png">
+      <img src="images/background_mac.jpeg">
       <div class="carousel-caption">
-        <h1 class="display-2">Bootstrap</h1>
-        <h3>Complete Website Layout</h3>
-        <button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
-        <button type="button" class="btn btn-primary btn-large">Get Started</button>
+        <h1 class="display-2">Justin Joco</h1>
+        <h3>Developer and Learner</h3>
+        <button type="button" class="btn btn-outline-light btn-lg">RESUME</button>
+        <button type="button" class="btn btn-primary btn-large">Read More</button>
+    </div>
+    
+>
       </div>
-    </div>
-    <div class="carousel-item">
-      <img src="images/background2.png">
-    </div>
-    <div class="carousel-item">
-      <img src="images/background3.png">
-    </div>
-
   </div>
 </div>
 
 
 <!--- Jumbotron -->
-<div class="container-fluid">
+<div class="container-fluid" id="about">
+
   <div class="row jumbotron">
     <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-      <p class="lead">A web hosting service allows individuals and organizations make their websites accessible via the World Wide Web</p>
+      <h1>About Me</h1>
+      <p style="font-size:120%">Hello! I’m earning my master's in <b>Electrical and Computer Engineering</b> at <b>Cornell University</b>, and I’m looking for a <b>summer internship</b>. I’ve gained technical skill by working on challenging projects at previous internships, hackathons, and classes. I’ve also gained leadership experience through my roles at STEM clubs and as a teaching assistant. </p>
+      <p style="font-size:120%">I can learn new things quickly, complete projects efficiently, and collaborate effectively. My goal is to join as a <b>Software Engineering intern</b> where not only can I build my skillset, but to also solve problems.
+      </p>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+      <!--
       <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+      -->
 
+      <img src="images/profile_pic.jpg" class="rounded-circle img-fluid" width="100%" height="100%">
     </div>
   </div>
 </div>
 
 <!--- Welcome Section -->
-<div class="container-fluid padding">
+<div class="container-fluid padding" id="projects">
   <div class="row welcome text-center">
     
     <div class="col-12">
-      <h1 class="display-4">Built with ease.</h1>
+      <h1 class="display-4">Selected Projects</h1>
     </div>
     <hr>
 
     <div class="col-12">
-      <p class="lead">Welcome to Bootstrap 4 Tutorial!</p>
+      <p class="lead">Here is a sample of my technical projects.</p>
 
     </div>
   </div>
 
 </div>
 
-<!--- Three Column Section -->
-<div class=container-fluid padding>
+<div class="container-fluid padding">
+  <div class="row padding">
+
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="images/wsn_android.jpg">
+        <div class="card-body">
+          <h4 class="card-title">Wildfire Sensor Net</h4>
+          <p class="card-text">Sensor network that warned people of local wildfire locations (5-person team)</p>
+          <p class="card-text">I created the Android app that takes in JSON sensor data from teammate's Raspberry Pi server to plot hotspots of surrounding area</p>
+          <a href="#myModal" class="btn btn-secondary" data-toggle="modal">See More</a>
+          <a href="https://github.com/justinjoco/wildfire-sensor-net" class="btn btn-outline-secondary">Code</a>
+        </div>
+      </div>
+    </div>
+
+     <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="images/Space_Invaders/pic2.png">
+        <div class="card-body">
+          <h4 class="card-title">Space Invaders</h4>
+          <p class="card-text">Simple Space Invaders game with sounds and command-line difficulty settings (Individual)</p>
+          <a href="#myModal" class="btn btn-secondary" data-toggle="modal">See More</a>
+          <a href="https://github.com/justinjoco/SpaceInvaders2" class="btn btn-outline-secondary">Code</a>
+        </div>
+      </div>
+    </div>
+
+     <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="images/Wear_Weather/WW_main_F_crop.png">
+        <div class="card-body">
+          <h4 class="card-title">WearWeather</h4>
+          <p class="card-text">Clothing-suggestion Android app based on weather data from the OpenWeatherMap API (4-person team)</p>
+          <p class="card-text">I added features that converted temperature units and that map weather descriptions to specific icons</p>
+          <a href="#myModal" class="btn btn-secondary" data-toggle="modal">See More</a>
+          <a href="https://github.com/kartikmittal33/WearWeather" class="btn btn-outline-secondary">Code</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Modal body..
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!--- Two Column Section -->
+<div class="container-fluid padding" id="internships">
+  <div class="row welcome text-center">
+    
+    <div class="col-12">
+      <h1 class="display-4">Experiences</h1>
+    </div>
+    <hr>
+  </div>
+</div>
+
+
+<br>
+<div class="container-fluid padding" id="internships">
+  <div class="row welcome text-center">
+    <div class="col-12">
+  <h1>Previous Internships</h1>
+</div>
+</div>
+</div>
+
+<div class="container-fluid padding">
+
+  
+  <div class="row padding">
+
+    <div class="col-lg-6">
+      <h2>JPMorgan Chase & Co.</h2>
+      <p>I worked here during <b>summer 2017</b> here as a Technology Analyst (now called Software Engineering) intern </p>
+      <p>I designed the <b>front-end</b> of a client-facing web application prototype. I was thrust into this project and was able to quickly understand how the front-end integrated with the rest of the application. With the help of my Agile team, I learned <b>HTML, CSS, Javascript, and many different frameworks</b> in order to build a clean, intuitive user interface.</p>
+      <p> Although I was only a summer intern, I meaningfully advanced my project; <b>JPMC implemented my changes and put the design into production.</b> </p>
+      <br>
+      <a href="https://www.jpmorganchase.com/" class="btn btn-primary" style="float: left">Company Homepage</a>
+    </div>
+    <div class="col-lg-6">
+      <img src="images/JPM_logo.jpg" class="img-fluid">
+    </div>
+
+  </div>
+
+
+<div class="row padding">
+
+    <div class="col-lg-6">
+      <img src="images/lincolnfinancial.jpg" class="img-fluid">
+      
+    </div>
+    <div class="col-lg-6">
+      <h2>Lincoln Financial Group</h2>
+      <p>I interned here during <b>summer 2016</b> here as an Enterprise Architecture intern </p>
+      <p></p>
+      <p> </b> </p>
+      <br>
+      <a href="https://www.lfg.com/" class="btn btn-primary" style="float: right">Company Homepage</a>
+    </div>
+
+  </div>
+
+</div>
+
+<hr class="my-4">
+
+
+<!--- Meet the team -->
+<div class="container-fluid padding">
+  <div class="row welcome text-center">
+    <div class="col-12">
+      <h1 class="display-4">Skills</h1>
+    </div>
+    <hr>
+  </div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding">
   <div class="row text-center padding">
 
     <div class="col-xs-12 col-sm-6 col-md-4">
       <i class="fas fa-code"></i>
-      <h3>HTML5</h3>
-      <p>Build with latest version of HMTL5</p>
+      <h3>Programming</h3>
+      <p>Python, Java, C++, C, MATLAB</p>
+      <p>HTML5, CSS3, Javascript</p>
+      
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
-      <i class="fas fa-bold"></i>
-      <h3>BOOTSTRAP</h3>
-      <p>Build with latest version of Bootstrap 4</p>
+      <i class="fas fa-tasks"></i>
+      <h3>Libraries and APIs</h3>
+      <p>JQuery, Bootstrap 4</p>
+      <p>OpenWeatherMap, Google Maps</p>
     </div>
     <div class="col-xs-12 col-md-4">
-      <i class="fab fa-css3"></i>
-      <h3>CSS3</h3>
-      <p>Build with latest version of CSS3</p>
+      <i class="fas fa-cogs"></i>
+      <h3>Engineering</h3>
+      <p>Agile, Android/Web Development, Audio/Image Processing, Object-Oriented Programming</p>
+      <p>Communication, Leadership</p>
     </div>
 
   </div>
@@ -132,115 +278,7 @@
 
 <!--- Two Column Section -->
 <div class="container-fluid padding">
-  <div class="row padding">
-    <div class="col-lg-6">
-      <h2>If you build it...</h2>
-      <p>The columns will automatically stack on top of each other when the the screen is less than 576px wide</p>
-      <p>Resize the browser window to see the effect. Responsive web design has become more important as the amount of mobile traffic now accounts for more than half of total internet traffic.</p>
-      <p>It can also display the web page differently depending on the screen size or viewing device.</p>
-      <br>
-      <a href="#" class="btn btn-primary">Learn More</a>
-    </div>
-    <div class="col-lg-6">
-      <img src="images/desk.png" class="img-fluid">
-    </div>
-
-  </div>
-
-</div>
-
-<hr class="my-4">
-<!--- Fixed background -->
-<figure>
-
-  <div class="fixed-wrap">
-
-   
-
-      <img src="images/mac.png" width="100%"" height="100%">
-
-
-
-</div>
-</figure>
-
-<!--- Emoji Section -->
-<button class="fun" data-toggle="collapse" data-target="#emoji">Click for Fun</button>
-<div id="emoji" class="collapse">
-  <div class="container-fluid padding">
-    <div class="row text-center">
-      <div class="col-sm-6 col-md-3">
-        <img class="gif" src="images/gif/panda.gif">
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <img class="gif" src="images/gif/poo.gif">
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <img class="gif" src="images/gif/unicorn.gif">
-      </div>
-      <div class="col-sm-6 col-md-3">
-        <img class="gif" src="images/gif/chicken.gif">
-      </div>
-
-    </div>
-  </div>
-
-
-</div>
-  
-<!--- Meet the team -->
-<div class="container-fluid padding">
-  <div class="row welcome text-center">
-    <div class="col-12">
-      <h1 class="display-4">Meet the Team</h1>
-    </div>
-    <hr>
-  </div>
-</div>
-
-<!--- Cards -->
-<div class="container-fluid padding">
-  <div class="row padding">
-
-    <div class="col-md-4">
-      <div class="card">
-        <img class="card-img-top" src="images/team1.png">
-        <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
-          <a href="#" class="btn btn-outline-secondary">See Profile</a>
-        </div>
-      </div>
-    </div>
-
-     <div class="col-md-4">
-      <div class="card">
-        <img class="card-img-top" src="images/team2.png">
-        <div class="card-body">
-          <h4 class="card-title">Mary Jane</h4>
-          <p class="card-text">Mary is an designer with almost 10 years of design experience.</p>
-          <a href="#" class="btn btn-outline-secondary">See Profile</a>
-        </div>
-      </div>
-    </div>
-
-     <div class="col-md-4">
-      <div class="card">
-        <img class="card-img-top" src="images/team3.png">
-        <div class="card-body">
-          <h4 class="card-title">Phil Ho</h4>
-          <p class="card-text">Phil is a developer with 5 years of development experience.</p>
-          <a href="#" class="btn btn-outline-secondary">See Profile</a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<!--- Two Column Section -->
-<div class="container-fluid padding">
-  <div class="row padding">
+  <div class="row text-center padding">
     <div class="col-lg-6">
       <h2>Our Philosophy</h2>
       <p>We know that greatness in a disruptive era requires bold abition, curious talent, and a culture that believes we're smarter together.</p>
@@ -263,11 +301,9 @@
       <h2>Connect</h2>
     </div>
     <div class="col-12 social padding">
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-google-plus-g"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.facebook.com/justin.anthony.joco"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.linkedin.com/in/justinjoco"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/justinjoco"><i class="fab fa-github"></i></a>
 
     </div>
   </div>
@@ -275,45 +311,41 @@
 
 <!--- Footer -->
 <footer>
+
   <div class="container-fluid padding">
-    <div class="row text-center">
+  <h1 class="text-center">Contact Me</h1>
+  <form>
 
-      <div class="col-md-4">
-        <img src="images/w3newbie.png">
-        <hr class="light">
-        <p>914-727-2032</p>
-        <p>justin.joco@gmail.com</p>
-        <p>21 Faith Lane</p>
-        <p>Ardsley, NY, 10502</p>
-      </div>
-
-      <div class="col-md-4">
-        <hr class="light">
-        <h5>Our Hours</h5>
-        <hr class="light">
-        <p>Monday: 9am - 5pm</p>
-        <p>Saturday: 10am - 4pm</p>
-        <p>Sunday: Closed</p>
-      </div>
-
-       <div class="col-md-4">
-        <hr class="light">
-        <h5>Service Area</h5>
-        <hr class="light">
-        <p>City, State, 00000</p>
-        <p>City, State, 00000</p>
-        <p>City, State, 00000</p>
-        <p>City, State, 00000</p>
-        <p>City, State, 00000</p>
-      </div>
-      <div class="col-12">
-        <hr class="light">
-        <h5>&copy; w3newbie.com</h5>
-      </div>
-      </div>
-
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="firstName">First Name</label>
+      <input type="text" class="form-control" id="firstName" placeholder="John">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="lastName">Last Name</label>
+      <input type="text" class="form-control" id="lastName" placeholder="Doe">
     </div>
   </div>
+  
+  <div class="form-group">
+    <label for="emailAddress">Email</label>
+    <input type="email" class="form-control" id="emailAddress" placeholder="abcd@example.com">
+  </div>
+  <div class="form-group">
+    <label for="subject">Subject</label>
+    <input type="text" class="form-control" id="subject" placeholder="Your subject here...">
+  </div>
+  <div class="form-group">
+    <label for="message">Message</label>
+    <input type="text" class="form-control" id="messageBody" placeholder="Your message here...">
+  </div>
+  <div class="form-row">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+  
+  
+</form>
+</div>
 </footer>
 
 </body>
