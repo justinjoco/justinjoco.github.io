@@ -1,8 +1,4 @@
 # Justin Joco's Portfolio Website
 
-Includes the following:
-  Apps made from hackathons
-  Projects made from academics
-  Other cool stuff I did (like leading events and whatnot)
-  Has contact info
+Includes the following:apps made from hackathons, projects made from academics, other cool stuff I did (like leading events), and contact info
   
