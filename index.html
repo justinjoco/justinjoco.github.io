@@ -204,7 +204,7 @@
           <p class="card-text">Sensor network that warned people of local wildfire locations (5-person team)</p>
           <p class="card-text">I created the Android app that takes in JSON sensor data from teammate's Raspberry Pi server to plot hotspots of surrounding area (incorporated Google Maps API)</p>
            <p class="card-text">Won 3rd at Cornell's natural disaster preparedness hackathon</p>
-          <a href="#wsnModal" class="btn btn-secondary" data-toggle="modal">See More</a>
+          <a href="#wsnModal" class="btn btn-secondary" data-toggle="modal">Video Demo</a>
           <a href="https://github.com/justinjoco/wildfire-sensor-net" class="btn btn-outline-secondary">Code</a>
         </div>
       </div>
@@ -215,8 +215,9 @@
         <img class="card-img-top" src="images/Space_Invaders/pic2.png">
         <div class="card-body">
           <h4 class="card-title">Space Invaders</h4>
-          <p class="card-text">Simple Space Invaders game with sounds and command-line difficulty settings (Individual)</p>
-          <a href="#spaceModal" class="btn btn-secondary" data-toggle="modal">See More</a>
+          <p class="card-text">Simple Space Invaders game with sounds and command-line difficulty settings (Individual).</p> 
+          <p>Involved threading, basic graphics, and game object manipulation</p>
+          <a href="#spaceModal" class="btn btn-secondary" data-toggle="modal">Video Demo</a>
           <a href="https://github.com/justinjoco/SpaceInvaders2" class="btn btn-outline-secondary">Code</a>
         </div>
       </div>
@@ -224,13 +225,14 @@
 
      <div class="col-md-4">
       <div class="card">
-        <img class="card-img-top" src="images/Wear_Weather/WW_main_F_crop.png">
+        <img class="card-img-top" src="images/us_heatmap.png">
         <div class="card-body">
-          <h4 class="card-title">WearWeather</h4>
-          <p class="card-text">Clothing-suggestion Android app based on weather data from the OpenWeatherMap API (4-person team)</p>
-          <p class="card-text">I added features that converted temperature units and that map weather descriptions to specific icons</p>
-          <a href="#wearWModal" class="btn btn-secondary" data-toggle="modal">See More</a>
-          <a href="https://github.com/kartikmittal33/WearWeather" class="btn btn-outline-secondary">Code</a>
+          <h4 class="card-title">US Gun Violence Data Viz</h4>
+          <p class="card-text">NLP analysis of gun violence news articles, data visualization and modeling (4-person team)</p>
+          <p class="card-text">I built the interactive web application component that visualized gun violence statistics across the US in March 2018. Heatmap was based on incident frequency; plotted points were based on incident location.</p> 
+          <p>Visualized data using D3.js and maintained full stack with Flask web framework</p>
+          <a href="#gunModal" class="btn btn-secondary" data-toggle="modal">Video Demo</a>
+          <a href="https://github.com/mariellej/Gun-Violence-Modeling/tree/master/gun-violence-modeling" class="btn btn-outline-secondary">Code</a>
         </div>
       </div>
     </div>
@@ -310,60 +312,31 @@
   </div>
 </div>
 
-<div class="modal" id="wearWModal">
+<div class="modal" id="gunModal">
   <div class="modal-dialog">
     <div class="modal-content">
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">WearWeather Samples</h4>
+        <h4 class="modal-title">Gun Violence Data Viz Video Demo</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
       <!-- Modal body -->
       <div class="modal-body">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-          </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="images/Wear_Weather/WW_main_F.png" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/Wear_Weather/WW_main_C.png" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/Wear_Weather/WW_left.png" alt="Third slide">
-          </div>
-          
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/Wear_Weather/WW_right_F.png" alt="Fourth slide">
-          </div>
-          
-          
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/Wear_Weather/WW_right_C.png" alt="Fifth slide">
-          </div>
-
+        <div align="center" class="embed-responsive embed-responsive-4by3">
+          <video class="embed-responsive-item" controls>
+            <source src="images/videos/gun_violence.mov" type="video/mp4">
+          </video>
+    
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <br>
+        <br>
+        <p>**Video may not work on mobile. Please view on desktop**<p>
+        <hr class="light">
         <p class="lead">What's going on?<p>
-        <p>This is just a showcase of the app's different screens in order to show the changing temperature units and the forecast screen.</p>
-    </div>
+        <p>After running the web app on my local machine, I requested to the local instance of my app. By hovering over the US states, I output a tooltip that printed out the state with its total number of incidents. I also hovered over the plotted points, which showed the incident locations and dates.</p> 
+        <p>Lastly, I requested the other routes of the app to show the JSON of the incidents, state populations, and state geometry.</p>
+      </div>
 
       <!-- Modal footer -->
       <div class="modal-footer">
