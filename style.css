@@ -9,6 +9,11 @@ html, body{
  
 }
 
+.card{
+  margin: auto;
+  max-width: 28rem;
+}
+
 .navbar{
   padding: .8rem;
 }
