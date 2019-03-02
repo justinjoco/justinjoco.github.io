@@ -14,6 +14,10 @@ html, body{
   max-width: 28rem;
 }
 
+.dropdown-backdrop{
+    position: static;
+}
+
 .navbar{
   padding: .8rem;
 }
