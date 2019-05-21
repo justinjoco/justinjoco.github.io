@@ -10,9 +10,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-  <link href="style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
   
 </head>
 <body>
@@ -20,7 +20,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
   <div id="top" class="container-fluid">
-    <a class="navbar-brand" href="#slides"><img src="images/transparent_logo.png"></a>
+    <a class="navbar-brand" href="#slides"><img src="img/transparent_logo.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -63,7 +63,7 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/background_mac.jpeg">
+      <img src="img/background_mac.jpeg">
       <div class="carousel-caption" style="position: absolute;
   top: 50%;
   transform: translateY(-50%);">
@@ -103,7 +103,7 @@
     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
  
 
-      <img src="images/pro_pic_2.jpg" class="rounded-circle img-fluid" width="100%" height="100%">
+      <img src="img/pro_pic_2.jpg" class="rounded-circle img-fluid" width="100%" height="100%">
     </div>
   </div>
 </div>
@@ -122,8 +122,8 @@
     <hr>
     <br>
     <div class="col-12">
-      <p style="font-size: 120%"><b>Current Coursework</b>: Embedded OS, Advanced Microcontrollers Design and SoC, Data-Driven Web Apps </p>
-      <p style="font-size: 120%"><i>Relevant Background</i>: Machine Learning, Databases Systems, Computer Security</p>
+      <p style="font-size: 120%"><b>Fall 2019 Coursework</b>: Technical Management, Applied System Engineering, Random Signals</p>
+      <p style="font-size: 120%"><i>Relevant Background</i>: Machine Learning, Design with Embedded OS, Advanced Microcontrollers, Data-Driven Web Apps, Computer Security, Database Systems</p>
     </div>
 
   </div>
@@ -140,7 +140,7 @@
     <div class="col-xs-12 col-sm-6 col-md-4">
       <i class="fas fa-tasks"></i>
       <h3>Libraries, APIs, Frameworks</h3>
-      <p>JQuery, NumPy, Keras+Tensorflow, D3.js</p>
+      <p>JQuery, NumPy, PyGame, Keras+Tensorflow, D3.js</p>
       <p>OpenWeatherMap, Google Maps Platform</p>
       <p>Bootstrap 4, Flask</p>
     </div>
@@ -148,7 +148,7 @@
     <div class="col-xs-12 col-sm-6 col-md-4">
       <i class="fas fa-code"></i>
       <h3>Programming</h3>
-      <p>Python, Java, C/C++, MATLAB, PostgreSQL</p>
+      <p>Python, Java, C/C++, MATLAB, Verilog</p>
       <p>HTML5, CSS3, JavaScript</p>
     </div>
 
@@ -186,10 +186,21 @@
     </div>
 
     <div class="col-md-12">
-      <h5><b>MEng Design Project</b>: <i> <a href="https://github.com/justinjoco/acoustic_ML" target="_blank">Acoustic localization and tracking via machine learning</i> </a></h5>
+      <h5><b>MEng Design Project</b>: Acoustic localization and tracking via machine learning </h5>
+      <p><b>Abstract</b>: For our project, our goal is to track users in a room using an array of microphones. To do this, we first model a room with echoes, and we populate this room with users and microphones. We extract information from this modelled room to create a so-called channel state information (CSI) matrix. Depending on the application, we use a supervised or an unsupervised deep learning model to learn the channel from the CSI matrix. If the goal is to predict user locations in cartesian space, we use the supervised model. If we want to learn the channel itself, we use the unsupervised model. Though a lot of research in localization has been done in RF communication, we use acoustic communication to further understand its merits, its workings, and its negatives to hopefully expand a field in ECE.</p>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <p><a href="https://drive.google.com/open?id=1RqCE6mKBcSB8zWFaoT2NVYHz0RCSMc-s" target="_blank">Report</a></p>
+          </div>
+          <div class="col-md-4">
+      <p><a href="https://drive.google.com/open?id=1gYy7quJyqfm_eIAsylMDvCWCTJ6wZo8X" target="_blank">Poster</a></p>
+      </div>
+         <div class="col-md-4">
+       <p><a href="https://github.com/justinjoco/acoustic_MIMO" target="_blank">Code</a></p> 
+       </div>
+        </div>
     </div>
     
-    <p><i>I'll update this at the end of Spring 2019 with my final projects in Embedded OS, Advanced Microcontrollers Design and SoC, and Data-Driven Web Apps</i></p>
 
   </div>
 
@@ -212,44 +223,26 @@
 
     
    
-     <div class="col-md-6">
-      <div class="card">
-        <h6 class="card-header">Advanced Microcontroller Design and SoC</h6>
-        <h7 class="card-header">April - May 2019</h7>
-        <img class="card-img-top" src="images/img-placeholder.jpg">
-        <div class="card-body">
-          <h4 class="card-title">Vocoder</h4>
-          <p class="card-text">(3-person team)</p>
-          <p class="card-text">Will be updated upon completion.</p>
-          <!--
-          <a href="#" class="btn btn-secondary" data-toggle="modal">Website</a>
-          <a href="https://github.com/justinjoco/" class="btn btn-outline-secondary" target="_blank">Code</a>-->
-        </div>
-        <div class="card-footer">
-            <b>C, Verilog, QSys</b>
-        </div>
-
-
-      </div>
-    </div>
-
+   
    
 
      <div class="col-md-6">
       <div class="card">
         <h6 class="card-header">Design with Embedded Operating Systems</h6>
         <h7 class="card-header">April - May 2019</h7>
-        <img class="card-img-top" src="images/img-placeholder.jpg">
+        <img class="card-img-top" src="img/air_canvas_build.jpg">
         <div class="card-body">
-          <h4 class="card-title">Air Canvas</h4>
-          <p class="card-text">(2-person team)</p>
-          <p class="card-text"> Will be updated upon completion.</p>
-          <!--
-          <a href="#" class="btn btn-secondary" data-toggle="modal">Website</a>
-          <a href="https://github.com/justinjoco/" class="btn btn-outline-secondary" target="_blank">Code</a> -->
+          <h4 class="card-title">Air Canvas on Raspberry Pi</h4>
+          <p class="card-text">A simple prototype for a drawing tool that uses a Raspberry Pi, a PiCamera, and OpenCV to recognize hand gestures to paint on a PiTFT screen (2-person team)</p>
+          <p>Used a color histogram and contouring to find the center of a hand; drew dots at the farthest point along the contour from center</p>
+          <p>Drew line interpolations between drawn dots to mitigate FPS costs of live image processing</p>
+          <p>Added configurable brush size and color, and enabled histogram re-calibration.</p>
+          
+          <a href="https://courses.ece.cornell.edu/ece5990/ECE5725_Spring2019_Projects/jaj263_scl97/index.html" class="btn btn-secondary" target="_blank">Webpage Report</a>
+          <a href="https://github.com/justinjoco/air_canvas" class="btn btn-outline-secondary" target="_blank">Code</a> 
         </div>
         <div class="card-footer">
-            <b>Python, Raspberry Pi, OpenCV</b>
+            <b>Python, OpenCV, PyGame</b>
         </div>
 
 
@@ -257,7 +250,28 @@
       </div>
     </div>
 
-    
+      <div class="col-md-6">
+      <div class="card">
+        <h6 class="card-header">Advanced Microcontroller Design and SoC</h6>
+        <h7 class="card-header">April - May 2019</h7>
+        <img class="card-img-top" src="img/vocoder.png">
+        <div class="card-body">
+          <h4 class="card-title">FPGA Speech Vocoder</h4>
+          <p class="card-text">A highly parallel hardware vocoder on the Cyclone V FPGA for real-time speech synthesis and visualization on a monitor through a VGA interface (3-person team)</p>
+          <p>Includes pitch-shifting and voice modulation through 32 IIR filters.</p>
+          <p>I implemented a basic GPU in parallel with speech synthesizer by reading input audio to display the audio waveform and a 32-bin frequency spectrogram on an 8-bit color, 640x480 pixel monitor in real-time.</p>
+          
+          <a href="https://people.ece.cornell.edu/land/courses/ece5760/FinalProjects/s2019/jc2697_jaj263_tk455/jc2697_jaj263_tk455/jc2697_jaj263_tk455/index.html" class="btn btn-secondary" target="_blank">Webpage Report</a>
+          <a href="https://github.com/jc2697/FPGA_speech_vocoder" class="btn btn-outline-secondary" target="_blank">Code</a>
+        </div>
+        <div class="card-footer">
+            <b>C, Verilog</b>
+        </div>
+
+
+      </div>
+    </div>
+
 
     
 
@@ -281,16 +295,17 @@
     
      <div class="col-md-4">
       <div class="card">
-        <h6 class="card-header">Data-Driven Web Applications</h6>
+        <h6 class="card-header">Visual Data Analytics for the Web</h6>
         <h7 class="card-header">April - May 2019</h7>
-        <img class="card-img-top" src="images/img-placeholder.jpg">
+        <img class="card-img-top" src="img/us_pollution.png">
         <div class="card-body">
-          <h4 class="card-title">INFO 5100 Final Project</h4>
-          <p class="card-text">(2-4 person team)</p>
-          <p class="card-text"> Will be updated upon completion.</p>
-          <!--
-          <a href="#" class="btn btn-secondary" data-toggle="modal">Website</a>
-          <a href="https://github.com/justinjoco/" class="btn btn-outline-secondary" target="_blank">Code</a> -->
+          <h4 class="card-title">US Air Pollution in the 2000s</h4>
+          <p class="card-text">Interactive web application that uses a US map and line graph to visualize total population and air pollutant concentration of different states from 2000 to 2016 (3 person team)</p>
+          <p>Condensed ~2 million rows of data to ~130k by filtering out redudancies in dates and eliminating irrelevant columns</p>
+          <p>Drew the interactive line graph that calculates the percent difference between the air pollutant concentration of a user-chosen state and the national average at a given time (via mouse hover).</p>
+          
+          <a href="https://justinjoco.github.io/us_pollution_in_2000s/" class="btn btn-secondary" target="_blank">Website</a>
+          <a href="https://github.com/justinjoco/us_pollution_in_2000s" class="btn btn-outline-secondary" target="_blank">Code</a> 
         </div>
         <div class="card-footer">
             <b>HTML, CSS, JavaScript, D3.js</b>
@@ -303,7 +318,7 @@
       <div class="card">
         <h6 class="card-header">Cornell Hospitality Hackathon 2018</h6>
         <h7 class="card-header">Nov 2 – Nov 4, 2018</h7>
-        <img class="card-img-top" src="images/take_me.png">
+        <img class="card-img-top" src="img/take_me.png">
         <div class="card-body">
           <h4 class="card-title">Take Me to the Streets</h4>
           <p class="card-text">A neighborhood discovery experience that can be customized to the guest and the property, with optional gamification (6-person team)</p>
@@ -326,7 +341,7 @@ Hilton’s Honors mobile app</p>
       <div class="card">
         <h6 class="card-header">Object-Oriented Programming in C++ and Java </h6>
         <h7 class="card-header">April 2018</h7>
-        <img class="card-img-top" src="images/Space_Invaders/pic2.png">
+        <img class="card-img-top" src="img/Space_Invaders/pic2.png">
         <div class="card-body">
           <h4 class="card-title">Space Invaders</h4>
           <p class="card-text">Simple Space Invaders game with sounds and command-line difficulty settings (Individual).</p> 
@@ -368,7 +383,7 @@ Hilton’s Honors mobile app</p>
       <div class="card">
         <h6 class="card-header">Cornell Natural Disaster Hackathon</h6>
         <h7 class="card-header">Aug 30, 2018 - Sept 1, 2018</h7>
-        <img class="card-img-top" src="images/wsn_android.jpg">
+        <img class="card-img-top" src="img/wsn_android.jpg">
         <div class="card-body">
           <h4 class="card-title">Wildfire Sensor Net</h4>
           <p class="card-text">Sensor network that warned people of local wildfire locations (5-person team)</p>
@@ -390,7 +405,7 @@ Hilton’s Honors mobile app</p>
       <div class="card">
         <h6 class="card-header">Boilermake V, Purdue University</h6>
         <h7 class="card-header">Sept 29 - Oct 1, 2017</h7>
-        <img class="card-img-top" src="images/Wear_Weather/WW_main_F_crop.png">
+        <img class="card-img-top" src="img/Wear_Weather/WW_main_F_crop.png">
         <div class="card-body">
           <h4 class="card-title">Wear Weather</h4>
           <p class="card-text">Suggests what clothing you should to wear based on the current and future weather predictions (4-person team)</p> 
@@ -486,76 +501,9 @@ Hilton’s Honors mobile app</p>
 
 </div>
 
-<div class="modal" id="gunModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
 
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">Gun Violence Data Viz Video Demo</h4>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
 
-      <!-- Modal body -->
-      <div class="modal-body">
-        <div align="center" class="embed-responsive embed-responsive-4by3">
-          <video class="embed-responsive-item" controls>
-            <source src="videos/gun_violence.mov" type="video/mp4">
-          </video>
-    
-        </div>
-        <br>
-        <p>**Video may not work on mobile. Please view on desktop**<p>
-        <hr class="light">
-        <p class="lead">What's going on?<p>
-        <p>After running the web app on my local machine, I requested to the local instance of my app. By hovering over the US states, I output a tooltip that printed out the state with its total number of incidents. I also hovered over the plotted points, which showed the incident locations and dates.</p> 
-        <p>Lastly, I requested the other routes of the app to show the JSON of the incidents, state populations, and state geometry.</p>
-      </div>
 
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-<div class="modal" id="gloveModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">G-Love Video Demo</h4>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
-
-      <!-- Modal body -->
-      <div class="modal-body">
-       
-        <div align="center" class="embed-responsive embed-responsive-4by3">
-          <video class="embed-responsive-item" controls>
-            <source src="videos/G-Love.mov" type="video/mp4">
-          </video>
-    
-        </div>
-        <br>
-        <p class="lead">What's going on?<p>
-        <p>This is a video presentation explaining the purpose of our project, what problems it addresses, and how it does so. In order to show off the functionality, I waved G-Love at different rates to show the changes in flashing.</p>
-
-          <p>Note: since we were developing this prototype at a hackathon, we did not have the necessary time, money, or equipment to build the idealized version of our product, unfortunately. The project you see here is a draft of a minimum viable product.</p>
-      </div>
-      
-
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-      </div>
-
-    </div>
-  </div>
-</div>
 
 <div class="modal" id="takeMeModal">
   <div class="modal-dialog">
@@ -618,32 +566,32 @@ Hilton’s Honors mobile app</p>
           </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="images/Wear_Weather/WW_main_F.png" alt="First slide">
+            <img class="d-block w-100" src="img/Wear_Weather/WW_main_F.png" alt="First slide">
               <div class="carousel-caption">
                 <h5>Main Window in degrees F</h5>
               </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/Wear_Weather/WW_left.png" alt="Second slide">
+            <img class="d-block w-100" src="img/Wear_Weather/WW_left.png" alt="Second slide">
              <div class="carousel-caption">
                 <h5>Clothing Window</h5>
               </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/Wear_Weather/WW_right_F.png" alt="Third slide">
+            <img class="d-block w-100" src="img/Wear_Weather/WW_right_F.png" alt="Third slide">
              <div class="carousel-caption">
                 <h5>Weather Window in degrees F</h5>
               </div>
           </div>
           
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/Wear_Weather/WW_right_C.png" alt="Fourth slide">
+            <img class="d-block w-100" src="img/Wear_Weather/WW_right_C.png" alt="Fourth slide">
              <div class="carousel-caption">
                 <h5>Weather Window in degrees C</h5>
               </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/Wear_Weather/WW_main_C.png" alt="Fifth slide">
+            <img class="d-block w-100" src="img/Wear_Weather/WW_main_C.png" alt="Fifth slide">
              <div class="carousel-caption">
                 <h5>Main Window in degrees C</h5>
               </div>
@@ -708,7 +656,7 @@ Hilton’s Honors mobile app</p>
       <div class="col-md-4 ">
         <div class="card">
            <h6 class="card-header">Purdue IEEE</h6>   
-          <img class="card-img-top" src="images/cc_proposal.png">
+          <img class="card-img-top" src="img/cc_proposal.png">
             
           <div class="card-body">
             <h4 class="card-title">Code Cafe Funding Proposal Template</h4>
@@ -729,7 +677,7 @@ Hilton’s Honors mobile app</p>
      <div class="col-md-4">
       <div class="card">
         <h6 class="card-header">Digital Communication System Design</h6>
-        <img class="card-img-top" src="images/ofdm_proposal.png">
+        <img class="card-img-top" src="img/ofdm_proposal.png">
         <div class="card-body">
           <h4 class="card-title">OFDM - 16QAM Standard Proposal</h4>
           <p class="card-text">This document details my group's implementation of a 16-QAM OFDM system (only on the physical layer).</p> 
@@ -751,7 +699,7 @@ Hilton’s Honors mobile app</p>
      <div class="col-md-4">
       <div class="card">
         <h6 class="card-header">Advanced Microcontroller Design and SoC</h6>
-        <img class="card-img-top" src="images/mandel.png">
+        <img class="card-img-top" src="img/mandel.png">
         <div class="card-body">
 
           <h4 class="card-title">Mandelbrot Set Visualization</h4>
@@ -801,7 +749,7 @@ Hilton’s Honors mobile app</p>
    <div class="row text-center padding">
 
     <div class="col-md-6">
-      <img src="images/t-mobile-logo.png" class="img-fluid" style="display: block; width: 85%; height:auto; margin-left:auto; margin-right:auto;">
+      <img src="img/t-mobile-logo.png" class="img-fluid" style="display: block; width: 85%; height:auto; margin-left:auto; margin-right:auto;">
     </div>
     <div class="col-md-6">
       <h3>T-Mobile US, Inc.</h3>
@@ -818,7 +766,7 @@ Hilton’s Honors mobile app</p>
   <div class="row text-center padding">
 
     <div class="col-md-6">
-      <img src="images/JPM_logo.jpg" class="img-fluid" style="display: block; width: 100%; height:auto; margin-left:auto; margin-right:auto;">
+      <img src="img/JPM_logo.jpg" class="img-fluid" style="display: block; width: 100%; height:auto; margin-left:auto; margin-right:auto;">
     </div>
     <div class="col-md-6">
       <h3>JPMorgan Chase & Co.</h3>
@@ -837,7 +785,7 @@ Hilton’s Honors mobile app</p>
 <div class="row text-center padding">
 
     <div class="col-md-6">
-      <img src="images/lincolnfinancial.jpg" class="img-fluid" style="display: block; width: 60%; height:auto; margin-left: auto; margin-right: auto;">
+      <img src="img/lincolnfinancial.jpg" class="img-fluid" style="display: block; width: 60%; height:auto; margin-left: auto; margin-right: auto;">
       
     </div>
     <div class="col-md-6">
@@ -867,7 +815,7 @@ Hilton’s Honors mobile app</p>
 <div class="container-fluid padding">
   <div class="row text-center padding">
     <div class="col-md-6">
-      <img src="images/ieee_logo.png" style="display: block; width: 80%; height:auto; margin-left:auto; margin-right:auto;" class="img-fluid">
+      <img src="img/ieee_logo.png" style="display: block; width: 80%; height:auto; margin-left:auto; margin-right:auto;" class="img-fluid">
     </div>
     <div class="col-md-6">
       <h3>Purdue IEEE</h3>
@@ -912,26 +860,26 @@ Hilton’s Honors mobile app</p>
           </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="images/Code_Cafe/fall_17/Mentors.jpg" alt="First slide">
+            <img class="d-block w-100" src="img/Code_Cafe/fall_17/Mentors.jpg" alt="First slide">
               <div class="carousel-caption">
                 <h5>Fall 2017 Mentors</h5>
               </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/Code_Cafe/fall_17/Pic1.jpg" alt="Second slide">
+            <img class="d-block w-100" src="img/Code_Cafe/fall_17/Pic1.jpg" alt="Second slide">
              <div class="carousel-caption">
                 <h5>Fall 2017 Code Cafe</h5>
               </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/Code_Cafe/spring_18/Mentors.jpg" alt="Third slide">
+            <img class="d-block w-100" src="img/Code_Cafe/spring_18/Mentors.jpg" alt="Third slide">
              <div class="carousel-caption">
                 <h5>Spring 2018 Mentors</h5>
               </div>
           </div>
           
           <div class="carousel-item">
-            <img class="d-block w-100" src="images/Code_Cafe/spring_18/Pic1.jpg" alt="Fourth slide">
+            <img class="d-block w-100" src="img/Code_Cafe/spring_18/Pic1.jpg" alt="Fourth slide">
              <div class="carousel-caption">
                 <h5>Spring 2018 Code Cafe</h5>
               </div>
@@ -968,7 +916,7 @@ Hilton’s Honors mobile app</p>
   <div class="row text-center padding">
     
     <div class="col-md-6">
-      <img src="images/purduehackerslogo.png" style="width: 50%; height:auto;" class="img-fluid">
+      <img src="img/purduehackerslogo.png" style="width: 50%; height:auto;" class="img-fluid">
     </div>
     <div class="col-md-6">
       <h3>Purdue Hackers</h3>
@@ -1012,7 +960,7 @@ Hilton’s Honors mobile app</p>
   <h1 class="text-center">Contact</h1>
    <div class="row text-center">
     <div class="col-12">
-      <img src="images/transparent_logo.png">
+      <img src="img/transparent_logo.png">
       <hr class="light">
       <p>Justin-Anthony Ampil Joco</p>
       <p>U.S. Citizen</p>
