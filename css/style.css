@@ -6,8 +6,9 @@ html, body{
   width: 100%;
   font-family: 'Poppins', sans-serif;
   color: #222;
- 
 }
+
+
 
 .card{
   margin: auto;
@@ -19,16 +20,15 @@ html, body{
 }
 
 .navbar{
-  padding: .8rem;
+  padding: .3rem;
 }
+
+
 
 .navbar-nav li{
   padding-right: 20px;
 }
 
-.nav-link{
-  font-size: 1.1em !important;
-}
 
 .carousel-inner img{
   width: 100%;
