@@ -160,7 +160,7 @@
       <h3>Libraries, APIs, Frameworks</h3>
       <p>JQuery, NumPy, PyGame, Keras+Tensorflow, D3.js</p>
       <p>OpenWeatherMap, Google Maps Platform</p>
-      <p>Bootstrap 4, Flask</p>
+      <p>Bootstrap 4, Flask, OpenCV, PyGame</p>
     </div>
 
   </div>
@@ -212,81 +212,12 @@
 
 
 
-<div class="container-fluid padding" id="technical">
-  <div class="row welcome text-center">
-    <div class="col-md-12">
-      <h4>Embedded/Firmware</h4>
-      
-    </div>
-  </div>
-</div>
 
-<div class="container-fluid padding">
-  <div class="row padding">
-
-    
-   
-   
-   
-
-     <div class="col-md-6">
-      <div class="card">
-        <h6 class="card-header">Design with Embedded Operating Systems</h6>
-        <h7 class="card-header">April - May 2019</h7>
-        <img class="card-img-top" src="img/air_canvas_build.jpg">
-        <div class="card-body">
-          <h4 class="card-title">Air Canvas on Raspberry Pi</h4>
-          <p class="card-text">A simple prototype for a drawing tool that uses a Raspberry Pi, a PiCamera, and OpenCV to recognize hand gestures to paint on a PiTFT screen (2-person team)</p>
-          <p>Used a color histogram and contouring to find the center of a hand; drew dots at the farthest point along the contour from center</p>
-          <p>Drew line interpolations between drawn dots to mitigate FPS costs of live image processing</p>
-          <p>Added configurable brush size and color, and enabled histogram re-calibration.</p>
-          
-          <a href="https://justinjoco.github.io/air_canvas_page/" class="btn btn-secondary" target="_blank">Webpage Report</a>
-          <a href="#airCanvasModal" class="btn btn-info" data-toggle="modal">Video Demo</a>
-          <a href="https://github.com/justinjoco/air_canvas" class="btn btn-outline-secondary" target="_blank">Code</a> 
-        </div>
-        <div class="card-footer">
-            <b>Python, OpenCV, PyGame</b>
-        </div>
-
-
-
-      </div>
-    </div>
-
-      <div class="col-md-6">
-      <div class="card">
-        <h6 class="card-header">Advanced Microcontroller Design and SoC</h6>
-        <h7 class="card-header">April - May 2019</h7>
-        <img class="card-img-top" src="img/vocoder.png">
-        <div class="card-body">
-          <h4 class="card-title">FPGA Speech Vocoder</h4>
-          <p class="card-text">A highly parallel hardware vocoder on the Cyclone V FPGA for real-time speech synthesis and visualization on a monitor through a VGA interface (3-person team)</p>
-          <p>Includes pitch-shifting and voice modulation through 32 IIR filters.</p>
-          <p>I implemented a basic GPU in parallel with speech synthesizer by reading input audio to display the audio waveform and a 32-bin frequency spectrogram on an 8-bit color, 640x480 pixel monitor in real-time.</p>
-          
-          <a href="https://people.ece.cornell.edu/land/courses/ece5760/FinalProjects/s2019/jc2697_jaj263_tk455/jc2697_jaj263_tk455/jc2697_jaj263_tk455/index.html" class="btn btn-secondary" target="_blank">Webpage Report</a>
-          <a href="https://www.youtube.com/watch?v=iNSBS0w0rd4" class="btn btn-info" target="_blank">Video Demo</a>
-          <a href="https://github.com/jc2697/FPGA_speech_vocoder" class="btn btn-outline-secondary" target="_blank">Code</a>
-        </div>
-        <div class="card-footer">
-            <b>C, Verilog</b>
-        </div>
-
-
-      </div>
-    </div>
-
-
-    
-
-  </div>
-</div>
 
 <div class="container-fluid padding" id="technical">
   <div class="row welcome text-center">
     <div class="col-md-12">
-      <h4>Web/Desktop Apps</h4>
+      <h4>Web Apps</h4>
       
     </div>
   </div>
@@ -306,10 +237,10 @@
         <div class="card-body">
           <h4 class="card-title">US Air Pollution in the 2000s</h4>
           <p class="card-text">Interactive web application that uses a US map and line graph to visualize total population and air pollutant concentration of different states from 2000 to 2016 (3 person team)</p>
-          <p>Condensed ~2 million rows of data to ~130k by filtering out redudancies in dates and eliminating irrelevant columns</p>
-          <p>Drew the interactive line graph that calculates the percent difference between the air pollutant concentration of a user-chosen state and the national average at a given time (via mouse hover).</p>
+          <p>I condensed ~2 million rows of data to ~130k by filtering out redudancies in dates and eliminating irrelevant columns</p>
+          <p>I designed and implemented the interactive line graph that calculates the percent difference between the air pollutant concentration of a user-chosen state and the national average at a given time (via mouse hover).</p>
           
-          <a href="https://justinjoco.github.io/us_pollution_in_2000s/" class="btn btn-secondary" target="_blank">Website</a>
+          <a href="https://justinjoco.github.io/us_pollution_in_2000s/" class="btn btn-secondary" target="_blank">Link</a>
           <a href="https://github.com/justinjoco/us_pollution_in_2000s" class="btn btn-outline-secondary" target="_blank">Code</a> 
         </div>
         <div class="card-footer">
@@ -342,25 +273,25 @@ Hilton’s Honors mobile app</p>
       </div>
     </div>
 
-     <div class="col-md-4">
+    
+    <div class="col-md-4">
       <div class="card">
-        <h6 class="card-header">Object-Oriented Programming in C++ and Java </h6>
-        <h7 class="card-header">April 2018</h7>
-        <img class="card-img-top" src="img/Space_Invaders/pic2.png">
+        <h6 class="card-header">Visual Data Analytics for the Web</h6>
+        <h7 class="card-header">March 2019</h7>
+        <img class="card-img-top" src="img/energy_weather_screenshot.png">
         <div class="card-body">
-          <h4 class="card-title">Space Invaders</h4>
-          <p class="card-text">Simple Space Invaders game with sounds and command-line difficulty settings (Individual).</p> 
-          <p>Player can move left to right, barriers can be destroyed by either player or aliens, and alien speed and numbers are configurable. Game ends when the player destroys all aliens or aliens reach the ground.<p>
-          <p>Involved threading, basic graphics, and game object manipulation. Sound effects and music are included.</p>
-          <a href="#spaceModal" class="btn btn-secondary" data-toggle="modal">Video Demo</a>
-          <a href="https://github.com/justinjoco/SpaceInvaders2" class="btn btn-outline-secondary" target="_blank">Code</a>
+          <h4 class="card-title">Changes in Weather and Energy Generation in the USA</h4>
+          <p class="card-text">Interactive data visualization that shows how changes in temperature over different times of different years has affected the generation of different energy sources within the US (3 person team).</p>
+          <p>I implemented slider and line graph interactivity such that user can use the slider or click the line graph to change the month. The US map and the line and bar graphs update their displayed data based on the month selected or year selected (via dropdown). </p>
+          <p>I also set the bar graph ticks to adapt to the number of resources for a state.</p>
+
+          
+          <a href="https://justinjoco.github.io/energy_v_weather_in_us" class="btn btn-secondary" target="_blank">Link</a>
+          <a href="https://github.com/nsterling4/Info5100P2" class="btn btn-outline-secondary" target="_blank">Code</a> 
         </div>
         <div class="card-footer">
-            <b>Java</b>
+            <b>HTML, CSS, JavaScript, D3.js</b>
         </div>
-
-
-
       </div>
     </div>
 
@@ -371,10 +302,83 @@ Hilton’s Honors mobile app</p>
   </div>
 </div>
 
+
 <div class="container-fluid padding" id="technical">
   <div class="row welcome text-center">
     <div class="col-md-12">
-      <h4>Mobile Apps</h4>
+      <h4>Embedded/Firmware</h4>
+      
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid padding">
+  <div class="row padding">
+
+    
+   
+   
+   
+
+     <div class="col-md-6">
+      <div class="card">
+        <h6 class="card-header">Design with Embedded Operating Systems</h6>
+        <h7 class="card-header">April - May 2019</h7>
+        <img class="card-img-top" src="img/air_canvas_build.jpg">
+        <div class="card-body">
+          <h4 class="card-title">Air Canvas on Raspberry Pi</h4>
+          <p class="card-text">A simple prototype for a drawing tool that uses a Raspberry Pi, a PiCamera, and OpenCV to recognize hand gestures to paint on a PiTFT screen (2-person team)</p>
+          <p>Used a color histogram and contouring to find the center of a hand; drew dots at the farthest point along the contour from center</p>
+          <p>Drew line interpolations between drawn dots to mitigate FPS costs of live image processing</p>
+          <p>Added configurable brush size and color, and enabled histogram re-calibration.</p>
+          
+          <a href="https://justinjoco.github.io/air_canvas_page/" class="btn btn-secondary" target="_blank">Website</a>
+          <a href="#airCanvasModal" class="btn btn-info" data-toggle="modal">Video Demo</a>
+          <a href="https://github.com/justinjoco/air_canvas" class="btn btn-outline-secondary" target="_blank">Code</a> 
+        </div>
+        <div class="card-footer">
+            <b>Python, OpenCV, PyGame</b>
+        </div>
+
+
+
+      </div>
+    </div>
+
+      <div class="col-md-6">
+      <div class="card">
+        <h6 class="card-header">Advanced Microcontroller Design and SoC</h6>
+        <h7 class="card-header">April - May 2019</h7>
+        <img class="card-img-top" src="img/vocoder.png">
+        <div class="card-body">
+          <h4 class="card-title">FPGA Speech Vocoder</h4>
+          <p class="card-text">A highly parallel hardware vocoder on the Cyclone V FPGA for real-time speech synthesis and visualization on a monitor through a VGA interface (3-person team)</p>
+          <p>Includes pitch-shifting and voice modulation through 32 IIR filters.</p>
+          <p>I implemented a basic GPU in parallel with speech synthesizer by reading input audio to display the audio waveform and a 32-bin frequency spectrogram on an 8-bit color, 640x480 pixel monitor in real-time.</p>
+          
+          <a href="https://people.ece.cornell.edu/land/courses/ece5760/FinalProjects/s2019/jc2697_jaj263_tk455/jc2697_jaj263_tk455/jc2697_jaj263_tk455/index.html" class="btn btn-secondary" target="_blank">Website</a>
+          <a href="https://www.youtube.com/watch?v=iNSBS0w0rd4" class="btn btn-info" target="_blank">Video Demo</a>
+          <a href="https://github.com/jc2697/FPGA_speech_vocoder" class="btn btn-outline-secondary" target="_blank">Code</a>
+        </div>
+        <div class="card-footer">
+            <b>C, Verilog</b>
+        </div>
+
+
+      </div>
+    </div>
+
+
+    
+
+  </div>
+</div>
+
+
+<div class="container-fluid padding" id="technical">
+  <div class="row welcome text-center">
+    <div class="col-md-12">
+      <h4>Mobile/Desktop Apps</h4>
       
     </div>
   </div>
@@ -384,7 +388,7 @@ Hilton’s Honors mobile app</p>
 <div class="container-fluid padding">
   <div class="row padding">
 
-    <div class="col-md-6">
+    <div class="col-md-4">
       <div class="card">
         <h6 class="card-header">Cornell Natural Disaster Hackathon</h6>
         <h7 class="card-header">Aug 30, 2018 - Sept 1, 2018</h7>
@@ -406,7 +410,7 @@ Hilton’s Honors mobile app</p>
 
      
 
-     <div class="col-md-6">
+     <div class="col-md-4">
       <div class="card">
         <h6 class="card-header">Boilermake V, Purdue University</h6>
         <h7 class="card-header">Sept 29 - Oct 1, 2017</h7>
@@ -426,7 +430,27 @@ Hilton’s Honors mobile app</p>
       </div>
     </div>
 
-   
+    <div class="col-md-4">
+      <div class="card">
+        <h6 class="card-header">Object-Oriented Programming in C++ and Java </h6>
+        <h7 class="card-header">April 2018</h7>
+        <img class="card-img-top" src="img/Space_Invaders/pic2.png">
+        <div class="card-body">
+          <h4 class="card-title">Space Invaders</h4>
+          <p class="card-text">Simple Space Invaders game with sounds and command-line difficulty settings (Individual).</p> 
+          <p>Player can move left to right, barriers can be destroyed by either player or aliens, and alien speed and numbers are configurable. Game ends when the player destroys all aliens or aliens reach the ground.<p>
+          <p>Involved threading, basic graphics, and game object manipulation. Sound effects and music are included.</p>
+          <a href="#spaceModal" class="btn btn-secondary" data-toggle="modal">Video Demo</a>
+          <a href="https://github.com/justinjoco/SpaceInvaders2" class="btn btn-outline-secondary" target="_blank">Code</a>
+        </div>
+        <div class="card-footer">
+            <b>Java</b>
+        </div>
+
+
+
+      </div>
+    </div>
 
   </div>
 
