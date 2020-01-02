@@ -14,10 +14,11 @@ import space_invaders from "./assets/space_invaders.png";
 import wear_weather from "./assets/wear_weather.png";
 
 
-
 import wsn_video from "./assets/wsn.mp4";
 import space_invaders_video from "./assets/space_invaders.m4v";
 
+import paxos from "./assets/paxos-map.jpg";
+import cops from "./assets/cops-map.png";
 
 const Projects = (props) => {
 
@@ -47,6 +48,52 @@ const Projects = (props) => {
 				<Col><a href="https://drive.google.com/open?id=1gYy7quJyqfm_eIAsylMDvCWCTJ6wZo8X">Poster</a></Col>
 				<Col><a href="https://github.com/justinjoco/acoustic_MIMO">Code</a></Col>
 			</Row>
+			<br/>
+			<h3>Distributed Systems</h3>
+					<CardDeck style={{justifyContent:"center"}}>
+
+					  <Card style={{maxWidth:500}}>
+					  	<Card.Header><B>COPS for Distributed Key Value Storage</B></Card.Header>
+					    <Card.Img variant="top" src={cops} />
+					    <Card.Body>
+					    	<Card.Subtitle className="mb-2 text-muted">Reference: <a href="https://www.cs.cornell.edu/courses/cs5414/2017fa/papers/Lloyd11Cops.pdf">COPS paper</a></Card.Subtitle>
+
+					      <Card.Title>A sharded, replicated key-value store that guarantees ALPS and causal+ consistency</Card.Title>
+					       
+					      <Card.Text> This data store maintains the properties of available, low latency, partition tolerant, and scalable (ALPS) datastores whilst maintaining causal consistency with convergent conflict handling (causal+) by tracking causal dependencies.</Card.Text>
+						  <Card.Text>In this asynchronous setting, keys are sharded amongst partitions in a particular cluster, and every key-value pair is replicated across all clusters. 
+						  </Card.Text>
+					      <a href="https://github.com/justinjoco/COPS"><Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
+					    </Card.Body>
+					    <Card.Footer>
+					      Go
+					    </Card.Footer>
+					  </Card>
+					  
+					  <Card style={{maxWidth:500}}>
+					  <Card.Header><B>Paxos Consensus for Message Ordering</B></Card.Header>
+					    <Card.Img variant="top" src={paxos} />
+					    <Card.Body>
+					    	  <Card.Subtitle className="mb-2 text-muted">References: <a href="https://www.cs.cornell.edu/courses/cs5414/2017fa/papers/PaxosComplex.pdf">Renesse paper</a>, <a href="https://www.cs.cornell.edu/courses/cs5414/2017fa/papers/paxos-simple.pdf">Lamport paper</a></Card.Subtitle>
+					      <Card.Title>Implementation that solves consensus on message ordering across replicated state machines</Card.Title>
+					      <Card.Text>
+					       This project implements a distributed chatroom in an asychronous setting with crash failures, in which all servers maintain consistent message ordering using the Paxos consensus algorithm.
+					      </Card.Text>
+
+					      <Card.Text>
+					       Each process plays all five roles of Multi-Paxos (Acceptor, Leader, Proposer, Scout, and Commander) outlined in Renesse's paper, but generally, this
+					       implementation follows the simpler algorithm detailed in Lamport's paper. 
+					      </Card.Text>
+					      	<a href="https://github.com/justinjoco/paxos"><Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
+					    </Card.Body>
+					    <Card.Footer>
+					      Go
+					    </Card.Footer>
+					  </Card>
+					</CardDeck>
+
+				<br/>
+
 
 
             <br/>
@@ -108,7 +155,7 @@ const Projects = (props) => {
 		<h3>Embedded/Firmware</h3>
 		<CardDeck style={{justifyContent:"center"}}>
 
-		  <Card >
+		  <Card style={{maxWidth:500}}>
 		  	<Card.Header><B>FPGA Speech Vocoder</B></Card.Header>
 		    <Card.Img variant="top" src={vocoder} />
 		    <Card.Body>
@@ -125,7 +172,7 @@ const Projects = (props) => {
 		    </Card.Footer>
 		  </Card>
 		  
-		  <Card >
+		  <Card style={{maxWidth:500}}>
 		  <Card.Header><B>Air Canvas on Raspberry Pi</B></Card.Header>
 		    <Card.Img variant="top" src={air_canvas} />
 		    <Card.Body>
