@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.51080df4.chunk.css",
-    "main.js": "/static/js/main.d8740266.chunk.js",
-    "main.js.map": "/static/js/main.d8740266.chunk.js.map",
+    "main.css": "/static/css/main.364322d7.chunk.css",
+    "main.js": "/static/js/main.e1516f13.chunk.js",
+    "main.js.map": "/static/js/main.e1516f13.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1fd56aa7.js",
     "runtime-main.js.map": "/static/js/runtime-main.1fd56aa7.js.map",
-    "static/js/2.81571939.chunk.js": "/static/js/2.81571939.chunk.js",
-    "static/js/2.81571939.chunk.js.map": "/static/js/2.81571939.chunk.js.map",
+    "static/js/2.56e7c878.chunk.js": "/static/js/2.56e7c878.chunk.js",
+    "static/js/2.56e7c878.chunk.js.map": "/static/js/2.56e7c878.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.89b2cf4fbd79bb90566737c9c149e74a.js": "/precache-manifest.89b2cf4fbd79bb90566737c9c149e74a.js",
+    "precache-manifest.3b04170dfaffc5542479540acd8bb12b.js": "/precache-manifest.3b04170dfaffc5542479540acd8bb12b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.51080df4.chunk.css.map": "/static/css/main.51080df4.chunk.css.map",
-    "static/js/2.81571939.chunk.js.LICENSE": "/static/js/2.81571939.chunk.js.LICENSE",
+    "static/css/main.364322d7.chunk.css.map": "/static/css/main.364322d7.chunk.css.map",
+    "static/js/2.56e7c878.chunk.js.LICENSE": "/static/js/2.56e7c878.chunk.js.LICENSE",
     "static/media/JPM_logo.jpg": "/static/media/JPM_logo.f1c1db37.jpg",
     "static/media/air_canvas.jpg": "/static/media/air_canvas.9b55f78b.jpg",
     "static/media/background_mac.jpg": "/static/media/background_mac.43637dc3.jpg",
+    "static/media/cops-map.png": "/static/media/cops-map.fd4a008d.png",
     "static/media/cornell_ece_logo.png": "/static/media/cornell_ece_logo.2dddf2d2.png",
     "static/media/energy_weather.png": "/static/media/energy_weather.9f3fc79c.png",
     "static/media/ieee_logo.png": "/static/media/ieee_logo.f54e5bf3.png",
     "static/media/lincolnfinancial.jpg": "/static/media/lincolnfinancial.78bbf4d3.jpg",
+    "static/media/paxos-map.jpg": "/static/media/paxos-map.69450104.jpg",
     "static/media/profile_pic.jpg": "/static/media/profile_pic.1833231c.jpg",
     "static/media/purduehackerslogo.png": "/static/media/purduehackerslogo.9f0942ee.png",
     "static/media/space_invaders.png": "/static/media/space_invaders.6becd25a.png",
@@ -33,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1fd56aa7.js",
-    "static/js/2.81571939.chunk.js",
-    "static/css/main.51080df4.chunk.css",
-    "static/js/main.d8740266.chunk.js"
+    "static/js/2.56e7c878.chunk.js",
+    "static/css/main.364322d7.chunk.css",
+    "static/js/main.e1516f13.chunk.js"
   ]
 }

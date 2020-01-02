@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0549ac2868a0bbd119b1f5d7447a5ff4",
+    "revision": "f39a1ead41c07071f03604521af735ec",
     "url": "/index.html"
   },
   {
-    "revision": "60c611c602f6415533ea",
-    "url": "/static/css/main.51080df4.chunk.css"
+    "revision": "9b7e799b94ab9192fadd",
+    "url": "/static/css/main.364322d7.chunk.css"
   },
   {
-    "revision": "a11383140125b9075ea0",
-    "url": "/static/js/2.81571939.chunk.js"
+    "revision": "50bdd10a4699da1bddad",
+    "url": "/static/js/2.56e7c878.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/static/js/2.81571939.chunk.js.LICENSE"
+    "url": "/static/js/2.56e7c878.chunk.js.LICENSE"
   },
   {
-    "revision": "60c611c602f6415533ea",
-    "url": "/static/js/main.d8740266.chunk.js"
+    "revision": "9b7e799b94ab9192fadd",
+    "url": "/static/js/main.e1516f13.chunk.js"
   },
   {
     "revision": "b5d93ee767f35c150b62",
@@ -36,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/background_mac.43637dc3.jpg"
   },
   {
+    "revision": "fd4a008dad72668799df8f2351107d76",
+    "url": "/static/media/cops-map.fd4a008d.png"
+  },
+  {
     "revision": "2dddf2d26f26758094de0b548df0788d",
     "url": "/static/media/cornell_ece_logo.2dddf2d2.png"
   },
@@ -50,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "78bbf4d33b2e7b4fbbc7d7746fbbaccc",
     "url": "/static/media/lincolnfinancial.78bbf4d3.jpg"
+  },
+  {
+    "revision": "69450104ac3559120aa061e727faa90a",
+    "url": "/static/media/paxos-map.69450104.jpg"
   },
   {
     "revision": "1833231c98ab4e49cf24d4c9cb7c1e83",
