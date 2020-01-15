@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9a2beed7ba552511b56ccfcb63ceead",
+    "revision": "c917b6ac5a8194592993960d0b69efb1",
     "url": "/index.html"
   },
   {
-    "revision": "3d083dd6429660a6507b",
+    "revision": "3bff8cc98046936e0090",
     "url": "/static/css/main.364322d7.chunk.css"
   },
   {
-    "revision": "50bdd10a4699da1bddad",
-    "url": "/static/js/2.56e7c878.chunk.js"
+    "revision": "8375eca5757eef21b6f2",
+    "url": "/static/js/2.d49874a2.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/static/js/2.56e7c878.chunk.js.LICENSE"
+    "url": "/static/js/2.d49874a2.chunk.js.LICENSE"
   },
   {
-    "revision": "3d083dd6429660a6507b",
-    "url": "/static/js/main.721bd3fc.chunk.js"
+    "revision": "3bff8cc98046936e0090",
+    "url": "/static/js/main.d40dc46b.chunk.js"
   },
   {
     "revision": "b5d93ee767f35c150b62",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/energy_weather.9f3fc79c.png"
   },
   {
-    "revision": "f54e5bf38f65975e9710829014e8998e",
-    "url": "/static/media/ieee_logo.f54e5bf3.png"
+    "revision": "d74cd865436af28818967a41dc14f7f0",
+    "url": "/static/media/ieee_logo.d74cd865.png"
   },
   {
     "revision": "78bbf4d33b2e7b4fbbc7d7746fbbaccc",
@@ -64,8 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profile_pic.b4cc8705.jpg"
   },
   {
-    "revision": "9f0942eea1623b3a2fca23f779ce563e",
-    "url": "/static/media/purduehackerslogo.9f0942ee.png"
+    "revision": "9284401f524d01d7fb22dc7c43bfcf55",
+    "url": "/static/media/purdue_logo.9284401f.png"
+  },
+  {
+    "revision": "42bbdbb0abb565279e9eec9838cf4a58",
+    "url": "/static/media/purduehackerslogo.42bbdbb0.png"
   },
   {
     "revision": "6becd25ae6f25c9579160511137953d1",
