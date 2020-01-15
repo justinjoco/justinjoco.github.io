@@ -35,7 +35,7 @@ const Experiences = (props) => {
 			    	<h6>January 2020 - Present</h6>
 
 			    	<p>Working on the middleware and front-end of a cloud-based, voice and messaging app for work productivity</p>
-			    	<p><B>Languages/Technologies</B>: React,  Redux, Electron,Typescript, Jest, Node.js, Git (Bitbucket), </p>
+			    	<p><B>Languages/Technologies</B>: React.js,  Redux, Electron, Typescript(TS), Jest, Node.js, Git (Bitbucket), </p>
 			    	
 			    </Col>
 			  </Row>
