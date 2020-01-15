@@ -35,7 +35,7 @@ const Projects = (props) => {
 
         <Container fluid style={{textAlign:"center", padding: "20px"}}>
        
-            <h1 className="display-4">Project Showcase</h1>
+            <h1 className="display-3">Project Showcase</h1>
             <hr/>
             <br/>
 

@@ -17,7 +17,7 @@ const Experiences = (props) => {
 
         <Container fluid style={{textAlign:"center", padding: "20px"}}>
           
-            <h1 className="display-4">Experiences</h1>
+            <h1 className="display-3">Experiences</h1>
             <hr/>
              <br/>
              <h2>Full Time</h2>
