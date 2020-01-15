@@ -13,6 +13,10 @@ const CustomNavbar = (props) =>{
 			<Navbar.Collapse>
 				<Nav className="mr-auto" activeKey="/home">
 
+					
+					
+					</Nav>
+					<Nav>
 					<Nav.Item>
 						<Nav.Link href="#about">About</Nav.Link>
 					</Nav.Item>
@@ -22,9 +26,6 @@ const CustomNavbar = (props) =>{
 					<Nav.Item>
 						<Nav.Link href="#experiences">Experiences</Nav.Link>
 					</Nav.Item>
-					
-					</Nav>
-					<Nav>
 					<Nav.Item>
 						<Nav.Link href="https://github.com/justinjoco">Github</Nav.Link>
 					</Nav.Item>

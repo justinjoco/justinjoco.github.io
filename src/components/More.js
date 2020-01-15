@@ -28,7 +28,7 @@ const More = (props) => {
                 <FaIndustry size={"10vh"} color={cyan}/>
                 <br/> <br/>
                 <h2>Experiences</h2>
-                <p>Browse through my work and leadership experiences</p>
+                <p><a href="#experiences">Browse through my industry and leadership experiences!</a></p>
                      
                 </Col>
         
