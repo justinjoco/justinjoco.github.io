@@ -32,10 +32,10 @@ const Experiences = (props) => {
 			    	<h4></h4>
 			    	<h5>Software Engineer Associate</h5>
 
-			    	<h6>January 2020 - Ongoing</h6>
+			    	<h6>January 2020 - Present</h6>
 
-			    	<p>To be updated as I accomplish more things.</p>
-			    	<p><B>Languages/Technologies</B>: React, Electron, Redux, Git (Bitbucket)</p>
+			    	<p>Working on the middleware and front-end of a cloud-based, voice and messaging app for work productivity</p>
+			    	<p><B>Languages/Technologies</B>: React,  Redux, Electron,Typescript, Jest, Node.js, Git (Bitbucket), </p>
 			    	
 			    </Col>
 			  </Row>
@@ -103,7 +103,7 @@ const Experiences = (props) => {
            	<br/>
            
 
-           	 <h2>Extracurriculars</h2>
+           	 <h2>Leadership and Achievements</h2>
            	 <br/>
            	 <Row>
 			    <Col md>
