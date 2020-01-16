@@ -14,6 +14,16 @@ const Skills = (props) => {
 
             <h1 className="display-4">Skills</h1>
             <hr style={{color: "#ffffff", backgroundColor: "#ffffff", borderColor:"#ffffff"}}/>
+
+            <Row>
+                <Col>
+                <p> <B>Relevant Background: </B> Distributed Computing Principles, Machine Learning, Database Systems, Data-Driven Web Apps,
+                    Object-Oriented Programming, Data Structures and Algorithms, Computer Vision, Design with Embedded OS,
+                    Advanced Microcontrollers 
+
+                </p>
+             </Col>
+             </Row>
              <br/>
             <Row>
                 <Col>
@@ -39,6 +49,9 @@ const Skills = (props) => {
                 
                 </Col>
             </Row>
+
+            
+
           
         </Container>
         

@@ -18,14 +18,14 @@ const More = (props) => {
                 <FaLaptopCode size={"10vh"} color={cyan}/>
                 <br/> <br/>
                 <h2 style={{color:"#000000"}}>Projects</h2>
-                <p><a href="#projects">Check out my academic and hackathon projects!</a></p>
+                <p><B><a href="#projects">Check out my academic and hackathon projects!</a></B></p>
               
                 </Col>
                 <Col>
                 <FaIndustry size={"10vh"} color={cyan}/>
                 <br/> <br/>
                 <h2 style={{color:"#000000"}}>Experiences</h2>
-                <p><a href="#experiences">Browse through my industry, education, and leadership experiences!</a></p>
+                <p><B><a href="#experiences">Browse through my industry experiences and education!</a></B></p>
                      
                 </Col>
         

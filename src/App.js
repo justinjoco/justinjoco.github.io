@@ -12,7 +12,7 @@ import Experiences from "./components/Experiences";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
-
+import Timeline from "./components/Timeline";
 const App = () => {
 
     return (
@@ -25,7 +25,7 @@ const App = () => {
         <Route exact path="/" component={Home}/>
         <Route path="/about" component={()=>(<div><About/><Skills/><More/></div>)} />
         <Route path="/projects" component={Projects}/>
-        <Route path="/experiences" component={Experiences}/>
+        <Route path="/experiences" component={Timeline}/>
         <Footer />
       </div>
      </Router>

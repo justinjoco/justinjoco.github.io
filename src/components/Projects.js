@@ -33,9 +33,11 @@ const Projects = (props) => {
 
 
 
-        <Container fluid style={{textAlign:"center", padding: "20px", backgroundColor: "#565656"}}>
+        <Container fluid style={{textAlign:"center", padding: "20px", backgroundColor: "#922b3e"}}>
        
             <h1 className="display-3">Project Showcase</h1>
+			<h5 style={{textAlign:"center"}}>My academic and hackathon projects</h5>
+           
 			<hr style={{color: "#ffffff", backgroundColor: "#ffffff", borderColor:"#ffffff"}}/>
             <br/>
 
