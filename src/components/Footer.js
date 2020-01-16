@@ -25,7 +25,7 @@ const Footer = (props) => {
 
     return (
 
-        <Container fluid style={{textAlign:"center", color:"#efefef", backgroundColor: "#6a6c6e",  padding: "20px"
+        <Container fluid style={{textAlign:"center", color:"#efefef", backgroundColor: "#6c757d",  padding: "20px"
  			}}>
          <h1 >Contact</h1>
          <Image src={logo} alt="Logo"/>

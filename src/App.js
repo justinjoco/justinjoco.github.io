@@ -18,10 +18,12 @@ const App = () => {
     return (
      <Router>
       <ScrollToTop />
-      <div>
+      <div style={{
+        backgroundColor: '#6c757d',
+      }}>
         <Navbar />
         <Route exact path="/" component={Home}/>
-        <Route path="/about" component={()=>(<div><About/><Skills/><Education/><More/></div>)} />
+        <Route path="/about" component={()=>(<div><About/><Skills/><More/></div>)} />
         <Route path="/projects" component={Projects}/>
         <Route path="/experiences" component={Experiences}/>
         <Footer />

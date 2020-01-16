@@ -33,10 +33,10 @@ const Projects = (props) => {
 
 
 
-        <Container fluid style={{textAlign:"center", padding: "20px"}}>
+        <Container fluid style={{textAlign:"center", padding: "20px", backgroundColor: "#565656"}}>
        
             <h1 className="display-3">Project Showcase</h1>
-            <hr/>
+			<hr style={{color: "#ffffff", backgroundColor: "#ffffff", borderColor:"#ffffff"}}/>
             <br/>
 
             <h2><B>MEng Design Project</B>: Acoustic Localization and Tracking via Machine Learning</h2>
@@ -44,19 +44,19 @@ const Projects = (props) => {
             <p><B>Languages/Technologies</B>: Python, NumPy, Keras Tensorflow</p>
 
             <Row>
-				<Col><a href="https://drive.google.com/open?id=1RqCE6mKBcSB8zWFaoT2NVYHz0RCSMc-s">Report</a></Col>
-				<Col><a href="https://drive.google.com/open?id=1gYy7quJyqfm_eIAsylMDvCWCTJ6wZo8X">Poster</a></Col>
-				<Col><a href="https://github.com/justinjoco/acoustic_MIMO">Code</a></Col>
+				<Col><a href="https://drive.google.com/open?id=1RqCE6mKBcSB8zWFaoT2NVYHz0RCSMc-s" style={{color:"cyan"}}>Report</a></Col>
+				<Col><a href="https://drive.google.com/open?id=1gYy7quJyqfm_eIAsylMDvCWCTJ6wZo8X" style={{color:"cyan"}}>Poster</a></Col>
+				<Col><a href="https://github.com/justinjoco/acoustic_MIMO" style={{color:"cyan"}}>Code</a></Col>
 			</Row>
 			<br/>
 			<h3>Distributed Systems</h3>
 					<CardDeck style={{justifyContent:"center"}}>
 
-					  <Card style={{maxWidth:500}}>
+					  <Card className="bg-dark text-white" style={{maxWidth:500}}>
 					  	<Card.Header><B>COPS for Distributed Key Value Storage</B></Card.Header>
 					    <Card.Img variant="top" src={cops} />
 					    <Card.Body>
-					    	<Card.Subtitle className="mb-2 text-muted">Reference: <a href="https://www.cs.cornell.edu/courses/cs5414/2017fa/papers/Lloyd11Cops.pdf">COPS paper</a></Card.Subtitle>
+					    	<Card.Subtitle className="mb-2"><I>Reference: <a href="https://www.cs.cornell.edu/courses/cs5414/2017fa/papers/Lloyd11Cops.pdf">COPS paper</a></I></Card.Subtitle>
 
 					      <Card.Title>A sharded, replicated key-value store that guarantees ALPS and causal+ consistency</Card.Title>
 					       
@@ -70,11 +70,11 @@ const Projects = (props) => {
 					    </Card.Footer>
 					  </Card>
 					  
-					  <Card style={{maxWidth:500}}>
+					  <Card className="bg-dark text-white" style={{maxWidth:500}}>
 					  <Card.Header><B>Paxos Consensus for Message Ordering</B></Card.Header>
 					    <Card.Img variant="top" src={paxos} />
 					    <Card.Body>
-					    	  <Card.Subtitle className="mb-2 text-muted">References: <a href="https://www.cs.cornell.edu/courses/cs5414/2017fa/papers/PaxosComplex.pdf">Renesse paper</a>, <a href="https://www.cs.cornell.edu/courses/cs5414/2017fa/papers/paxos-simple.pdf">Lamport paper</a></Card.Subtitle>
+					    	  <Card.Subtitle className="mb-2"><I>References: <a href="https://www.cs.cornell.edu/courses/cs5414/2017fa/papers/PaxosComplex.pdf">Renesse paper</a>, <a href="https://www.cs.cornell.edu/courses/cs5414/2017fa/papers/paxos-simple.pdf">Lamport paper</a></I></Card.Subtitle>
 					      <Card.Title>Implementation that solves consensus on message ordering across replicated state machines</Card.Title>
 					      <Card.Text>
 					       This project implements a distributed chatroom in an asychronous setting with crash failures, in which all servers maintain consistent message ordering using the Paxos consensus algorithm.
@@ -100,7 +100,7 @@ const Projects = (props) => {
           	<h3>Web Applications</h3>
             <CardDeck>
 
-			  <Card>
+			  <Card className="bg-dark text-white">
 			  	<Card.Header><B>Weather and Energy Generation in the USA</B></Card.Header>
 			    <Card.Img variant="top" src={energy_weather} />
 			    <Card.Body>
@@ -115,12 +115,12 @@ const Projects = (props) => {
 			    HTML/CSS/JavaScript, D3.js
 			    </Card.Footer>
 			  </Card>
-			  <Card>
+			  <Card className="bg-dark text-white">
 			  <Card.Header><B>Take Me to the Streets</B></Card.Header>
 			    <Card.Img variant="top" src={take_me} />
 			    <Card.Body>
 			      <Card.Title>A neighborhood discovery experience that can be customized to the guest and the property, with optional gamification</Card.Title>
-			    <Card.Subtitle className="mb-2 text-muted">Won "Expand Explore" challenge at <a href="https://hospitalityhack.splashthat.com/">Cornell Hospitality Hackathon 2018</a></Card.Subtitle>
+			    <Card.Subtitle className="mb-2"> <I>Won "Expand Explore" challenge at <a href="https://hospitalityhack.splashthat.com/">Cornell Hospitality Hackathon 2018</a></I></Card.Subtitle>
 			   <Card.Text>
 		       I prototyped the features, which included routing users to a community and gaving them options to display that area’s locations of interest and to show route back to hotel.
 		      </Card.Text> 
@@ -132,7 +132,7 @@ const Projects = (props) => {
 			      HTML/CSS/JavaScript, Google Maps JS API, Flask
 			    </Card.Footer>
 			  </Card>
-			  <Card>
+			  <Card className="bg-dark text-white">
 			  <Card.Header><B>US Air Pollution in the 2000s</B></Card.Header>
 			    <Card.Img variant="top" src={us_pollution}/>
 			    <Card.Body>
@@ -155,12 +155,12 @@ const Projects = (props) => {
 		<h3>Embedded/Firmware</h3>
 		<CardDeck style={{justifyContent:"center"}}>
 
-		  <Card style={{maxWidth:500}}>
+		  <Card className="bg-dark text-white" style={{maxWidth:500}}>
 		  	<Card.Header><B>FPGA Speech Vocoder</B></Card.Header>
 		    <Card.Img variant="top" src={vocoder} />
 		    <Card.Body>
 		      <Card.Title>A highly parallel hardware vocoder for real-time speech synthesis and visualization on a monitor</Card.Title>
-		       <Card.Subtitle className="mb-2 text-muted">Featured project in <a href="https://blog.hackster.io/our-5-favorite-cornell-university-student-fpga-projects-683cffcda0d2">Hackster.io article</a></Card.Subtitle>
+		       <Card.Subtitle className="mb-2"><I>Featured project in <a href="https://blog.hackster.io/our-5-favorite-cornell-university-student-fpga-projects-683cffcda0d2">Hackster.io article</a></I></Card.Subtitle>
 
 		      <Card.Text> This project included pitch-shifting and voice modulation through 32 IIR filters. I implemented a basic GPU in parallel with speech synthesizer by reading input audio to display the audio waveform and a 32-bin frequency spectrogram on an 8-bit color, 640x480 pixel monitor in real-time.
 			  </Card.Text>
@@ -172,7 +172,7 @@ const Projects = (props) => {
 		    </Card.Footer>
 		  </Card>
 		  
-		  <Card style={{maxWidth:500}}>
+		  <Card className="bg-dark text-white" style={{maxWidth:500}}>
 		  <Card.Header><B>Air Canvas on Raspberry Pi</B></Card.Header>
 		    <Card.Img variant="top" src={air_canvas} />
 		    <Card.Body>
@@ -198,12 +198,12 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 	<h3>Native Applications</h3>
 	<CardDeck>
 
-	  <Card>
+	  <Card className="bg-dark text-white">
 	  	<Card.Header><B>Wildfire Sensor Network</B></Card.Header>
 	    <Card.Img variant="top" src={wsn_android} />
 	    <Card.Body>
 	      <Card.Title>Sensor network that warned people of local wildfire locations</Card.Title>
-	       <Card.Subtitle className="mb-2 text-muted">Awarded 3rd at Cornell’s Natural Disaster Preparedness Hackathon 2018</Card.Subtitle>
+	       <Card.Subtitle className="mb-2"><I>Awarded 3rd at Cornell’s Natural Disaster Preparedness Hackathon 2018</I></Card.Subtitle>
 
 	      <Card.Text>
 	       I created the Android app module of this project that takes in JSON sensor data from teammate's Raspberry Pi server to plot hotspots of surrounding area
@@ -245,7 +245,7 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 	      Java, Google Maps SDK for Android
 	    </Card.Footer>
 	  </Card>
-	  <Card>
+	  <Card className="bg-dark text-white">
 	  <Card.Header><B>Space Invaders</B></Card.Header>
 	    <Card.Img variant="top" src={space_invaders} />
 	    <Card.Body>
@@ -295,7 +295,7 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 	      Java
 	    </Card.Footer>
 	  </Card>
-	  <Card >
+	  <Card className="bg-dark text-white">
 	  <Card.Header><B>Wear Weather</B></Card.Header>
 	    <Card.Img variant="top" src={wear_weather} />
 	    <Card.Body>

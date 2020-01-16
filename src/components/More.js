@@ -12,28 +12,24 @@ const More = (props) => {
 
 
     return (    
-        <Container fluid style={{textAlign:"center",  padding: "20px"}}>
-
-            <hr/>
-             <br/>
+        <Container fluid style={{textAlign:"center",  padding: "20px",backgroundColor:"#ffffff"}}>
             <Row>
                 <Col>
                 <FaLaptopCode size={"10vh"} color={cyan}/>
                 <br/> <br/>
-                <h2>Projects</h2>
+                <h2 style={{color:"#000000"}}>Projects</h2>
                 <p><a href="#projects">Check out my academic and hackathon projects!</a></p>
               
                 </Col>
                 <Col>
                 <FaIndustry size={"10vh"} color={cyan}/>
                 <br/> <br/>
-                <h2>Experiences</h2>
-                <p><a href="#experiences">Browse through my industry and leadership experiences!</a></p>
+                <h2 style={{color:"#000000"}}>Experiences</h2>
+                <p><a href="#experiences">Browse through my industry, education, and leadership experiences!</a></p>
                      
                 </Col>
         
             </Row>
-            <hr/>
         </Container>
         
     );

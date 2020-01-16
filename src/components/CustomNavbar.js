@@ -5,29 +5,26 @@ import logo from './assets/transparent_logo.png';
 
 
 const CustomNavbar = (props) =>{
-
+	const B = (props) => <span style={{fontWeight: 'bold'}}>{props.children}</span>
 	return (
-		<Navbar bg="light" expand="sm" sticky="top">
+		<Navbar bg="secondary" expand="sm" sticky="top" variant="dark">
 		  <Navbar.Brand href="#"><img src={logo} alt="Logo"/></Navbar.Brand>
 		  <Navbar.Toggle aria-controls="basic-navbar-nav"/>
 			<Navbar.Collapse>
 				<Nav className="mr-auto" activeKey="/home">
-
-					
-					
 					</Nav>
 					<Nav>
 					<Nav.Item>
-						<Nav.Link href="#about">About</Nav.Link>
+						<Nav.Link href="#about"><B>About</B></Nav.Link>
 					</Nav.Item>
 					<Nav.Item>
-						<Nav.Link href="#projects">Projects</Nav.Link>
+						<Nav.Link href="#projects"><B>Projects</B></Nav.Link>
 					</Nav.Item>
 					<Nav.Item>
-						<Nav.Link href="#experiences">Experiences</Nav.Link>
+						<Nav.Link href="#experiences"><B>Experiences</B></Nav.Link>
 					</Nav.Item>
 					<Nav.Item>
-						<Nav.Link href="https://github.com/justinjoco">Github</Nav.Link>
+						<Nav.Link href="https://github.com/justinjoco"><B>Github</B></Nav.Link>
 					</Nav.Item>
 				</Nav>
 			</Navbar.Collapse>
