@@ -8,11 +8,9 @@ import Skills from "./components/Skills";
 import More from "./components/More";
 import Navbar from "./components/CustomNavbar";
 import Projects from "./components/Projects";
-import Experiences from "./components/Experiences";
-import Education from "./components/Education";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
-import Timeline from "./components/Timeline";
+import Experiences from "./components/Experiences";
 const App = () => {
 
     return (
@@ -25,7 +23,7 @@ const App = () => {
         <Route exact path="/" component={Home}/>
         <Route path="/about" component={()=>(<div><About/><Skills/><More/></div>)} />
         <Route path="/projects" component={Projects}/>
-        <Route path="/experiences" component={Timeline}/>
+        <Route path="/experiences" component={Experiences}/>
         <Footer />
       </div>
      </Router>
