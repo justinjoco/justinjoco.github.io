@@ -9,6 +9,7 @@ const CustomNavbar = (props) =>{
 	return (
 		<Navbar bg="secondary" expand="sm" sticky="top" variant="dark">
 		  <Navbar.Brand href="#"><img src={logo} alt="Logo"/></Navbar.Brand>
+		  <Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse>
 				<Nav className="mr-auto">
 					</Nav>

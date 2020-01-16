@@ -13,7 +13,7 @@ const Experiences= (props) => {
 
         <Container fluid style={{padding: "20px", backgroundColor: "#93d2fa", color: "#000000"}}>
 
-            <h1 className="display-3" style={{textAlign:"center"}}>Experiences</h1>
+            <h1 className="display-3" style={{textAlign:"center"}}>Experience</h1>
             <h5 style={{textAlign:"center"}}>My work experiences and education</h5>
            
             <hr style={{color: "#000000", backgroundColor: "#000000", borderColor:"##000000"}}/>
