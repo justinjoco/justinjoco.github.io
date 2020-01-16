@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c917b6ac5a8194592993960d0b69efb1",
+    "revision": "d2c3385c777c6f29c09534dfa01f260d",
     "url": "/index.html"
   },
   {
-    "revision": "3bff8cc98046936e0090",
-    "url": "/static/css/main.364322d7.chunk.css"
+    "revision": "c2395f43712d5a87f632",
+    "url": "/static/css/2.a641e29a.chunk.css"
   },
   {
-    "revision": "8375eca5757eef21b6f2",
-    "url": "/static/js/2.d49874a2.chunk.js"
+    "revision": "4f6da092dd295bf5403c",
+    "url": "/static/css/main.e09027b3.chunk.css"
+  },
+  {
+    "revision": "c2395f43712d5a87f632",
+    "url": "/static/js/2.3cdc335a.chunk.js"
   },
   {
     "revision": "86afaa925e0f432774bf95b19b6933fb",
-    "url": "/static/js/2.d49874a2.chunk.js.LICENSE"
+    "url": "/static/js/2.3cdc335a.chunk.js.LICENSE"
   },
   {
-    "revision": "3bff8cc98046936e0090",
-    "url": "/static/js/main.d40dc46b.chunk.js"
+    "revision": "4f6da092dd295bf5403c",
+    "url": "/static/js/main.46b2d4b8.chunk.js"
   },
   {
     "revision": "b5d93ee767f35c150b62",
     "url": "/static/js/runtime-main.1fd56aa7.js"
-  },
-  {
-    "revision": "f1c1db37b0de1104030d55bfa81a61f6",
-    "url": "/static/media/JPM_logo.f1c1db37.jpg"
   },
   {
     "revision": "9b55f78bb4fd157bedd752cc9d8e9abf",
@@ -40,20 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cops-map.fd4a008d.png"
   },
   {
-    "revision": "2dddf2d26f26758094de0b548df0788d",
-    "url": "/static/media/cornell_ece_logo.2dddf2d2.png"
-  },
-  {
     "revision": "9f3fc79c88b8683310312a8738a9711c",
     "url": "/static/media/energy_weather.9f3fc79c.png"
-  },
-  {
-    "revision": "d74cd865436af28818967a41dc14f7f0",
-    "url": "/static/media/ieee_logo.d74cd865.png"
-  },
-  {
-    "revision": "78bbf4d33b2e7b4fbbc7d7746fbbaccc",
-    "url": "/static/media/lincolnfinancial.78bbf4d3.jpg"
   },
   {
     "revision": "69450104ac3559120aa061e727faa90a",
@@ -64,24 +52,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profile_pic.b4cc8705.jpg"
   },
   {
-    "revision": "9284401f524d01d7fb22dc7c43bfcf55",
-    "url": "/static/media/purdue_logo.9284401f.png"
-  },
-  {
-    "revision": "42bbdbb0abb565279e9eec9838cf4a58",
-    "url": "/static/media/purduehackerslogo.42bbdbb0.png"
-  },
-  {
     "revision": "6becd25ae6f25c9579160511137953d1",
     "url": "/static/media/space_invaders.6becd25a.png"
   },
   {
     "revision": "9d476cc63b97ae21d0b101bbff89d078",
     "url": "/static/media/space_invaders.9d476cc6.m4v"
-  },
-  {
-    "revision": "06868119fc8cd1182d4273656a84771a",
-    "url": "/static/media/t-mobile-logo.06868119.png"
   },
   {
     "revision": "2f902c7751410f87dae889bbfc94be0c",
