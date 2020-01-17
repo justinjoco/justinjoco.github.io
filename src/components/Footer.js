@@ -9,9 +9,9 @@ const Footer = (props) => {
 
 
     const I = (props) => <span style={{fontStyle: 'italic'}}>{props.children}</span>
-    const [linkedInColor, setLinkedInColor] = useState("#0077b5ff");
-    const [githubColor, setGithubColor] = useState("#222");
-    const [facebookColor, setFacebookColor] = useState("#0078FF");
+    const [linkedInColor, setLinkedInColor] = useState("#e0e0e0");
+    const [githubColor, setGithubColor] = useState("#e0e0e0");
+    const [facebookColor, setFacebookColor] = useState("#e0e0e0");
 
     const ColoredLine = ({ color }) => (
       <hr
@@ -39,18 +39,18 @@ const Footer = (props) => {
         <Row>
             <Col xs>
               <a href="https://www.linkedin.com/in/justinjoco">
-              <FaLinkedin size={"7vh"} color={linkedInColor} style={{backgroundColor: "white"}} onMouseEnter={() => setLinkedInColor("#0077b57f")} onMouseLeave={() => setLinkedInColor("#0077b5")}/>
+              <FaLinkedin size={"7vh"} color={linkedInColor} onMouseEnter={() => setLinkedInColor("#696969")} onMouseLeave={() => setLinkedInColor("#e0e0e0")}/>
               
               </a>
             </Col>
             <Col xs>
               <a href="https://github.com/justinjoco">
-               <FaGithubSquare size={"7vh"} color={githubColor} style={{backgroundColor: "white"}} onMouseEnter={() => setGithubColor("#2220007f")} onMouseLeave={() => setGithubColor("#222")}/>
+               <FaGithubSquare size={"7vh"} color={githubColor}  onMouseEnter={() => setGithubColor("#696969")} onMouseLeave={() => setGithubColor("#e0e0e0")}/>
               </a>
             </Col>
             <Col xs>
             <a href="https://www.facebook.com/justin.anthony.joco" >
-               <FaFacebookSquare size={"7vh"} color={facebookColor} style={{backgroundColor: "white"}} onMouseEnter={() => setFacebookColor("#0078FF7f")} onMouseLeave={() => setFacebookColor("#0078FF")}/>
+               <FaFacebookSquare size={"7vh"} color={facebookColor} onMouseEnter={() => setFacebookColor("#696969")} onMouseLeave={() => setFacebookColor("#e0e0e0")}/>
             </a>
             </Col>
 
