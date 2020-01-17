@@ -11,4 +11,3 @@ Here's what's included:
 - React Router DOM (https://reacttraining.com/react-router/web/guides/quick-start)
 - React Icons (https://react-icons.netlify.com/#/icons/fa)
 - React Vertical Timeline Component (https://stephane-monnot.github.io/react-vertical-timeline/#/)
-
