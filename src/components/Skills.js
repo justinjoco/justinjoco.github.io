@@ -9,7 +9,7 @@ const Skills = (props) => {
     const I = (props) => <span style={{fontStyle: 'italic'}}>{props.children}</span>
 
     return (    
-        <Container fluid style={{textAlign:"center",  padding: "20px", backgroundColor: "#696969", color: "#ffffff"}} >
+        <Container fluid style={{textAlign:"center",  padding: "20px", backgroundColor: "#808080", color: "#ffffff"}} >
 
 
             <h1 className="display-4">Skills</h1>
@@ -27,7 +27,7 @@ const Skills = (props) => {
              <br/>
             <Row>
                 <Col>
-                <FaCode size={"10vh"} color={"#dc3545"}/>
+                <FaCode size={"10vh"} color={"#dc3545"} />
                 <br/> <br/>
                 <h2>Programming</h2>
                 <p>Python, HTML/CSS/Javascript (JS), Typescript (TS), C/C++, Go (Golang), Kotlin, Java</p>
