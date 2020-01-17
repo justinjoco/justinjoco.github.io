@@ -1,0 +1,19 @@
+.github-corner svg {
+    z-index: 1000;
+}
+
+.vertical-timeline-element-content {
+    color: black;
+}
+
+.vertical-timeline-element--work .vertical-timeline-element-content {
+    border-top: 3px solid #dc3545;
+}
+
+.vertical-timeline-element--education .vertical-timeline-element-content {
+    border-top: 3px solid #292929;
+}
+
+.vertical-timeline-element-date {
+  color: #000000;
+}

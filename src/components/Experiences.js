@@ -5,18 +5,21 @@ import { VerticalTimeline, VerticalTimelineElement}  from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import {FaGraduationCap, FaBriefcase} from "react-icons/fa";
 
+import './Experiences.css';
+
+
 const Experiences= (props) => {
 
   	const B = (props) => <span style={{fontWeight: 'bold'}}>{props.children}</span>
     const I = (props) => <span style={{fontStyle: 'italic'}}>{props.children}</span>
     return (
 
-        <Container fluid style={{padding: "20px", backgroundColor: "#696969", color: "#ffffff"}}>
+        <Container fluid style={{padding: "20px", backgroundColor: "#e0e0e0", color: "#000000"}}>
 
             <h1 className="display-3" style={{textAlign:"center"}}>Experience</h1>
             <h5 style={{textAlign:"center"}}>My work experiences and education</h5>
            
-            <hr style={{color: "#ffffff", backgroundColor: "#ffffff", borderColor:"#ffffff"}}/>
+            <hr style={{color: "#292929", backgroundColor: "#292929", borderColor:"#292929"}}/>
             <br/>
 
             <h2 style={{textAlign:"center"}}>Professional Experience</h2>
@@ -26,6 +29,7 @@ const Experiences= (props) => {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: '#dc3545', color: '#ffffff' }}
                 iconStyle={{ background: '#dc3545', color: '#ffffff' }}
+                contentArrowStyle={{ borderRight: '7px solid  #dc3545' }}
                 date="Jan 2020 - present"
                 icon={<FaBriefcase/>}
                 >
@@ -39,7 +43,6 @@ const Experiences= (props) => {
 
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: '#dc3545', color: '#ffffff' }}
                 iconStyle={{ background: '#dc3545', color: '#ffffff' }}
                 date="Aug 2018 - May 2019, Aug - Dec 2019"
                 icon={<FaBriefcase/>}
@@ -54,7 +57,6 @@ const Experiences= (props) => {
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="May - August 2019"
-                contentStyle={{ background: '#dc3545', color: '#ffffff' }}
                 iconStyle={{ background: '#dc3545', color: '#ffffff' }}
                 icon={<FaBriefcase/>}
                 >
@@ -70,7 +72,6 @@ const Experiences= (props) => {
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="June - Aug 2017"
-                contentStyle={{ background: '#dc3545', color: '#ffffff' }}
                 iconStyle={{ background: '#dc3545', color: '#ffffff' }}
                 icon={<FaBriefcase/>}
                 >
@@ -83,7 +84,6 @@ const Experiences= (props) => {
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="June - Aug 2016"
-                contentStyle={{ background: '#dc3545', color: '#ffffff' }}
                 iconStyle={{ background: '#dc3545', color: '#ffffff' }}
                 icon={<FaBriefcase/>}
                 >
@@ -103,8 +103,8 @@ const Experiences= (props) => {
                 <VerticalTimelineElement
                 className="vertical-timeline-element--education"
                 date="Aug 2019 - Dec 2019"
-                contentStyle={{ background: '#dc3545', color: '#ffffff' }}
-                iconStyle={{ background: '#dc3545', color: '#ffffff' }}
+                contentStyle={{ background: '#292929', color: '#ffffff' }}
+                iconStyle={{ background: '#292929', color: '#ffffff' }}
                 icon={<FaGraduationCap/>}
                 >
                    
@@ -117,8 +117,7 @@ const Experiences= (props) => {
                 <VerticalTimelineElement
                 className="vertical-timeline-element--education"
                 date="Aug 2015 - May 2018"
-                contentStyle={{ background: '#dc3545', color: '#ffffff' }}
-                iconStyle={{ background: '#dc3545', color: '#ffffff' }}
+                iconStyle={{ background: '#292929', color: '#ffffff' }}
                 icon={<FaGraduationCap/>}
                 >
                    
@@ -131,8 +130,7 @@ const Experiences= (props) => {
                 <VerticalTimelineElement
                 className="vertical-timeline-element--education"
                 date="Aug 2014 - May 2015"
-                contentStyle={{ background: '#dc3545', color: '#ffffff' }}
-                iconStyle={{ background: '#dc3545', color: '#ffffff' }}
+                iconStyle={{ background: '#292929', color: '#ffffff' }}
                 icon={<FaGraduationCap/>}
                 >
                     <h3 className="vertical-timeline-element-title">Stony Brook University</h3>
