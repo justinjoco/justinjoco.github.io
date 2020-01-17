@@ -11,7 +11,7 @@ const Experiences= (props) => {
     const I = (props) => <span style={{fontStyle: 'italic'}}>{props.children}</span>
     return (
 
-        <Container fluid style={{padding: "20px", backgroundColor: "#808080", color: "#ffffff"}}>
+        <Container fluid style={{padding: "20px", backgroundColor: "#696969", color: "#ffffff"}}>
 
             <h1 className="display-3" style={{textAlign:"center"}}>Experience</h1>
             <h5 style={{textAlign:"center"}}>My work experiences and education</h5>
