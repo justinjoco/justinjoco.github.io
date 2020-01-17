@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Link} from "react-router-dom";
 import {Jumbotron, Container, Row, Col, Image, Button} from "react-bootstrap";
-import logo from './assets/transparent_logo.png';
+import logo from './assets/my_logo.png';
 import {FaFacebookSquare, FaLinkedin, FaGithubSquare} from "react-icons/fa";
 
 const Footer = (props) => {
@@ -25,7 +25,7 @@ const Footer = (props) => {
 
     return (
 
-        <Container fluid style={{textAlign:"center", color:"#efefef", backgroundColor: "#6c757d",  padding: "20px"
+        <Container fluid style={{textAlign:"center", color:"#efefef", backgroundColor: "#292929",  padding: "20px"
  			}}>
          <h1 >Contact</h1>
          <Image src={logo} alt="Logo"/>

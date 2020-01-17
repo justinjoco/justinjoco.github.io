@@ -8,24 +8,22 @@ const More = (props) => {
     const B = (props) => <span style={{fontWeight: 'bold'}}>{props.children}</span>
     const I = (props) => <span style={{fontStyle: 'italic'}}>{props.children}</span>
 
-    const cyan = "#008b8b"
-
 
     return (    
-        <Container fluid style={{textAlign:"center",  padding: "20px",backgroundColor:"#ffffff"}}>
+        <Container fluid style={{textAlign:"center",  padding: "20px",backgroundColor:"#ffffff", color: "#000000"}}>
             <Row>
                 <Col>
-                <FaLaptopCode size={"10vh"} color={cyan}/>
+                <FaLaptopCode size={"10vh"} color={"#696969"}/>
                 <br/> <br/>
-                <h2 style={{color:"#000000"}}>Projects</h2>
-                <p><B><a href="#projects">Check out my academic and hackathon projects!</a></B></p>
+                <h2 >Projects</h2>
+                <p><B><a href="#projects" style={{color: "#dc3545"}}>Check out my academic and hackathon projects!</a></B></p>
               
                 </Col>
                 <Col>
-                <FaIndustry size={"10vh"} color={cyan}/>
+                <FaIndustry size={"10vh"} color={"#696969"}/>
                 <br/> <br/>
-                <h2 style={{color:"#000000"}}>Experiences</h2>
-                <p><B><a href="#experiences">Browse through my industry experiences and education!</a></B></p>
+                <h2 >Experiences</h2>
+                <p><B><a href="#experiences" style={{color: "#dc3545"}}>Browse through my industry experiences and education!</a></B></p>
                      
                 </Col>
         

@@ -33,7 +33,7 @@ const Projects = (props) => {
 
 
 
-        <Container fluid style={{textAlign:"center", padding: "20px", backgroundColor: "#922b3e"}}>
+        <Container fluid style={{textAlign:"center", padding: "20px"}}>
        
             <h1 className="display-3">Project Showcase</h1>
 			<h5 style={{textAlign:"center"}}>My academic and hackathon projects</h5>
@@ -54,7 +54,7 @@ const Projects = (props) => {
 			<h3>Distributed Systems</h3>
 					<CardDeck style={{justifyContent:"center"}}>
 
-					  <Card className="bg-dark text-white" style={{maxWidth:500}}>
+					  <Card className="bg-danger text-white" style={{maxWidth:500}}>
 					  	<Card.Header><B>COPS for Distributed Key Value Storage</B></Card.Header>
 					    <Card.Img variant="top" src={cops} />
 					    <Card.Body>
@@ -72,7 +72,7 @@ const Projects = (props) => {
 					    </Card.Footer>
 					  </Card>
 					  
-					  <Card className="bg-dark text-white" style={{maxWidth:500}}>
+					  <Card className="bg-danger text-white" style={{maxWidth:500}}>
 					  <Card.Header><B>Paxos Consensus for Message Ordering</B></Card.Header>
 					    <Card.Img variant="top" src={paxos} />
 					    <Card.Body>
@@ -102,7 +102,7 @@ const Projects = (props) => {
           	<h3>Web Applications</h3>
             <CardDeck>
 
-			  <Card className="bg-dark text-white">
+			  <Card className="bg-danger  text-white">
 			  	<Card.Header><B>Weather and Energy Generation in the USA</B></Card.Header>
 			    <Card.Img variant="top" src={energy_weather} />
 			    <Card.Body>
@@ -117,7 +117,7 @@ const Projects = (props) => {
 			    HTML/CSS/JavaScript, D3.js
 			    </Card.Footer>
 			  </Card>
-			  <Card className="bg-dark text-white">
+			  <Card className="bg-danger text-white">
 			  <Card.Header><B>Take Me to the Streets</B></Card.Header>
 			    <Card.Img variant="top" src={take_me} />
 			    <Card.Body>
@@ -134,7 +134,7 @@ const Projects = (props) => {
 			      HTML/CSS/JavaScript, Google Maps JS API, Flask
 			    </Card.Footer>
 			  </Card>
-			  <Card className="bg-dark text-white">
+			  <Card className="bg-danger text-white">
 			  <Card.Header><B>US Air Pollution in the 2000s</B></Card.Header>
 			    <Card.Img variant="top" src={us_pollution}/>
 			    <Card.Body>
@@ -157,7 +157,7 @@ const Projects = (props) => {
 		<h3>Embedded/Firmware</h3>
 		<CardDeck style={{justifyContent:"center"}}>
 
-		  <Card className="bg-dark text-white" style={{maxWidth:500}}>
+		  <Card className="bg-danger text-white" style={{maxWidth:500}}>
 		  	<Card.Header><B>FPGA Speech Vocoder</B></Card.Header>
 		    <Card.Img variant="top" src={vocoder} />
 		    <Card.Body>
@@ -174,7 +174,7 @@ const Projects = (props) => {
 		    </Card.Footer>
 		  </Card>
 		  
-		  <Card className="bg-dark text-white" style={{maxWidth:500}}>
+		  <Card className="bg-danger text-white" style={{maxWidth:500}}>
 		  <Card.Header><B>Air Canvas on Raspberry Pi</B></Card.Header>
 		    <Card.Img variant="top" src={air_canvas} />
 		    <Card.Body>
@@ -200,7 +200,7 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 	<h3>Native Applications</h3>
 	<CardDeck>
 
-	  <Card className="bg-dark text-white">
+	  <Card className="bg-danger text-white">
 	  	<Card.Header><B>Wildfire Sensor Network</B></Card.Header>
 	    <Card.Img variant="top" src={wsn_android} />
 	    <Card.Body>
@@ -247,7 +247,7 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 	      Java, Google Maps SDK for Android
 	    </Card.Footer>
 	  </Card>
-	  <Card className="bg-dark text-white">
+	  <Card className="bg-danger text-white">
 	  <Card.Header><B>Space Invaders</B></Card.Header>
 	    <Card.Img variant="top" src={space_invaders} />
 	    <Card.Body>
@@ -297,7 +297,7 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 	      Java
 	    </Card.Footer>
 	  </Card>
-	  <Card className="bg-dark text-white">
+	  <Card className="bg-danger text-white">
 	  <Card.Header><B>Wear Weather</B></Card.Header>
 	    <Card.Img variant="top" src={wear_weather} />
 	    <Card.Body>

@@ -1,13 +1,13 @@
 import React from "react";
 import {Navbar, Nav, NavItem, NavDropdown} from "react-bootstrap";
 import {Link} from "react-router-dom";
-import logo from './assets/transparent_logo.png';
+import logo from './assets/my_logo.png';
 
 
 const CustomNavbar = (props) =>{
 	const B = (props) => <span style={{fontWeight: 'bold'}}>{props.children}</span>
 	return (
-		<Navbar bg="secondary" expand="sm" sticky="top" variant="dark">
+		<Navbar style={{backgroundColor: "#292929"}} expand="sm" sticky="top" variant="dark">
 		  <Navbar.Brand href="#"><img src={logo} alt="Logo"/></Navbar.Brand>
 		  <Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse>

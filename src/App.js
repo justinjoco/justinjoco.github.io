@@ -17,7 +17,7 @@ const App = () => {
      <Router>
       <ScrollToTop />
       <div style={{
-        backgroundColor: '#6c757d',
+        backgroundColor: '#292929',
       }}>
         <Navbar />
         <Route exact path="/" component={Home}/>
