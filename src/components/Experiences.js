@@ -26,8 +26,8 @@ const Experiences= (props) => {
        
             <VerticalTimeline>
                 <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                contentStyle={{ background: '#dc3545', color: '#ffffff' }}
+                className="vertical-timeline-element--work--head"
+                contentStyle={{ color: '#ffffff' }}
                 iconStyle={{ background: '#dc3545', color: '#ffffff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #dc3545' }}
                 date="Jan 2020 - present"
@@ -101,9 +101,9 @@ const Experiences= (props) => {
               
                 <VerticalTimeline>
                 <VerticalTimelineElement
-                className="vertical-timeline-element--education"
+                className="vertical-timeline-element--education--head"
                 date="Aug 2019 - Dec 2019"
-                contentStyle={{ background: '#292929', color: '#ffffff' }}
+                contentStyle={{ color: '#ffffff' }}
                 iconStyle={{ background: '#292929', color: '#ffffff' }}
                 icon={<FaGraduationCap/>}
                 >

@@ -8,7 +8,7 @@ const About = (props) => {
     const B = (props) => <span style={{fontWeight: 'bold'}}>{props.children}</span>
     const I = (props) => <span style={{fontStyle: 'italic'}}>{props.children}</span>
     return (    
-        <Container fluid style={{textAlign:"center", backgroundColor:"#dc3545", color: "#ffffff", padding: "20px"}}>
+        <Container fluid style={{textAlign:"center", color: "#ffffff", padding: "20px"}}>
 
           <Image fluid width={200}src={profile} roundedCircle />
 

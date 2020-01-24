@@ -33,12 +33,12 @@ const Projects = (props) => {
 
 
 
-        <Container fluid style={{textAlign:"center", padding: "20px"}}>
+        <Container fluid style={{textAlign:"center", backgroundColor: "#dc3545", padding: "20px"}}>
        
             <h1 className="display-3">Project Showcase</h1>
 			<h5 style={{textAlign:"center"}}>My academic and hackathon projects</h5>
            
-			<hr style={{color: "#ffffff", backgroundColor: "#ffffff", borderColor:"#ffffff"}}/>
+			<hr style={{color: "#ffffff", backgroundColor: "#696969", borderColor:"#ffffff"}}/>
             <br/>
 
             <h2><B>MEng Design Project</B>: Acoustic Localization and Tracking via Machine Learning</h2>
@@ -46,15 +46,15 @@ const Projects = (props) => {
             <p><B>Languages/Technologies</B>: Python, NumPy, Keras Tensorflow</p>
 
             <Row>
-				<Col><a href="https://drive.google.com/open?id=1RqCE6mKBcSB8zWFaoT2NVYHz0RCSMc-s" style={{color:"cyan"}}>Report</a></Col>
-				<Col><a href="https://drive.google.com/open?id=1gYy7quJyqfm_eIAsylMDvCWCTJ6wZo8X" style={{color:"cyan"}}>Poster</a></Col>
-				<Col><a href="https://github.com/justinjoco/acoustic_MIMO" style={{color:"cyan"}}>Code</a></Col>
+				<Col><a href="https://drive.google.com/open?id=1RqCE6mKBcSB8zWFaoT2NVYHz0RCSMc-s" ><Button variant="light" style={{margin: "5px"}}>Report</Button></a></Col>
+				<Col><a href="https://drive.google.com/open?id=1gYy7quJyqfm_eIAsylMDvCWCTJ6wZo8X"><Button variant="light" style={{margin: "5px"}}>Poster</Button></a></Col>
+				<Col><a href="https://github.com/justinjoco/acoustic_MIMO"><Button variant="light" style={{margin: "5px"}}>Code</Button></a></Col>
 			</Row>
 			<br/>
 			<h3>Distributed Systems</h3>
 					<CardDeck style={{justifyContent:"center"}}>
 
-					  <Card className="bg-danger text-white" style={{maxWidth:500}}>
+					  <Card className="bg-light text-dark" style={{maxWidth:500}}>
 					  	<Card.Header><B>COPS for Distributed Key Value Storage</B></Card.Header>
 					    <Card.Img variant="top" src={cops} />
 					    <Card.Body>
@@ -72,7 +72,7 @@ const Projects = (props) => {
 					    </Card.Footer>
 					  </Card>
 					  
-					  <Card className="bg-danger text-white" style={{maxWidth:500}}>
+					  <Card className="bg-light text-dark" style={{maxWidth:500}}>
 					  <Card.Header><B>Paxos Consensus for Message Ordering</B></Card.Header>
 					    <Card.Img variant="top" src={paxos} />
 					    <Card.Body>
@@ -102,7 +102,7 @@ const Projects = (props) => {
           	<h3>Web Applications</h3>
             <CardDeck>
 
-			  <Card className="bg-danger  text-white">
+			  <Card className="bg-light text-dark">
 			  	<Card.Header><B>Weather and Energy Generation in the USA</B></Card.Header>
 			    <Card.Img variant="top" src={energy_weather} />
 			    <Card.Body>
@@ -110,14 +110,14 @@ const Projects = (props) => {
 			    <Card.Text>
 		        I implemented slider and line graph interactivity such that user can use the slider or click the line graph to change the month. The US map and the line and bar graphs update their displayed data based on the month selected or year selected (via dropdown).
 		      </Card.Text>
-		      	<a href="https://justinjoco.github.io/energy_v_weather_in_us"><Button variant="primary" style={{margin: "5px"}}>Link</Button></a>
+		      	<a href="https://justinjoco.github.io/energy_v_weather_in_us"><Button variant="danger" style={{margin: "5px"}}>Link</Button></a>
 		      	<a href="https://github.com/nsterling4/Info5100P2"><Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
 			    </Card.Body>
 			    <Card.Footer>
 			    HTML/CSS/JavaScript, D3.js
 			    </Card.Footer>
 			  </Card>
-			  <Card className="bg-danger text-white">
+			  <Card className="bg-light text-dark">
 			  <Card.Header><B>Take Me to the Streets</B></Card.Header>
 			    <Card.Img variant="top" src={take_me} />
 			    <Card.Body>
@@ -126,7 +126,7 @@ const Projects = (props) => {
 			   <Card.Text>
 		       I prototyped the features, which included routing users to a community and gaving them options to display that area’s locations of interest and to show route back to hotel.
 		      </Card.Text> 
-		      	<a href="https://drive.google.com/file/d/1-AjMSllvR6Nlzw_mbkeCCSgcGCuy-R3J/view"><Button variant="primary" style={{margin: "5px"}}>Details</Button></a>
+		      	<a href="https://drive.google.com/file/d/1-AjMSllvR6Nlzw_mbkeCCSgcGCuy-R3J/view"><Button variant="danger" style={{margin: "5px"}}>Details</Button></a>
 		      	<a href="https://github.com/justinjoco/take_me_to_the_streets"><Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
 			    </Card.Body>
 
@@ -134,7 +134,7 @@ const Projects = (props) => {
 			      HTML/CSS/JavaScript, Google Maps JS API, Flask
 			    </Card.Footer>
 			  </Card>
-			  <Card className="bg-danger text-white">
+			  <Card className="bg-light text-dark">
 			  <Card.Header><B>US Air Pollution in the 2000s</B></Card.Header>
 			    <Card.Img variant="top" src={us_pollution}/>
 			    <Card.Body>
@@ -143,7 +143,7 @@ const Projects = (props) => {
 		      I designed and implemented the interactive line graph that calculates the percent difference between the air pollutant concentration of a user-chosen state and the national average at a given time (via mouse hover).
 		      </Card.Text>
 
-		      	<a href="https://justinjoco.github.io/us_pollution_in_2000s/"><Button variant="primary" style={{margin: "5px"}}>Link</Button></a>
+		      	<a href="https://justinjoco.github.io/us_pollution_in_2000s/"><Button variant="danger" style={{margin: "5px"}}>Link</Button></a>
 		      	<a href="https://github.com/justinjoco/us_pollution_in_2000s"><Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
 			    </Card.Body>
 			    <Card.Footer>
@@ -157,7 +157,7 @@ const Projects = (props) => {
 		<h3>Embedded/Firmware</h3>
 		<CardDeck style={{justifyContent:"center"}}>
 
-		  <Card className="bg-danger text-white" style={{maxWidth:500}}>
+		  <Card className="bg-light text-dark" style={{maxWidth:500}}>
 		  	<Card.Header><B>FPGA Speech Vocoder</B></Card.Header>
 		    <Card.Img variant="top" src={vocoder} />
 		    <Card.Body>
@@ -166,7 +166,7 @@ const Projects = (props) => {
 
 		      <Card.Text> This project included pitch-shifting and voice modulation through 32 IIR filters. I implemented a basic GPU in parallel with speech synthesizer by reading input audio to display the audio waveform and a 32-bin frequency spectrogram on an 8-bit color, 640x480 pixel monitor in real-time.
 			  </Card.Text>
-		      <a href="https://people.ece.cornell.edu/land/courses/ece5760/FinalProjects/s2019/jc2697_jaj263_tk455/jc2697_jaj263_tk455/jc2697_jaj263_tk455/index.html"><Button variant="primary" style={{margin: "5px"}}>Details</Button></a>
+		      <a href="https://people.ece.cornell.edu/land/courses/ece5760/FinalProjects/s2019/jc2697_jaj263_tk455/jc2697_jaj263_tk455/jc2697_jaj263_tk455/index.html"><Button variant="danger" style={{margin: "5px"}}>Details</Button></a>
 		      <a href="https://github.com/jc2697/FPGA_speech_vocoder"><Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
 		    </Card.Body>
 		    <Card.Footer>
@@ -174,7 +174,7 @@ const Projects = (props) => {
 		    </Card.Footer>
 		  </Card>
 		  
-		  <Card className="bg-danger text-white" style={{maxWidth:500}}>
+		  <Card className="bg-light text-dark" style={{maxWidth:500}}>
 		  <Card.Header><B>Air Canvas on Raspberry Pi</B></Card.Header>
 		    <Card.Img variant="top" src={air_canvas} />
 		    <Card.Body>
@@ -186,7 +186,7 @@ I drew line interpolations between drawn dots to mitigate FPS costs of live imag
 
 I also added configurable brush size and color, and enabled histogram re-calibration.
 		      </Card.Text>
-		      	<a href="https://justinjoco.github.io/air_canvas_page/"><Button variant="primary" style={{margin: "5px"}}>Details</Button></a>
+		      	<a href="https://justinjoco.github.io/air_canvas_page/"><Button variant="danger" style={{margin: "5px"}}>Details</Button></a>
 		      	<a href="https://github.com/justinjoco/air_canvas"><Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
 		    </Card.Body>
 		    <Card.Footer>
@@ -200,7 +200,7 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 	<h3>Native Applications</h3>
 	<CardDeck>
 
-	  <Card className="bg-danger text-white">
+	  <Card className="bg-light text-dark">
 	  	<Card.Header><B>Wildfire Sensor Network</B></Card.Header>
 	    <Card.Img variant="top" src={wsn_android} />
 	    <Card.Body>
@@ -210,7 +210,7 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 	      <Card.Text>
 	       I created the Android app module of this project that takes in JSON sensor data from teammate's Raspberry Pi server to plot hotspots of surrounding area
 	      </Card.Text>
-	     <Button variant="primary" style={{margin: "5px"}} onClick={() => setWsnShow(true)}>Demo</Button>
+	     <Button variant="danger" style={{margin: "5px"}} onClick={() => setWsnShow(true)}>Demo</Button>
 
 			<Modal size="lg" show={wsnShow} onHide={() => setWsnShow(false)} aria-labelledby="example-modal-sizes-title-sm">
 				<Modal.Header closeButton>
@@ -247,7 +247,7 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 	      Java, Google Maps SDK for Android
 	    </Card.Footer>
 	  </Card>
-	  <Card className="bg-danger text-white">
+	  <Card className="bg-light text-dark">
 	  <Card.Header><B>Space Invaders</B></Card.Header>
 	    <Card.Img variant="top" src={space_invaders} />
 	    <Card.Body>
@@ -256,7 +256,7 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 	      <Card.Text>
 	       The player can move left or right, barriers can be destroyed by either player or aliens, and alien speed and numbers are configurable. Game ends when the player destroys all aliens or aliens reach the ground. This involved threading, basic graphics, and game object manipulation. Sound effects and music are included.
 	      </Card.Text>
-	      	<Button variant="primary" style={{margin: "5px"}} onClick={() => setSpaceInvadersShow(true)}>Demo</Button>
+	      	<Button variant="danger" style={{margin: "5px"}} onClick={() => setSpaceInvadersShow(true)}>Demo</Button>
 
 			<Modal size="lg" show={spaceInvadersShow} onHide={() => setSpaceInvadersShow(false)} aria-labelledby="example-modal-sizes-title-sm">
 				<Modal.Header closeButton>
@@ -297,7 +297,7 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 	      Java
 	    </Card.Footer>
 	  </Card>
-	  <Card className="bg-danger text-white">
+	  <Card className="bg-light text-dark">
 	  <Card.Header><B>Wear Weather</B></Card.Header>
 	    <Card.Img variant="top" src={wear_weather} />
 	    <Card.Body>
@@ -306,7 +306,7 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 	      <Card.Text>
 	       I added extra UI features such converting temperatures and mapping weather descriptions to specific icons. This was created based on weather data from the OpenWeatherMap API.
 	      </Card.Text>
-	      	<a href="https://devpost.com/software/wear-weather"><Button variant="primary" style={{margin: "5px"}}>Devpost</Button></a>
+	      	<a href="https://devpost.com/software/wear-weather"><Button variant="danger" style={{margin: "5px"}}>Devpost</Button></a>
 		   <a href="https://github.com/kartikmittal33/WearWeather"> <Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
 	    </Card.Body>
 	    <Card.Footer>

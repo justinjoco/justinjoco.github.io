@@ -1,7 +1,7 @@
 import React from "react";
 import {Navbar, Nav, NavItem, NavDropdown} from "react-bootstrap";
 import {Link} from "react-router-dom";
-import logo from './assets/my_logo.png';
+import logo from './assets/my_logo_white.png';
 
 
 const CustomNavbar = (props) =>{
