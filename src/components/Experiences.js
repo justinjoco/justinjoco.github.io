@@ -34,10 +34,10 @@ const Experiences= (props) => {
                 icon={<FaBriefcase/>}
                 >
                     <h3 className="vertical-timeline-element-title">T-Mobile US, Inc.</h3>
-                    <h5 className="vertical-timeline-element-subtitle">Associate Software Engineer</h5>
+                    <h5 className="vertical-timeline-element-subtitle">Software Engineer</h5>
                     <h6 className="vertical-timeline-element-subtitle">Bellevue, WA</h6>
-                    <p>Developing and testing the middleware and front-end of a cloud-based, voice and messaging app for work productivity</p>
-                    <p>React.js |  Redux | Electron | Typescript(TS) | Jest | Node.js | Git (Bitbucket) </p>
+                    <p> Developing and testing the the desktop client of a cloud-based, voice and messaging app for business customers</p>
+                    <p> Typescript(TS) | Node.js | React.js |  Redux | Electron | Jest | Git (Bitbucket) </p>
 			    	
                 </VerticalTimelineElement>
 
@@ -64,7 +64,7 @@ const Experiences= (props) => {
                     <h5 className="vertical-timeline-element-subtitle">System Architecture Engineering Intern</h5>
                     <h6 className="vertical-timeline-element-subtitle">Bellevue, WA</h6>
                     <p>Built an MVC Android/iOS app and a desktop app end-to-end that integrate cloud storage APIs to streamline the internal releases of T-Mobile DIGITS' builds to QA</p>
-                    <p>Android SDK (Kotlin) | React Native | Electron | AWS-Amplify | HockeyApp API | Git (Bitbucket)</p>
+                    <p>Android SDK (Kotlin) | React Native (JSX) | Electron | AWS-Amplify | HockeyApp API | Git (Bitbucket)</p>
 			    	
                 </VerticalTimelineElement>
 
