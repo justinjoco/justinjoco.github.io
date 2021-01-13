@@ -1,0 +1,43 @@
+.github-corner svg {
+    z-index: 1000;
+}
+
+.vertical-timeline-element-content {
+    color: black;
+    opacity: 1;
+}
+.vertical-timeline-element--work--head .vertical-timeline-element-content {
+    border-top: 3px solid #dc3545;
+    background-color: #dc3545;
+}
+.vertical-timeline-element--work .vertical-timeline-element-content {
+    border-top: 3px solid #dc3545;
+}
+
+.vertical-timeline-element--education .vertical-timeline-element-content {
+    border-top: 3px solid #292929;
+}
+
+.vertical-timeline-element--education--head .vertical-timeline-element-content {
+    border-top: 3px solid #292929;
+    background-color:#292929;
+}
+
+.vertical-timeline-element-date {
+  color: black;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1170px){
+
+
+    .vertical-timeline-element--work--head .vertical-timeline-element-date {
+        color: white;
+        opacity:1;
+    }
+    
+    .vertical-timeline-element--education--head .vertical-timeline-element-date {
+        color: white;
+        opacity:1;
+    }  
+}
