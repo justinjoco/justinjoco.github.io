@@ -30,14 +30,14 @@ const Skills = (props) => {
                 <FaCode size={"10vh"} color={"#ffffff"} />
                 <br/> <br/>
                 <h2>Programming</h2>
-                <p>Python, HTML/CSS/Javascript (JS), Typescript (TS), C/C++, Go (Golang), Kotlin, Java</p>
+                <p>Python, Go (Golang), HTML/CSS/Javascript (JS), Typescript (TS), C/C++,  Kotlin, Java</p>
               
                 </Col>
                 <Col>
                 <FaDatabase size={"10vh"} color={"#ffffff"}/>
                 <br/> <br/>
                 <h2>Tools/Technologies</h2>
-                <p>Git (Github, Bitbucket), Linux/Unix, Windows, Mac OSX</p><p>React.js, React Native, Electron, Jest, Node.js, AWS-Amplify, Android SDK </p> <p> Numpy, Jupyter Notebook, OpenCV, Keras Tensorflow, PyTorch, Pygame</p>
+                <p>Git (Github, Bitbucket), Docker, Linux/Unix, Windows, Mac OSX</p><p>React.js, React Native, Electron, Jest, Node.js, AWS-Amplify, Android SDK </p> <p> Numpy, Jupyter Notebook, OpenCV, Keras Tensorflow, PyTorch, Pygame</p>
                 
                 </Col>
                 <Col>

@@ -33,8 +33,7 @@ const Footer = (props) => {
         <p>Justin-Anthony Ampil Joco</p>
 	      <p>U.S. Citizen</p>
 	      <p>914-727-2032</p>
-	      <p>Gmail: justin.joco@gmail.com</p>
-	      <p>School: jaj263@cornell.edu</p>
+	      <p>Email: justin.joco@gmail.com</p>
 	      <ColoredLine color="white"/>
         <Row>
             <Col xs>
@@ -48,14 +47,6 @@ const Footer = (props) => {
                <FaGithubSquare size={"7vh"} color={githubColor}  onMouseEnter={() => setGithubColor("#696969")} onMouseLeave={() => setGithubColor("#e0e0e0")}/>
               </a>
             </Col>
-            <Col xs>
-            <a href="https://www.facebook.com/justin.anthony.joco" >
-               <FaFacebookSquare size={"7vh"} color={facebookColor} onMouseEnter={() => setFacebookColor("#696969")} onMouseLeave={() => setFacebookColor("#e0e0e0")}/>
-            </a>
-            </Col>
-
-
-
           </Row>
 
         <ColoredLine color="white"/>
