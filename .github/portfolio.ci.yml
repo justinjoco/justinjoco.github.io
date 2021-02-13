@@ -1,8 +1,8 @@
-name: Node.js CI
+name: Portfolio CI
+
 on:
   push:
-    branches:
-      - master
+    branches: [master]
 
 jobs:
   deploy:
@@ -12,4 +12,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: yarn
+      - run: yarn ci
+      - run: yarn install
+      - run: yarn deploy
