@@ -36,8 +36,8 @@ const Experiences= (props) => {
                     <h3 className="vertical-timeline-element-title">T-Mobile US, Inc.</h3>
                     <h5 className="vertical-timeline-element-subtitle">Software Engineer</h5>
                     <h6 className="vertical-timeline-element-subtitle">Bellevue, WA</h6>
-                    <p> Develop web client of a business-focused WebRTC messaging app and implement novel microservices of Visual Voicemail</p>
-                    <p> Typescript(TS) | Node.js | React.js |  Redux | Electron | Jest | Git (Bitbucket) | Docker | Go (Golang) | API Development </p>
+                    <p> Design and implement microservices consumed by multiple T-Mobile messaging apps, and developed web client of a WebRTC messaging app</p>
+                    <p> Docker | Go (Golang) | Python | API Development | Typescript(TS) | Node.js | React.js |  Redux | Electron | Jest | Git (Bitbucket)  </p>
 			    	
                 </VerticalTimelineElement>
 
