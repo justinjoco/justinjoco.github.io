@@ -1,13 +1,12 @@
-import React from "react";
-import {Navbar, Nav, NavItem, NavDropdown} from "react-bootstrap";
-import {Link} from "react-router-dom";
-import logo from './assets/my_logo_white.png';
+import React from 'react'
+import { Navbar, Nav, NavItem, NavDropdown } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+import logo from './assets/my_logo_white.png'
 
-
-const CustomNavbar = (props) =>{
-	const B = (props) => <span style={{fontWeight: 'bold'}}>{props.children}</span>
-	return (
-		<Navbar style={{backgroundColor: "#292929"}} expand="sm" sticky="top" variant="dark">
+const CustomNavbar = (props) => {
+  const B = (props) => <span style={{ fontWeight: 'bold' }}>{props.children}</span>
+  return (
+		<Navbar style={{ backgroundColor: '#292929' }} expand="sm" sticky="top" variant="dark">
 		  <Navbar.Brand href="#"><img src={logo} alt="Logo"/></Navbar.Brand>
 		  <Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse>
@@ -33,8 +32,7 @@ const CustomNavbar = (props) =>{
 			</Navbar.Collapse>
 		</Navbar>
 
-	);
-	
+  )
 }
 
-export default CustomNavbar;
+export default CustomNavbar

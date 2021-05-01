@@ -1,26 +1,24 @@
-import React from 'react';
-import { Container,} from "react-bootstrap";
-import { VerticalTimeline, VerticalTimelineElement}  from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import {FaGraduationCap, FaBriefcase} from "react-icons/fa";
+import React from 'react'
+import { Container } from 'react-bootstrap'
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
+import 'react-vertical-timeline-component/style.min.css'
+import { FaGraduationCap, FaBriefcase } from 'react-icons/fa'
 
-import './Experiences.css';
+import './Experiences.css'
 
+const Experiences = () => {
+  return (
 
-const Experiences= () => {
+        <Container fluid style={{ padding: '20px', backgroundColor: '#e0e0e0', color: '#000000' }}>
 
-    return (
+            <h1 className="display-3" style={{ textAlign: 'center' }}>Experience</h1>
+            <h5 style={{ textAlign: 'center' }}>My work experiences and education</h5>
 
-        <Container fluid style={{padding: "20px", backgroundColor: "#e0e0e0", color: "#000000"}}>
-
-            <h1 className="display-3" style={{textAlign:"center"}}>Experience</h1>
-            <h5 style={{textAlign:"center"}}>My work experiences and education</h5>
-           
-            <hr style={{color: "#292929", backgroundColor: "#292929", borderColor:"#292929"}}/>
+            <hr style={{ color: '#292929', backgroundColor: '#292929', borderColor: '#292929' }}/>
             <br/>
 
-            <h2 style={{textAlign:"center"}}>Professional Experience</h2>
-       
+            <h2 style={{ textAlign: 'center' }}>Professional Experience</h2>
+
             <VerticalTimeline>
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work--head"
@@ -62,9 +60,8 @@ const Experiences= () => {
                     <h6 className="vertical-timeline-element-subtitle">Bellevue, WA</h6>
                     <p>Built an MVC Android/iOS app and a desktop app end-to-end that integrate cloud storage APIs to streamline the internal releases of T-Mobile DIGITS' builds to QA</p>
                     <p>Android SDK (Kotlin) | React Native (JSX) | Electron | AWS-Amplify | HockeyApp API | Git (Bitbucket)</p>
-			    	
-                </VerticalTimelineElement>
 
+                </VerticalTimelineElement>
 
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -92,10 +89,9 @@ const Experiences= () => {
                 </VerticalTimelineElement>
                 </VerticalTimeline>
                 <br/>
-               
 
-                <h2 style={{textAlign:"center"}}>Education</h2>
-              
+                <h2 style={{ textAlign: 'center' }}>Education</h2>
+
                 <VerticalTimeline>
                 <VerticalTimelineElement
                 className="vertical-timeline-element--education--head"
@@ -105,7 +101,7 @@ const Experiences= () => {
                 iconStyle={{ background: '#292929', color: '#ffffff' }}
                 icon={<FaGraduationCap/>}
                 >
-                   
+
                    <h3 className="vertical-timeline-element-title">Cornell University</h3>
                     <h5 className="vertical-timeline-element-subtitle">Master of Engineering in Electrical and Computer Engineering</h5>
                     <h6 className="vertical-timeline-element-subtitle">Ithaca, NY</h6>
@@ -118,7 +114,7 @@ const Experiences= () => {
                 iconStyle={{ background: '#292929', color: '#ffffff' }}
                 icon={<FaGraduationCap/>}
                 >
-                   
+
                    <h3 className="vertical-timeline-element-title">Purdue University</h3>
                     <h5 className="vertical-timeline-element-subtitle">Bachelor of Science in Electrical Engineering</h5>
                     <h6 className="vertical-timeline-element-subtitle">West Lafayette, IN</h6>
@@ -135,15 +131,12 @@ const Experiences= () => {
                     <h5 className="vertical-timeline-element-subtitle">Attended, Transferred Out</h5>
                     <h6 className="vertical-timeline-element-subtitle">Stony Brook, NY</h6>
                     <p>Organization(s): Philippine United Student Organization</p>
-               
+
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </Container>
-       
-    );
-  
+
+  )
 }
 
-export default Experiences;
-
-
+export default Experiences
