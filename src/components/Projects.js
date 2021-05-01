@@ -9,25 +9,17 @@ import us_pollution from "./assets/us_pollution.png";
 import vocoder from "./assets/vocoder.png";
 import air_canvas from "./assets/air_canvas.jpg";
 
-import wsn_android from "./assets/wsn_android.jpg";
-import space_invaders from "./assets/space_invaders.png";
-import wear_weather from "./assets/wear_weather.png";
-
-
-import wsn_video from "./assets/wsn.mp4";
-import space_invaders_video from "./assets/space_invaders.m4v";
+import python_logo from "./assets/Python_logo_icon.png";
 
 import paxos from "./assets/paxos-map.jpg";
 import cops from "./assets/cops-map.png";
 
-const Projects = (props) => {
+const Projects = () => {
 
 
 
     const B = (props) => <span style={{fontWeight: 'bold'}}>{props.children}</span>
     const I = (props) => <span style={{fontStyle: 'italic'}}>{props.children}</span>
-	const [wsnShow, setWsnShow] = useState(false);
-	const [spaceInvadersShow, setSpaceInvadersShow] = useState(false);
 
     return (
 
@@ -51,6 +43,29 @@ const Projects = (props) => {
 				<Col><a href="https://github.com/justinjoco/acoustic_MIMO"><Button variant="light" style={{margin: "5px"}}>Code</Button></a></Col>
 			</Row>
 			<br/>
+
+			<h3>Tutorials</h3>
+				<CardDeck style={{justifyContent:"center"}}>
+
+				<Card className="bg-light text-dark"  style={{maxWidth:500}}>
+					<Card.Header><B>Python Tutorial</B></Card.Header>
+					<Card.Img variant="top" src={python_logo} />
+					<Card.Body>
+					<Card.Title>Tutorial that teaches the basics of Python3</Card.Title>
+					<Card.Text>
+					This tutorial is intended for those who have had at least some experience coding in other languages. The goal is for readers to understand how to read and write basic to non-trival programs in Python.
+					</Card.Text>
+					<a href="https://justinjoco.github.io/python-tutorial/"> <Button variant="danger" style={{margin: "5px"}}>Link</Button></a>
+					<a href="https://github.com/justinjoco/python-tutorial"> <Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
+					</Card.Body>
+					<Card.Footer>
+					Python, MkDocs
+					</Card.Footer>
+				</Card>
+				</CardDeck>
+					
+				<br/>
+
 			<h3>Distributed Systems</h3>
 					<CardDeck style={{justifyContent:"center"}}>
 
@@ -197,124 +212,6 @@ I also added configurable brush size and color, and enabled histogram re-calibra
 
 	<br/>
 
-	<h3>Native Applications</h3>
-	<CardDeck>
-
-	  <Card className="bg-light text-dark">
-	  	<Card.Header><B>Wildfire Sensor Network</B></Card.Header>
-	    <Card.Img variant="top" src={wsn_android} />
-	    <Card.Body>
-	      <Card.Title>Sensor network that warned people of local wildfire locations</Card.Title>
-	       <Card.Subtitle className="mb-2"><I>Awarded 3rd at Cornell’s Natural Disaster Preparedness Hackathon 2018</I></Card.Subtitle>
-
-	      <Card.Text>
-	       I created the Android app module of this project that takes in JSON sensor data from teammate's Raspberry Pi server to plot hotspots of surrounding area
-	      </Card.Text>
-	     <Button variant="danger" style={{margin: "5px"}} onClick={() => setWsnShow(true)}>Demo</Button>
-
-			<Modal size="lg" show={wsnShow} onHide={() => setWsnShow(false)} aria-labelledby="example-modal-sizes-title-sm">
-				<Modal.Header closeButton>
-					<Modal.Title>
-					Wildfire Sensor Network
-					</Modal.Title>
-				</Modal.Header>
-				<Modal.Body><div
-		      className="video"
-		      style={{
-		        position: "relative",
-		        paddingBottom: "56.25%" /* 16:9 */,
-		        paddingTop: 25,
-		        height: 0
-		      }}
-		    >
-		      <iframe
-		        style={{
-		          position: "absolute",
-		          top: 0,
-		          left: 0,
-		          width: "100%",
-		          height: "100%"
-		        }}
-		        src={wsn_video}
-		        frameBorder="0"
-		      />
-	    </div></Modal.Body>
-			</Modal>
-
-		   <a href="https://github.com/justinjoco/wildfire-sensor-net"> <Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
-	    </Card.Body>
-	    <Card.Footer>
-	      Java, Google Maps SDK for Android
-	    </Card.Footer>
-	  </Card>
-	  <Card className="bg-light text-dark">
-	  <Card.Header><B>Space Invaders</B></Card.Header>
-	    <Card.Img variant="top" src={space_invaders} />
-	    <Card.Body>
-	      <Card.Title>Simple Space Invaders game with sounds and command-line difficulty settings </Card.Title>
-	 
-	      <Card.Text>
-	       The player can move left or right, barriers can be destroyed by either player or aliens, and alien speed and numbers are configurable. Game ends when the player destroys all aliens or aliens reach the ground. This involved threading, basic graphics, and game object manipulation. Sound effects and music are included.
-	      </Card.Text>
-	      	<Button variant="danger" style={{margin: "5px"}} onClick={() => setSpaceInvadersShow(true)}>Demo</Button>
-
-			<Modal size="lg" show={spaceInvadersShow} onHide={() => setSpaceInvadersShow(false)} aria-labelledby="example-modal-sizes-title-sm">
-				<Modal.Header closeButton>
-					<Modal.Title>
-					Space Invaders
-					</Modal.Title>
-				</Modal.Header>
-				<Modal.Body> 
-			<div
-		      className="video"
-		      style={{
-		        position: "relative",
-		        paddingBottom: "56.25%" /* 16:9 */,
-		        paddingTop: 25,
-		        height: 0
-		      }}
-		    >
-		      <iframe
-		        style={{
-		          position: "absolute",
-		          top: 0,
-		          left: 0,
-		          width: "100%",
-		          height: "100%"
-		        }}
-		        src={space_invaders_video}
-		        frameBorder="0"
-		      />
-	    </div>
-
-    </Modal.Body>
-			</Modal>
-
-		   <a href="https://github.com/justinjoco/SpaceInvaders2"> <Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
-	    </Card.Body>
-
-	    <Card.Footer>
-	      Java
-	    </Card.Footer>
-	  </Card>
-	  <Card className="bg-light text-dark">
-	  <Card.Header><B>Wear Weather</B></Card.Header>
-	    <Card.Img variant="top" src={wear_weather} />
-	    <Card.Body>
-	      <Card.Title>App that suggests what clothing to wear based on the current and future weather</Card.Title>
-	     
-	      <Card.Text>
-	       I added extra UI features such converting temperatures and mapping weather descriptions to specific icons. This was created based on weather data from the OpenWeatherMap API.
-	      </Card.Text>
-	      	<a href="https://devpost.com/software/wear-weather"><Button variant="danger" style={{margin: "5px"}}>Devpost</Button></a>
-		   <a href="https://github.com/kartikmittal33/WearWeather"> <Button variant="secondary" style={{margin: "5px"}}>Code</Button></a>
-	    </Card.Body>
-	    <Card.Footer>
-	     Java, OpenWeatherMap API
-	    </Card.Footer>
-	  </Card>
-	</CardDeck>
-		
 
             
         </Container>

@@ -1,6 +1,5 @@
 import React from 'react';
-import {Link} from "react-router-dom";
-import {Jumbotron, Container, Row, Col, Image, Button} from "react-bootstrap";
+import { Container,} from "react-bootstrap";
 import { VerticalTimeline, VerticalTimelineElement}  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import {FaGraduationCap, FaBriefcase} from "react-icons/fa";
@@ -8,10 +7,8 @@ import {FaGraduationCap, FaBriefcase} from "react-icons/fa";
 import './Experiences.css';
 
 
-const Experiences= (props) => {
+const Experiences= () => {
 
-  	const B = (props) => <span style={{fontWeight: 'bold'}}>{props.children}</span>
-    const I = (props) => <span style={{fontStyle: 'italic'}}>{props.children}</span>
     return (
 
         <Container fluid style={{padding: "20px", backgroundColor: "#e0e0e0", color: "#000000"}}>
@@ -36,9 +33,9 @@ const Experiences= (props) => {
                     <h3 className="vertical-timeline-element-title">T-Mobile US, Inc.</h3>
                     <h5 className="vertical-timeline-element-subtitle">Software Engineer</h5>
                     <h6 className="vertical-timeline-element-subtitle">Bellevue, WA</h6>
-                    <p> Design and implement microservices consumed by multiple T-Mobile messaging apps and web services; develop mobile/web clients of messaging apps</p>
-                    <p> Go (Golang) | Python | Docker | API Development | Typescript(TS) | React.js | Kotlin for Android | Git (Bitbucket)  </p>
-			    	
+                    <p> Integrate mobile/web clients of messaging apps with backend services</p>
+                    <p> Design and implement microservices consumed by T-Mobile messaging apps</p>
+                    <p> Kotlin for Android | Go (Golang) | Python | Docker | API Development | Typescript(TS) | React.js |  Git (Bitbucket)  </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
