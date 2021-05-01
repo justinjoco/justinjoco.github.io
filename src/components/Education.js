@@ -1,13 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { Container, Row, Col, Image, Button } from 'react-bootstrap'
+import { Container, Row, Col, Image } from 'react-bootstrap'
 import cornell_logo from './assets/cornell_logo.png'
 import purdue_logo from './assets/purdue_logo.png'
 import stony_logo from './assets/stony_logo.jpg'
 
-const Education = (props) => {
-  	const B = (props) => <span style={{ fontWeight: 'bold' }}>{props.children}</span>
-  const I = (props) => <span style={{ fontStyle: 'italic' }}>{props.children}</span>
+const Education = () => {
   return (
 
         <Container fluid style={{ textAlign: 'center', padding: '20px' }}>

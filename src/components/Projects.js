@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-import { Jumbotron, Container, Row, Col, Image, Button, Card, CardDeck, Modal } from 'react-bootstrap'
+import React from 'react'
+import { Container, Row, Col, Button, Card, CardDeck } from 'react-bootstrap'
 
 import energy_weather from './assets/energy_weather.png'
 import take_me from './assets/take_me.png'
