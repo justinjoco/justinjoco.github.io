@@ -1,39 +1,35 @@
 {
   "files": {
     "main.css": "/static/css/main.286ca6d3.chunk.css",
-    "main.js": "/static/js/main.5b60d6d0.chunk.js",
-    "main.js.map": "/static/js/main.5b60d6d0.chunk.js.map",
+    "main.js": "/static/js/main.22965746.chunk.js",
+    "main.js.map": "/static/js/main.22965746.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f9335059.js",
     "runtime-main.js.map": "/static/js/runtime-main.f9335059.js.map",
     "static/css/2.8242508b.chunk.css": "/static/css/2.8242508b.chunk.css",
-    "static/js/2.634e8863.chunk.js": "/static/js/2.634e8863.chunk.js",
-    "static/js/2.634e8863.chunk.js.map": "/static/js/2.634e8863.chunk.js.map",
+    "static/js/2.15cae84d.chunk.js": "/static/js/2.15cae84d.chunk.js",
+    "static/js/2.15cae84d.chunk.js.map": "/static/js/2.15cae84d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3bd78314d15751bb8ffb19f064eb15c2.js": "/precache-manifest.3bd78314d15751bb8ffb19f064eb15c2.js",
+    "precache-manifest.fb25ac3e7c947c96e4301fc793bdde80.js": "/precache-manifest.fb25ac3e7c947c96e4301fc793bdde80.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8242508b.chunk.css.map": "/static/css/2.8242508b.chunk.css.map",
     "static/css/main.286ca6d3.chunk.css.map": "/static/css/main.286ca6d3.chunk.css.map",
-    "static/js/2.634e8863.chunk.js.LICENSE.txt": "/static/js/2.634e8863.chunk.js.LICENSE.txt",
+    "static/js/2.15cae84d.chunk.js.LICENSE.txt": "/static/js/2.15cae84d.chunk.js.LICENSE.txt",
+    "static/media/Python_logo_icon.png": "/static/media/Python_logo_icon.10327dc6.png",
     "static/media/air_canvas.jpg": "/static/media/air_canvas.9b55f78b.jpg",
     "static/media/background_mac.jpg": "/static/media/background_mac.43637dc3.jpg",
     "static/media/cops-map.png": "/static/media/cops-map.fd4a008d.png",
     "static/media/energy_weather.png": "/static/media/energy_weather.9f3fc79c.png",
     "static/media/paxos-map.jpg": "/static/media/paxos-map.69450104.jpg",
     "static/media/profile_pic.jpg": "/static/media/profile_pic.b4cc8705.jpg",
-    "static/media/space_invaders.png": "/static/media/space_invaders.6becd25a.png",
-    "static/media/space_invaders.m4v": "/static/media/space_invaders.9d476cc6.m4v",
     "static/media/take_me.png": "/static/media/take_me.2f902c77.png",
     "static/media/us_pollution.png": "/static/media/us_pollution.8515f7cb.png",
-    "static/media/vocoder.png": "/static/media/vocoder.e244d6c3.png",
-    "static/media/wear_weather.png": "/static/media/wear_weather.8af7f535.png",
-    "static/media/wsn.mp4": "/static/media/wsn.a3b43716.mp4",
-    "static/media/wsn_android.jpg": "/static/media/wsn_android.897d7a8e.jpg"
+    "static/media/vocoder.png": "/static/media/vocoder.e244d6c3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f9335059.js",
     "static/css/2.8242508b.chunk.css",
-    "static/js/2.634e8863.chunk.js",
+    "static/js/2.15cae84d.chunk.js",
     "static/css/main.286ca6d3.chunk.css",
-    "static/js/main.5b60d6d0.chunk.js"
+    "static/js/main.22965746.chunk.js"
   ]
 }
