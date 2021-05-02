@@ -9,6 +9,7 @@ import vocoder from './assets/vocoder.png'
 import air_canvas from './assets/air_canvas.jpg'
 
 import python_logo from './assets/Python_logo_icon.png'
+import go_logo from './assets/go-logo.svg'
 
 import paxos from './assets/paxos-map.jpg'
 import cops from './assets/cops-map.png'
@@ -47,10 +48,26 @@ const Projects = () => {
 					<Card.Body>
 					<Card.Title>Tutorial that teaches the basics of Python3</Card.Title>
 					<Card.Text>
-					This tutorial is intended for those who have had at least some experience coding in other languages. The goal is for readers to understand how to read and write basic to non-trival programs in Python.
+					The goal is for readers to understand how to read and write basic to non-trival programs in Python. This covers introductory to intermediate Python concepts, from basic syntax to object-oriented programming and other Python utilities.
 					</Card.Text>
 					<a href="https://justinjoco.github.io/python-tutorial/"> <Button variant="danger" style={{ margin: '5px' }}>Link</Button></a>
 					<a href="https://github.com/justinjoco/python-tutorial"> <Button variant="secondary" style={{ margin: '5px' }}>Code</Button></a>
+					</Card.Body>
+					<Card.Footer>
+					Python, MkDocs
+					</Card.Footer>
+				</Card>
+
+				<Card className="bg-light text-dark" style={{ maxWidth: 500 }}>
+					<Card.Header><B>Go Tutorial</B></Card.Header>
+					<Card.Img variant="top" src={go_logo} />
+					<Card.Body>
+					<Card.Title>(Work in Progress) Tutorial that teaches the basics of Golang</Card.Title>
+					<Card.Text>
+					Through this tutorial, developers should be able to read and write basic Go syntax and leverage some of Go’s struct features to write non-trivial programs. This tutorial will also go over concurrency as an advanced topic.
+					</Card.Text>
+					<a href="https://justinjoco.github.io/go-tutorial/"> <Button variant="danger" style={{ margin: '5px' }}>Link</Button></a>
+					<a href="https://github.com/justinjoco/go-tutorial"> <Button variant="secondary" style={{ margin: '5px' }}>Code</Button></a>
 					</Card.Body>
 					<Card.Footer>
 					Python, MkDocs
