@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60497c43bd4ff6174677f2b8318495ec",
+    "revision": "685494dd543972699bf263e642b9720e",
     "url": "/index.html"
   },
   {
-    "revision": "2cf90fa27fe45270e04b",
+    "revision": "baad78b11bd90f596b57",
     "url": "/static/css/2.a641e29a.chunk.css"
   },
   {
-    "revision": "3d08ca720bcafbf019ca",
+    "revision": "b3f9e29172d5e6232c9d",
     "url": "/static/css/main.501b44f7.chunk.css"
   },
   {
-    "revision": "2cf90fa27fe45270e04b",
-    "url": "/static/js/2.cd164a4b.chunk.js"
+    "revision": "baad78b11bd90f596b57",
+    "url": "/static/js/2.c1b98290.chunk.js"
   },
   {
     "revision": "c87e50d81cc7b5311525cc6fd5482ea5",
-    "url": "/static/js/2.cd164a4b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c1b98290.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3d08ca720bcafbf019ca",
-    "url": "/static/js/main.823787f4.chunk.js"
+    "revision": "b3f9e29172d5e6232c9d",
+    "url": "/static/js/main.bd617091.chunk.js"
   },
   {
     "revision": "e781ca582342db193e91",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9f3fc79c88b8683310312a8738a9711c",
     "url": "/static/media/energy_weather.9f3fc79c.png"
+  },
+  {
+    "revision": "b9c6dd84c2022e87c61587e69fe0c5e5",
+    "url": "/static/media/go-logo.b9c6dd84.svg"
   },
   {
     "revision": "69450104ac3559120aa061e727faa90a",

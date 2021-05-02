@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.501b44f7.chunk.css",
-    "main.js": "/static/js/main.823787f4.chunk.js",
-    "main.js.map": "/static/js/main.823787f4.chunk.js.map",
+    "main.js": "/static/js/main.bd617091.chunk.js",
+    "main.js.map": "/static/js/main.bd617091.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f9335059.js",
     "runtime-main.js.map": "/static/js/runtime-main.f9335059.js.map",
     "static/css/2.a641e29a.chunk.css": "/static/css/2.a641e29a.chunk.css",
-    "static/js/2.cd164a4b.chunk.js": "/static/js/2.cd164a4b.chunk.js",
-    "static/js/2.cd164a4b.chunk.js.map": "/static/js/2.cd164a4b.chunk.js.map",
+    "static/js/2.c1b98290.chunk.js": "/static/js/2.c1b98290.chunk.js",
+    "static/js/2.c1b98290.chunk.js.map": "/static/js/2.c1b98290.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8cb39e4b0bf7c164f6a7678ecfd63380.js": "/precache-manifest.8cb39e4b0bf7c164f6a7678ecfd63380.js",
+    "precache-manifest.9fdf0d263bf3da8086ccde29621a8cf0.js": "/precache-manifest.9fdf0d263bf3da8086ccde29621a8cf0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a641e29a.chunk.css.map": "/static/css/2.a641e29a.chunk.css.map",
     "static/css/main.501b44f7.chunk.css.map": "/static/css/main.501b44f7.chunk.css.map",
-    "static/js/2.cd164a4b.chunk.js.LICENSE.txt": "/static/js/2.cd164a4b.chunk.js.LICENSE.txt",
+    "static/js/2.c1b98290.chunk.js.LICENSE.txt": "/static/js/2.c1b98290.chunk.js.LICENSE.txt",
     "static/media/Python_logo_icon.png": "/static/media/Python_logo_icon.10327dc6.png",
     "static/media/air_canvas.jpg": "/static/media/air_canvas.9b55f78b.jpg",
     "static/media/background_mac.jpg": "/static/media/background_mac.43637dc3.jpg",
     "static/media/cops-map.png": "/static/media/cops-map.fd4a008d.png",
     "static/media/energy_weather.png": "/static/media/energy_weather.9f3fc79c.png",
+    "static/media/go-logo.svg": "/static/media/go-logo.b9c6dd84.svg",
     "static/media/paxos-map.jpg": "/static/media/paxos-map.69450104.jpg",
     "static/media/profile_pic.jpg": "/static/media/profile_pic.b4cc8705.jpg",
     "static/media/take_me.png": "/static/media/take_me.2f902c77.png",
@@ -28,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.f9335059.js",
     "static/css/2.a641e29a.chunk.css",
-    "static/js/2.cd164a4b.chunk.js",
+    "static/js/2.c1b98290.chunk.js",
     "static/css/main.501b44f7.chunk.css",
-    "static/js/main.823787f4.chunk.js"
+    "static/js/main.bd617091.chunk.js"
   ]
 }
