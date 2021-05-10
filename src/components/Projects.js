@@ -62,7 +62,7 @@ const Projects = () => {
 					<Card.Header><B>Go Tutorial</B></Card.Header>
 					<Card.Img variant="top" src={go_logo} />
 					<Card.Body>
-					<Card.Title>(Work in Progress) Tutorial that teaches the basics of Golang</Card.Title>
+					<Card.Title>Tutorial that teaches the basics of Golang</Card.Title>
 					<Card.Text>
 					Through this tutorial, developers should be able to read and write basic Go syntax and leverage some of Go’s struct features to write non-trivial programs. This tutorial will also go over concurrency as an advanced topic.
 					</Card.Text>
@@ -70,7 +70,7 @@ const Projects = () => {
 					<a href="https://github.com/justinjoco/go-tutorial"> <Button variant="secondary" style={{ margin: '5px' }}>Code</Button></a>
 					</Card.Body>
 					<Card.Footer>
-					Python, MkDocs
+					Go, MkDocs
 					</Card.Footer>
 				</Card>
 				</CardDeck>
