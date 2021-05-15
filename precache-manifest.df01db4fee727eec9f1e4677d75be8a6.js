@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "23304b7e303b026b83ca61b1751d1311",
+    "revision": "6aa9d200f09c35bf81b49438fadc4d08",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.a641e29a.chunk.css"
   },
   {
-    "revision": "04c6490405699f4fc27f",
+    "revision": "176f551b2894da456a59",
     "url": "/static/css/main.501b44f7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.c1b98290.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "04c6490405699f4fc27f",
-    "url": "/static/js/main.7b7cdd7e.chunk.js"
+    "revision": "176f551b2894da456a59",
+    "url": "/static/js/main.2ce8e9f0.chunk.js"
   },
   {
     "revision": "e781ca582342db193e91",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/go-logo.b9c6dd84.svg"
   },
   {
+    "revision": "decd794104cb292271646381f6ed5395",
+    "url": "/static/media/maze.decd7941.jpeg"
+  },
+  {
     "revision": "69450104ac3559120aa061e727faa90a",
     "url": "/static/media/paxos-map.69450104.jpg"
   },
@@ -62,10 +66,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2f902c7751410f87dae889bbfc94be0c",
     "url": "/static/media/take_me.2f902c77.png"
-  },
-  {
-    "revision": "8515f7cb732c1877fd7214794409d0c2",
-    "url": "/static/media/us_pollution.8515f7cb.png"
   },
   {
     "revision": "e244d6c3272544104c0bf0669a230af2",
