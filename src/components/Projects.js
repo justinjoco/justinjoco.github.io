@@ -70,7 +70,7 @@ const Projects = () => {
 		      	<a href="https://github.com/justinjoco/rt-pathfinding"><Button variant="secondary" style={{ margin: '5px' }}>Code</Button></a>
 			    </Card.Body>
 			    <Card.Footer>
-			    HTML/CSS/JavaScript, D3.js
+			    Typescript, React-Typescript
 			    </Card.Footer>
 			  </Card>
 
