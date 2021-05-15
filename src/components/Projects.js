@@ -62,7 +62,7 @@ const Projects = () => {
 			  <Card.Header><B>Real-Time Pathfinding</B></Card.Header>
 			    <Card.Img variant="top" src={maze}/>
 			    <Card.Body>
-			      <Card.Title>Web application that shows an avatar conducting its pathfinding in real-time</Card.Title>
+			      <Card.Title>(Work in Progress) Web application that shows an avatar conducting its pathfinding in real-time</Card.Title>
 			    <Card.Text> TBD
 	  	      </Card.Text>
 
