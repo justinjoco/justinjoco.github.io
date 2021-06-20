@@ -31,9 +31,8 @@ const Experiences = () => {
                     <h3 className="vertical-timeline-element-title">T-Mobile US, Inc.</h3>
                     <h5 className="vertical-timeline-element-subtitle">Software Engineer</h5>
                     <h6 className="vertical-timeline-element-subtitle">Bellevue, WA</h6>
-                    <p> Integrate mobile/web clients of messaging apps with backend services</p>
-                    <p> Design and implement microservices consumed by T-Mobile messaging apps</p>
-                    <p> Kotlin for Android | Go (Golang) | Python | Docker | API Development | Typescript(TS) | React.js |  Git (Bitbucket)  </p>
+                    <p> Design and implement T-Mobile Visual Voicemail's new Android client and its novel backend services</p>
+                    <p> Kotlin for Android | Go (Golang) | Python | Docker | API Development | Unit and Integration Testing | Git (Bitbucket)  </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
