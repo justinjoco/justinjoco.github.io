@@ -21,12 +21,12 @@ const Projects = () => {
 
   return (
 
-        <Container fluid style={{ textAlign: 'center', backgroundColor: '#dc3545', padding: '20px' }}>
+        <Container fluid style={{ textAlign: 'center', padding: '20px' }}>
 
             <h1 className="display-3">Project Showcase</h1>
 			<h5 style={{ textAlign: 'center' }}>My academic, personal, and hackathon projects</h5>
 
-			<hr style={{ color: '#ffffff', backgroundColor: '#696969', borderColor: '#ffffff' }}/>
+			<hr style={{ color: '#fff', backgroundColor: '#696969', borderColor: '#fff' }}/>
             <br/>
 
             <h2><B>MEng Design Project</B>: Acoustic Localization and Tracking via Machine Learning</h2>
@@ -42,7 +42,7 @@ const Projects = () => {
 			<h3>Web Applications</h3>
             <CardDeck>
 
-			  <Card className="bg-light text-dark">
+			  <Card className="bg-light text-dark border-dark">
 			  	<Card.Header><B>Weather and Energy Generation in the USA</B></Card.Header>
 			    <Card.Img variant="top" src={energy_weather} />
 			    <Card.Body>
@@ -58,7 +58,7 @@ const Projects = () => {
 			    </Card.Footer>
 			  </Card>
 
-			  <Card className="bg-light text-dark">
+			  <Card className="bg-light text-dark border-dark">
 			  <Card.Header><B>Real-Time Pathfinding</B></Card.Header>
 			    <Card.Img variant="top" src={maze}/>
 			    <Card.Body>
@@ -75,7 +75,7 @@ const Projects = () => {
 			  </Card>
 
 
-			  <Card className="bg-light text-dark">
+			  <Card className="bg-light text-dark border-dark">
 			  <Card.Header><B>Take Me to the Streets</B></Card.Header>
 			    <Card.Img variant="top" src={take_me} />
 			    <Card.Body>
@@ -98,7 +98,7 @@ const Projects = () => {
 			<h3>Tutorials</h3>
 				<CardDeck style={{ justifyContent: 'center' }}>
 
-				<Card className="bg-light text-dark" style={{ maxWidth: 500 }}>
+				<Card className="bg-light text-dark border-dark" style={{ maxWidth: 500 }}>
 					<Card.Header><B>Python Tutorial</B></Card.Header>
 					<Card.Img variant="top" src={python_logo} />
 					<Card.Body>
@@ -114,7 +114,7 @@ const Projects = () => {
 					</Card.Footer>
 				</Card>
 
-				<Card className="bg-light text-dark" style={{ maxWidth: 500 }}>
+				<Card className="bg-light text-dark border-dark" style={{ maxWidth: 500 }}>
 					<Card.Header><B>Go Tutorial</B></Card.Header>
 					<Card.Img variant="top" src={go_logo} />
 					<Card.Body>
@@ -136,7 +136,7 @@ const Projects = () => {
 			<h3>Distributed Systems</h3>
 					<CardDeck style={{ justifyContent: 'center' }}>
 
-					  <Card className="bg-light text-dark" style={{ maxWidth: 500 }}>
+					  <Card className="bg-light text-dark border-dark" style={{ maxWidth: 500 }}>
 					  	<Card.Header><B>COPS for Distributed Key Value Storage</B></Card.Header>
 					    <Card.Img variant="top" src={cops} />
 					    <Card.Body>
@@ -154,7 +154,7 @@ const Projects = () => {
 					    </Card.Footer>
 					  </Card>
 
-					  <Card className="bg-light text-dark" style={{ maxWidth: 500 }}>
+					  <Card className="bg-light text-dark border-dark" style={{ maxWidth: 500 }}>
 					  <Card.Header><B>Paxos Consensus for Message Ordering</B></Card.Header>
 					    <Card.Img variant="top" src={paxos} />
 					    <Card.Body>
@@ -184,7 +184,7 @@ const Projects = () => {
 		<h3>Embedded/Firmware</h3>
 		<CardDeck style={{ justifyContent: 'center' }}>
 
-		  <Card className="bg-light text-dark" style={{ maxWidth: 500 }}>
+		  <Card className="bg-light text-dark border-dark" style={{ maxWidth: 500 }}>
 		  	<Card.Header><B>FPGA Speech Vocoder</B></Card.Header>
 		    <Card.Img variant="top" src={vocoder} />
 		    <Card.Body>
@@ -201,7 +201,7 @@ const Projects = () => {
 		    </Card.Footer>
 		  </Card>
 
-		  <Card className="bg-light text-dark" style={{ maxWidth: 500 }}>
+		  <Card className="bg-light text-dark border-dark" style={{ maxWidth: 500 }}>
 		  <Card.Header><B>Air Canvas on Raspberry Pi</B></Card.Header>
 		    <Card.Img variant="top" src={air_canvas} />
 		    <Card.Body>

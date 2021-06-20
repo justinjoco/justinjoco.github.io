@@ -15,16 +15,16 @@
 }
 
 .vertical-timeline-element--education .vertical-timeline-element-content {
-    border-top: 3px solid #292929;
+    border-top: 3px solid #6c757d;
 }
 
 .vertical-timeline-element--education--head .vertical-timeline-element-content {
-    border-top: 3px solid #292929;
-    background-color:#292929;
+    border-top: 3px solid #6c757d;
+    background-color:#6c757d;
 }
 
 .vertical-timeline-element-date {
-  color: black;
+  color: white;
   opacity: 1;
 }
 

@@ -9,12 +9,12 @@ import './Experiences.css'
 const Experiences = () => {
   return (
 
-        <Container fluid style={{ padding: '20px', backgroundColor: '#e0e0e0', color: '#000000' }}>
+        <Container fluid style={{ padding: '20px' }}>
 
             <h1 className="display-3" style={{ textAlign: 'center' }}>Experience</h1>
             <h5 style={{ textAlign: 'center' }}>My work experiences and education</h5>
 
-            <hr style={{ color: '#292929', backgroundColor: '#292929', borderColor: '#292929' }}/>
+            <hr style={{ color: '#ffffff', backgroundColor: '#ffffff', borderColor: '#ffffff' }}/>
             <br/>
 
             <h2 style={{ textAlign: 'center' }}>Professional Experience</h2>
@@ -97,7 +97,7 @@ const Experiences = () => {
                 date="Aug 2018 - Dec 2019"
                 contentStyle={{ color: '#ffffff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #292929' }}
-                iconStyle={{ background: '#292929', color: '#ffffff' }}
+                iconStyle={{ background: '#6c757d', color: '#ffffff' }}
                 icon={<FaGraduationCap/>}
                 >
 
@@ -110,7 +110,7 @@ const Experiences = () => {
                 <VerticalTimelineElement
                 className="vertical-timeline-element--education"
                 date="Aug 2015 - May 2018"
-                iconStyle={{ background: '#292929', color: '#ffffff' }}
+                iconStyle={{ background: '#6c757d', color: '#ffffff' }}
                 icon={<FaGraduationCap/>}
                 >
 
@@ -123,7 +123,7 @@ const Experiences = () => {
                 <VerticalTimelineElement
                 className="vertical-timeline-element--education"
                 date="Aug 2014 - May 2015"
-                iconStyle={{ background: '#292929', color: '#ffffff' }}
+                iconStyle={{ background: '#6c757d', color: '#ffffff' }}
                 icon={<FaGraduationCap/>}
                 >
                     <h3 className="vertical-timeline-element-title">Stony Brook University</h3>
