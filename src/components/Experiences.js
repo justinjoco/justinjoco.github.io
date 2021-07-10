@@ -31,7 +31,7 @@ const Experiences = () => {
                     <h3 className="vertical-timeline-element-title">T-Mobile US, Inc.</h3>
                     <h5 className="vertical-timeline-element-subtitle">Software Engineer</h5>
                     <h6 className="vertical-timeline-element-subtitle">Bellevue, WA</h6>
-                    <p> Design, implement, and deploy T-Mobile Visual Voicemail's (VVM) new back-end services across multiple clusters to handle ~20 million active users, devising and improving the core logic for voicemails and greetings</p>
+                    <p> Design, implement, and deploy T-Mobile Visual Voicemail's (VVM) new back-end services across multiple clusters to handle ~25 million active users and 600 average TPS, devising and improving the core logic for voicemails and greetings</p>
                     <p> Develop the new VVM Android client, handling API integration and implementing features such as push notifications, accessibility, metrics reporting, and app activation</p>
                     <p> Kotlin for Android | Go (Golang) | Python | Docker | API Development | Unit and Integration Testing | Git (Bitbucket)  </p>
                 </VerticalTimelineElement>
