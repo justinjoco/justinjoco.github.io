@@ -31,9 +31,10 @@ const Experiences = () => {
                     <h3 className="vertical-timeline-element-title">T-Mobile US, Inc.</h3>
                     <h5 className="vertical-timeline-element-subtitle">Software Engineer</h5>
                     <h6 className="vertical-timeline-element-subtitle">Bellevue, WA</h6>
-                    <p> Lead the design, implementation, deployment, and monitoring of T-Mobile Visual Voicemail's (VVM) new back-end services across multiple clusters to handle ~25 million active users and 600 average TPS, devising and improving the core logic for audio transcoding</p>
+                    <p>  Lead the development, deployment, and monitoring of T-Mobile Visual Voicemail's (VVM) new back-end services across multiple clusters to handle ~25 million active users and 600 average TPS, implementing audio transcoding and enforcing >90% API handler code coverage via unit and integration tests </p>
                     <p> Develop the new VVM Android client, handling API integration and implementing features such as push notifications, accessibility, metrics reporting, and app activation</p>
-                    <p> Kotlin for Android | Go (Golang) | Python | Docker | API Development | Unit and Integration Testing | Git (Bitbucket)  </p>
+                    <p> Developed new Consumer Digits desktop client, improving group call functionality and user experience </p>
+                    <p> Kotlin for Android | Go (Golang) | Python | Docker | API Development | Unit and Integration Testing | Git (Bitbucket) | Typescript | React | Electron | Redux </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
