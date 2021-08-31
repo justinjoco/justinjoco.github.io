@@ -144,7 +144,7 @@ const Projects = () => {
 
 					      <Card.Title>A sharded, replicated key-value store that guarantees ALPS and causal+ consistency</Card.Title>
 
-					      <Card.Text> This data store maintains the properties of available, low latency, partition tolerant, and scalable (ALPS) datastores whilst maintaining causal consistency with convergent conflict handling (causal+) by tracking causal dependencies.</Card.Text>
+					      <Card.Text> I implemented this data store as an in-memory database. This maintains the properties of available, low latency, partition tolerant, and scalable (ALPS) datastores whilst maintaining causal consistency with convergent conflict handling (causal+) by tracking causal dependencies.</Card.Text>
 						  <Card.Text>In this asynchronous setting, keys are sharded amongst partitions in a particular cluster, and every key-value pair is replicated across all clusters.
 						  </Card.Text>
 					      <a href="https://github.com/justinjoco/COPS"><Button variant="secondary" style={{ margin: '5px' }}>Code</Button></a>

@@ -31,7 +31,9 @@ const Experiences = () => {
                     <h3 className="vertical-timeline-element-title">T-Mobile US, Inc.</h3>
                     <h5 className="vertical-timeline-element-subtitle">Software Engineer</h5>
                     <h6 className="vertical-timeline-element-subtitle">Bellevue, WA</h6>
-                    <p> Lead development, monitoring, and deployment of Visual Voicemail's (VVM) new distributed microservices to scale to handle 25M active users at 600 TPS, enabling audio transcoding and enforcing 90% API handler coverage via unit and integration tests</p>
+                    <p> Lead development, monitoring, and deployment of Visual Voicemail's (VVM) new distributed microservices to scale to handle 25M active users at 600 TPS, featuring FFmpeg audio transcoding and enforcing 90% API handler test coverage via unit and integration testing </p>
+                    <p> Design REST APIs using Open API 2/3 spec, automate CICD with Jenkins, report server and client-side metrics using TIG stack, upload server logs to Splunk for adhoc debugging and to Kafka for long-term retention, and monitor availability with AppDynamics </p>
+
                     <p> Develop the new VVM Android client, handling API integration and implementing features such as push notifications, accessibility, metrics reporting, and app activation</p>
                     <p> Developed new Consumer Digits desktop client, improving messaging and group call functionality </p>
                     <p> Kotlin for Android | Go (Golang) | Python | Docker | API Development | Unit and Integration Testing | Git (Bitbucket) | Typescript | React | Electron | Redux </p>
