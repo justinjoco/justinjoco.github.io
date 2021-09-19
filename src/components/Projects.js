@@ -39,62 +39,7 @@ const Projects = () => {
 				<Col><a href="https://github.com/justinjoco/acoustic_MIMO"><Button variant="light" style={{ margin: '5px' }}>Code</Button></a></Col>
 			</Row>
 			<br/>
-			<h3>Web Applications</h3>
-            <CardDeck>
-
-			  <Card className="bg-light text-dark border-dark">
-			  	<Card.Header><B>Weather and Energy Generation in the USA</B></Card.Header>
-			    <Card.Img variant="top" src={energy_weather} />
-			    <Card.Body>
-			      <Card.Title>Interactive data visualization that shows how changes in temperature over a given year affected energy generation in various US states</Card.Title>
-			    <Card.Text>
-		        I implemented slider and line graph interactivity such that user can use the slider or click the line graph to change the month. The US map and the line and bar graphs update their displayed data based on the month selected or year selected (via dropdown).
-		      </Card.Text>
-		      	<a href="https://justinjoco.github.io/energy_v_weather_in_us"><Button variant="danger" style={{ margin: '5px' }}>Link</Button></a>
-		      	<a href="https://github.com/nsterling4/Info5100P2"><Button variant="secondary" style={{ margin: '5px' }}>Code</Button></a>
-			    </Card.Body>
-			    <Card.Footer>
-			    HTML/CSS/JavaScript, D3.js
-			    </Card.Footer>
-			  </Card>
-
-			  <Card className="bg-light text-dark border-dark">
-			  <Card.Header><B>Real-Time Pathfinding</B></Card.Header>
-			    <Card.Img variant="top" src={maze}/>
-			    <Card.Body>
-			      <Card.Title>(Work in Progress) Web application that shows an avatar conducting its pathfinding in real-time</Card.Title>
-			    <Card.Text> TBD
-	  	      </Card.Text>
-
-		      	<a href="https://justinjoco.github.io/rt-pathfinding/"><Button variant="danger" style={{ margin: '5px' }}>Link</Button></a>
-		      	<a href="https://github.com/justinjoco/rt-pathfinding"><Button variant="secondary" style={{ margin: '5px' }}>Code</Button></a>
-			    </Card.Body>
-			    <Card.Footer>
-			    Typescript, React-Typescript
-			    </Card.Footer>
-			  </Card>
-
-
-			  <Card className="bg-light text-dark border-dark">
-			  <Card.Header><B>Take Me to the Streets</B></Card.Header>
-			    <Card.Img variant="top" src={take_me} />
-			    <Card.Body>
-			      <Card.Title>A neighborhood discovery experience that can be customized to the guest and the property, with optional gamification</Card.Title>
-			    <Card.Subtitle className="mb-2"> <I>Won "Expand Explore" challenge at <a href="https://hospitalityhack.splashthat.com/">Cornell Hospitality Hackathon 2018</a></I></Card.Subtitle>
-			   <Card.Text>
-		       I prototyped the features, which included routing users to a community and gaving them options to display that area’s locations of interest and to show route back to hotel.
-		      </Card.Text>
-		      	<a href="https://drive.google.com/file/d/1-AjMSllvR6Nlzw_mbkeCCSgcGCuy-R3J/view"><Button variant="danger" style={{ margin: '5px' }}>Details</Button></a>
-		      	<a href="https://github.com/justinjoco/take_me_to_the_streets"><Button variant="secondary" style={{ margin: '5px' }}>Code</Button></a>
-			    </Card.Body>
-
-			    <Card.Footer>
-			      HTML/CSS/JavaScript, Google Maps JS API, Flask
-			    </Card.Footer>
-			  </Card>
-			
-			</CardDeck>
-		<br/>
+            
 			<h3>Tutorials</h3>
 				<CardDeck style={{ justifyContent: 'center' }}>
 
@@ -179,8 +124,47 @@ const Projects = () => {
 				<br/>
 
             <br/>
-          
+			<h3>Web Applications</h3>
 
+			<CardDeck style={{ justifyContent: 'center' }}>
+
+<Card className="bg-light text-dark border-dark" style={{ maxWidth: 500 }}>
+	<Card.Header><B>Weather and Energy Generation in the USA</B></Card.Header>
+  <Card.Img variant="top" src={energy_weather} />
+  <Card.Body>
+	<Card.Title>Interactive data visualization that shows how changes in temperature over a given year affected energy generation in various US states</Card.Title>
+  <Card.Text>
+  I implemented slider and line graph interactivity such that user can use the slider or click the line graph to change the month. The US map and the line and bar graphs update their displayed data based on the month selected or year selected (via dropdown).
+</Card.Text>
+	<a href="https://justinjoco.github.io/energy_v_weather_in_us"><Button variant="danger" style={{ margin: '5px' }}>Link</Button></a>
+	<a href="https://github.com/nsterling4/Info5100P2"><Button variant="secondary" style={{ margin: '5px' }}>Code</Button></a>
+  </Card.Body>
+  <Card.Footer>
+  HTML/CSS/JavaScript, D3.js
+  </Card.Footer>
+</Card>
+
+
+<Card className="bg-light text-dark border-dark" style={{ maxWidth: 500 }}>
+<Card.Header><B>Take Me to the Streets</B></Card.Header>
+  <Card.Img variant="top" src={take_me} />
+  <Card.Body>
+	<Card.Title>A neighborhood discovery experience that can be customized to the guest and the property, with optional gamification</Card.Title>
+  <Card.Subtitle className="mb-2"> <I>Won "Expand Explore" challenge at <a href="https://hospitalityhack.splashthat.com/">Cornell Hospitality Hackathon 2018</a></I></Card.Subtitle>
+ <Card.Text>
+ I prototyped the features, which included routing users to a community and gaving them options to display that area’s locations of interest and to show route back to hotel.
+</Card.Text>
+	<a href="https://drive.google.com/file/d/1-AjMSllvR6Nlzw_mbkeCCSgcGCuy-R3J/view"><Button variant="danger" style={{ margin: '5px' }}>Details</Button></a>
+	<a href="https://github.com/justinjoco/take_me_to_the_streets"><Button variant="secondary" style={{ margin: '5px' }}>Code</Button></a>
+  </Card.Body>
+
+  <Card.Footer>
+	HTML/CSS/JavaScript, Google Maps JS API, Flask
+  </Card.Footer>
+</Card>
+
+</CardDeck>
+<br/>
 		<h3>Embedded/Firmware</h3>
 		<CardDeck style={{ justifyContent: 'center' }}>
 
