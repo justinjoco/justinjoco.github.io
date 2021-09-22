@@ -20,12 +20,26 @@ const Experiences = () => {
             <h2 style={{ textAlign: 'center' }}>Professional Experience</h2>
 
             <VerticalTimeline>
-                <VerticalTimelineElement
+            <VerticalTimelineElement
                 className="vertical-timeline-element--work--head"
                 contentStyle={{ color: '#ffffff' }}
                 iconStyle={{ background: '#dc3545', color: '#ffffff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #dc3545' }}
-                date="Jan 2020 - present"
+                date="Sept 2021 - Present"
+                icon={<FaBriefcase/>}
+                >
+                    <h3 className="vertical-timeline-element-title">Lessen, Inc.</h3>
+                    <h5 className="vertical-timeline-element-subtitle">Software Engineer</h5>
+                    <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
+                    <p> Work on back-end services of PropTech startup </p>
+                    <p> Java | PostgreSQL | AWS | Docker | Kubernetes | Apache Kafka </p>
+                </VerticalTimelineElement>
+
+                <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                iconStyle={{ background: '#dc3545', color: '#ffffff' }}
+                contentArrowStyle={{ borderRight: '7px solid  #dc3545' }}
+                date="Jan 2020 - Sept 2021"
                 icon={<FaBriefcase/>}
                 >
                     <h3 className="vertical-timeline-element-title">T-Mobile US, Inc.</h3>
