@@ -32,7 +32,7 @@ const Experiences = () => {
                     <h5 className="vertical-timeline-element-subtitle">Software Engineer</h5>
                     <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
                     <p> Work on back-end services of PropTech startup </p>
-                    <p> Java | PostgreSQL | AWS | Docker | Kubernetes | Apache Kafka </p>
+                    <p> Java | Spring Boot | PostgreSQL | AWS | Docker | Kubernetes | Apache Kafka </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
