@@ -4,7 +4,7 @@ import { Container, Row, Col, Button, Card, CardDeck } from 'react-bootstrap'
 import energy_weather from './assets/energy_weather.png'
 import take_me from './assets/take_me.png'
 
-import maze from './assets/maze.jpeg'
+import pathfinder from './assets/pathfinder.png'
 
 import vocoder from './assets/vocoder.png'
 import air_canvas from './assets/air_canvas.jpg'
@@ -60,7 +60,7 @@ HTML/CSS/JavaScript, D3.js
 </Card>
 <Card className="bg-light text-dark border-dark"  style={{ maxWidth: 500 }}>
 <Card.Header><B>Pathfinding Visualizer Plus</B></Card.Header>
-<Card.Img variant="top" src={maze}/>
+<Card.Img variant="top" src={pathfinder}/>
 <Card.Body>
 	<Card.Title>(Work in Progress) Web application that shows an avatar conducting its pathfinding in real-time</Card.Title>
 <Card.Text> Built upon Clement Mihailescu's Pathfinding Visualizer project. Migrates core logic from JS to TS and adds more features from original tutorial visualizer.
