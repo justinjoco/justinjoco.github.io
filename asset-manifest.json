@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.944c2d66.chunk.css",
-    "main.js": "/static/js/main.4ae61eab.chunk.js",
-    "main.js.map": "/static/js/main.4ae61eab.chunk.js.map",
+    "main.js": "/static/js/main.93a0562a.chunk.js",
+    "main.js.map": "/static/js/main.93a0562a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f9335059.js",
     "runtime-main.js.map": "/static/js/runtime-main.f9335059.js.map",
     "static/css/2.a641e29a.chunk.css": "/static/css/2.a641e29a.chunk.css",
     "static/js/2.c1b98290.chunk.js": "/static/js/2.c1b98290.chunk.js",
     "static/js/2.c1b98290.chunk.js.map": "/static/js/2.c1b98290.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.57d716cecf272fad730dcf3277d68c81.js": "/precache-manifest.57d716cecf272fad730dcf3277d68c81.js",
+    "precache-manifest.e076e8c8fb4048ed1ea7d4b6c14a65cf.js": "/precache-manifest.e076e8c8fb4048ed1ea7d4b6c14a65cf.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a641e29a.chunk.css.map": "/static/css/2.a641e29a.chunk.css.map",
     "static/css/main.944c2d66.chunk.css.map": "/static/css/main.944c2d66.chunk.css.map",
@@ -20,7 +20,7 @@
     "static/media/cops-map.png": "/static/media/cops-map.fd4a008d.png",
     "static/media/energy_weather.png": "/static/media/energy_weather.9f3fc79c.png",
     "static/media/go-logo.svg": "/static/media/go-logo.b9c6dd84.svg",
-    "static/media/maze.jpeg": "/static/media/maze.decd7941.jpeg",
+    "static/media/pathfinder.png": "/static/media/pathfinder.079fcd6a.png",
     "static/media/paxos-map.jpg": "/static/media/paxos-map.69450104.jpg",
     "static/media/profile_pic.jpg": "/static/media/profile_pic.b4cc8705.jpg",
     "static/media/take_me.png": "/static/media/take_me.2f902c77.png",
@@ -31,6 +31,6 @@
     "static/css/2.a641e29a.chunk.css",
     "static/js/2.c1b98290.chunk.js",
     "static/css/main.944c2d66.chunk.css",
-    "static/js/main.4ae61eab.chunk.js"
+    "static/js/main.93a0562a.chunk.js"
   ]
 }
