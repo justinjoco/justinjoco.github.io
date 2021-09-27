@@ -65,7 +65,6 @@ HTML/CSS/JavaScript, D3.js
 	<Card.Title>(Work in Progress) Web application that shows an avatar conducting its pathfinding in real-time</Card.Title>
 <Card.Text> Built upon Clement Mihailescu's Pathfinding Visualizer project. Migrates core logic from JS to TS and adds more features from original tutorial visualizer.
 </Card.Text>
-<Card.Text> TODO: Add DFS, BFS, A* Impl and Dropdown</Card.Text>
 <Card.Text> TODO: Animate avatar movement</Card.Text>
 
 <a href="https://justinjoco.github.io/pathfinding-visualizer-plus/"><Button variant="danger" style={{ margin: '5px' }}>Link</Button></a>
