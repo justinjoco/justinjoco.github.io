@@ -68,8 +68,8 @@ HTML/CSS/JavaScript, D3.js
 <Card.Text> I migrated core logic from JS to TS for type-safety, and I added DFS, BFS, and A* algorithms to show different pathing techniques that MOBA-RTS games use in their AI and avatar pathing. User can also set the start and end locations and watch the avatar node move in real time.
 </Card.Text>
 
-<a href="https://justinjoco.github.io/pathfinding-visualizer-plus/"><Button variant="danger" style={{ margin: '5px' }}>Link</Button></a>
-<a href="https://github.com/justinjoco/pathfinding-visualizer-plus"><Button variant="secondary" style={{ margin: '5px' }}>Code</Button></a>
+<a href="https://justinjoco.github.io/pathing-simulator/"><Button variant="danger" style={{ margin: '5px' }}>Link</Button></a>
+<a href="https://github.com/justinjoco/pathing-simulator"><Button variant="secondary" style={{ margin: '5px' }}>Code</Button></a>
 </Card.Body>
 <Card.Footer>
 Typescript, React-Typescript, Reactstrap
