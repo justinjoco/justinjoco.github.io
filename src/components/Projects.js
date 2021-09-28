@@ -59,13 +59,13 @@ HTML/CSS/JavaScript, D3.js
 </Card.Footer>
 </Card>
 <Card className="bg-light text-dark border-dark"  style={{ maxWidth: 500 }}>
-<Card.Header><B>Pathfinding Visualizer Plus</B></Card.Header>
+<Card.Header><B>Pathing Simulator</B></Card.Header>
 <Card.Img variant="top" src={pathfinder}/>
 <Card.Body>
 	<Card.Title>Web application that shows an avatar navigating around walls to move to an end location</Card.Title>
 <Card.Text> Built upon Clement Mihailescu's <a href="https://github.com/clementmihailescu/Pathfinding-Visualizer-Tutorial">Pathfinding Visualizer</a> project.
 </Card.Text>
-<Card.Text> I migrated core logic from JS to TS for type-safety, and I added DFS, BFS, and A* algorithms. User can also set the start and end locations and watch the avatar node move in real time.
+<Card.Text> I migrated core logic from JS to TS for type-safety, and I added DFS, BFS, and A* algorithms to show different pathing techniques that MOBA-RTS games use in their AI and avatar pathing. User can also set the start and end locations and watch the avatar node move in real time.
 </Card.Text>
 
 <a href="https://justinjoco.github.io/pathfinding-visualizer-plus/"><Button variant="danger" style={{ margin: '5px' }}>Link</Button></a>
