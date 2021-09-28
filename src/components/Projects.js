@@ -72,7 +72,7 @@ HTML/CSS/JavaScript, D3.js
 <a href="https://github.com/justinjoco/pathfinding-visualizer-plus"><Button variant="secondary" style={{ margin: '5px' }}>Code</Button></a>
 </Card.Body>
 <Card.Footer>
-Typescript, React-Typescript
+Typescript, React-Typescript, Reactstrap
 </Card.Footer>
 </Card>
 
