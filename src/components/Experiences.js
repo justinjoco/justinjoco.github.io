@@ -29,7 +29,7 @@ const Experiences = () => {
                 icon={<FaBriefcase/>}
                 >
                     <h3 className="vertical-timeline-element-title">Lessen, Inc.</h3>
-                    <h5 className="vertical-timeline-element-subtitle">Software Engineer</h5>
+                    <h5 className="vertical-timeline-element-subtitle">Software Engineer III</h5>
                     <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
                     <p> Work on back-end services of high-growth PropTech startup </p>
                     <p> Java | Spring Boot | PostgreSQL | Hasura | GraphQL | Typescript | Kafka | AWS | Docker | Kubernetes </p>
