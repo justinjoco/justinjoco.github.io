@@ -37,7 +37,7 @@ const Experiences = () => {
                     <h5 className="vertical-timeline-element-subtitle">Software Engineer III</h5>
                     <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
                     <p> Work on back-end services of high-growth PropTech startup </p>
-                    <p> Typescript | Node.js |  Hasura | GraphQL  | Kafka |  Docker | Kubernetes | AWS | CI/CD | Git (Github) </p>
+                    <p> Typescript | Node.js | Express.js | Hasura | GraphQL  | Kafka |  Docker | Kubernetes | AWS | CI/CD | Git (Github) </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
