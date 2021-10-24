@@ -37,7 +37,7 @@ const Experiences = () => {
                 icon={<Image fluid src={msoft} alt="Logo" roundedCircle/>}
                 >
                     <h3 className="vertical-timeline-element-title">Microsoft Corporation</h3>
-                    <h5 className="vertical-timeline-element-subtitle">Senior Software Engineer</h5>
+                    <h5 className="vertical-timeline-element-subtitle">Senior Software Development Engineer</h5>
                     <h6 className="vertical-timeline-element-subtitle">Redmond, WA</h6>
                     <p> Develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. </p>
                     <p> Kubernetes | Docker | Golang </p>
