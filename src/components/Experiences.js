@@ -43,7 +43,6 @@ const Experiences = () => {
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 iconStyle={{ background: '#ffffff', color: '#ffffff' }}
-                contentArrowStyle={{ borderRight: '7px solid  #dc3545' }}
                 date="Jan 2020 - Sept 2021"
                 icon={<Image fluid src={tmo} alt="Logo" roundedCircle/>}
                 >
