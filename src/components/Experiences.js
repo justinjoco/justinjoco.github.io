@@ -1,10 +1,15 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Container, Image } from 'react-bootstrap'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
-import { FaGraduationCap, FaBriefcase } from 'react-icons/fa'
-
 import './Experiences.css'
+import lessen from './assets/lessen.jpeg'
+import tmo from './assets/tmo.png'
+import jpmc from './assets/jpmc.png'
+import lfg from './assets/lfg.jpeg'
+import cornell from './assets/cornell.png'
+import purdue from './assets/purdue.jpeg'
+import stony from './assets/stonybrook.png'
 
 const Experiences = () => {
   return (
@@ -23,24 +28,24 @@ const Experiences = () => {
             <VerticalTimelineElement
                 className="vertical-timeline-element--work--head"
                 contentStyle={{ color: '#ffffff' }}
-                iconStyle={{ background: '#dc3545', color: '#ffffff' }}
+                iconStyle={{ background: '#ffffff', color: '#ffffff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #dc3545' }}
                 date="Sept 2021 - Present"
-                icon={<FaBriefcase/>}
+                icon={<Image fluid src={lessen} alt="Logo" roundedCircle/>}
                 >
                     <h3 className="vertical-timeline-element-title">Lessen, Inc.</h3>
                     <h5 className="vertical-timeline-element-subtitle">Software Engineer III</h5>
                     <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
                     <p> Work on back-end services of high-growth PropTech startup </p>
-                    <p> Java | Spring Boot | PostgreSQL | Hasura | GraphQL | Typescript | Node.js | Kafka | AWS | Docker | Kubernetes </p>
+                    <p> Typescript | Node.js |  Hasura | GraphQL  | Kafka |  Docker | Kubernetes | AWS | Java | Spring Boot | PostgreSQL </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                iconStyle={{ background: '#dc3545', color: '#ffffff' }}
+                iconStyle={{ background: '#ffffff', color: '#ffffff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #dc3545' }}
                 date="Jan 2020 - Sept 2021"
-                icon={<FaBriefcase/>}
+                icon={<Image fluid src={tmo} alt="Logo" roundedCircle/>}
                 >
                     <h3 className="vertical-timeline-element-title">T-Mobile US, Inc.</h3>
                     <h5 className="vertical-timeline-element-subtitle">Software Engineer</h5>
@@ -56,7 +61,7 @@ const Experiences = () => {
                 className="vertical-timeline-element--work"
                 iconStyle={{ background: '#dc3545', color: '#ffffff' }}
                 date="Aug 2018 - May 2019, Aug - Dec 2019"
-                icon={<FaBriefcase/>}
+                icon={<Image fluid src={cornell} alt="Logo" roundedCircle/>}
                 >
                     <h3 className="vertical-timeline-element-title">Cornell University, ECE</h3>
                     <h5 className="vertical-timeline-element-subtitle">Graduate Teaching Assistant</h5>
@@ -69,7 +74,7 @@ const Experiences = () => {
                 className="vertical-timeline-element--work"
                 date="May - August 2019"
                 iconStyle={{ background: '#dc3545', color: '#ffffff' }}
-                icon={<FaBriefcase/>}
+                icon={<Image fluid src={tmo} alt="Logo" roundedCircle/>}
                 >
                     <h3 className="vertical-timeline-element-title">T-Mobile US, Inc.</h3>
                     <h5 className="vertical-timeline-element-subtitle">System Architecture Engineering Intern</h5>
@@ -83,7 +88,7 @@ const Experiences = () => {
                 className="vertical-timeline-element--work"
                 date="June - Aug 2017"
                 iconStyle={{ background: '#dc3545', color: '#ffffff' }}
-                icon={<FaBriefcase/>}
+                icon={<Image fluid src={jpmc} alt="Logo" roundedCircle/>}
                 >
                     <h3 className="vertical-timeline-element-title">JPMorgan Chase & Co. </h3>
                     <h5 className="vertical-timeline-element-subtitle">Software Engineering Intern</h5>
@@ -95,7 +100,7 @@ const Experiences = () => {
                 className="vertical-timeline-element--work"
                 date="June - Aug 2016"
                 iconStyle={{ background: '#dc3545', color: '#ffffff' }}
-                icon={<FaBriefcase/>}
+                icon={<Image fluid src={lfg} alt="Logo" roundedCircle/>}
                 >
                     <h3 className="vertical-timeline-element-title">Licoln Financial Group</h3>
                     <h5 className="vertical-timeline-element-subtitle">Enterprise Architecture Intern</h5>
@@ -115,7 +120,7 @@ const Experiences = () => {
                 contentStyle={{ color: '#ffffff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #292929' }}
                 iconStyle={{ background: '#6c757d', color: '#ffffff' }}
-                icon={<FaGraduationCap/>}
+                icon={<Image fluid src={cornell} alt="Logo" roundedCircle/>}
                 >
 
                    <h3 className="vertical-timeline-element-title">Cornell University</h3>
@@ -128,7 +133,7 @@ const Experiences = () => {
                 className="vertical-timeline-element--education"
                 date="Aug 2015 - May 2018"
                 iconStyle={{ background: '#6c757d', color: '#ffffff' }}
-                icon={<FaGraduationCap/>}
+                icon={<Image fluid src={purdue} alt="Logo" roundedCircle/>}
                 >
 
                    <h3 className="vertical-timeline-element-title">Purdue University</h3>
@@ -141,7 +146,7 @@ const Experiences = () => {
                 className="vertical-timeline-element--education"
                 date="Aug 2014 - May 2015"
                 iconStyle={{ background: '#6c757d', color: '#ffffff' }}
-                icon={<FaGraduationCap/>}
+                icon={<Image fluid src={stony} alt="Logo" roundedCircle/>}
                 >
                     <h3 className="vertical-timeline-element-title">Stony Brook University</h3>
                     <h5 className="vertical-timeline-element-subtitle">Attended, Transferred Out</h5>
