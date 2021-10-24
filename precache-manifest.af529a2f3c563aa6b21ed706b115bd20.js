@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab476523a2d0fc93f344ff72fe0752a4",
+    "revision": "599f07bf2804a47026d708c8071c779f",
     "url": "/index.html"
   },
   {
-    "revision": "baad78b11bd90f596b57",
+    "revision": "3686b4255ff3eb178f53",
     "url": "/static/css/2.a641e29a.chunk.css"
   },
   {
-    "revision": "dc1ad2557cdd5584eb58",
+    "revision": "30354689a2522ef7a2f2",
     "url": "/static/css/main.944c2d66.chunk.css"
   },
   {
-    "revision": "baad78b11bd90f596b57",
-    "url": "/static/js/2.c1b98290.chunk.js"
+    "revision": "3686b4255ff3eb178f53",
+    "url": "/static/js/2.027a8c5b.chunk.js"
   },
   {
     "revision": "c87e50d81cc7b5311525cc6fd5482ea5",
-    "url": "/static/js/2.c1b98290.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.027a8c5b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dc1ad2557cdd5584eb58",
-    "url": "/static/js/main.48f03ebd.chunk.js"
+    "revision": "30354689a2522ef7a2f2",
+    "url": "/static/js/main.c5fbc31e.chunk.js"
   },
   {
     "revision": "e781ca582342db193e91",
@@ -44,12 +44,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cops-map.fd4a008d.png"
   },
   {
+    "revision": "b1a6521d951c2ec04519d229e001a25d",
+    "url": "/static/media/cornell.b1a6521d.png"
+  },
+  {
     "revision": "9f3fc79c88b8683310312a8738a9711c",
     "url": "/static/media/energy_weather.9f3fc79c.png"
   },
   {
     "revision": "b9c6dd84c2022e87c61587e69fe0c5e5",
     "url": "/static/media/go-logo.b9c6dd84.svg"
+  },
+  {
+    "revision": "0c23bb97a975ff3fd3015b2604031c75",
+    "url": "/static/media/jpmc.0c23bb97.png"
   },
   {
     "revision": "2c16185229e8878fdafe1f4f1622dc1b",
@@ -64,8 +72,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profile_pic.b4cc8705.jpg"
   },
   {
+    "revision": "e547a9bd112cecfabc70c4a6626b72fd",
+    "url": "/static/media/purdue.e547a9bd.jpeg"
+  },
+  {
+    "revision": "a3de9938a48f2ad146bc4e5300111270",
+    "url": "/static/media/stonybrook.a3de9938.png"
+  },
+  {
     "revision": "2f902c7751410f87dae889bbfc94be0c",
     "url": "/static/media/take_me.2f902c77.png"
+  },
+  {
+    "revision": "049ef576e4044c22e44973e4e13c6d09",
+    "url": "/static/media/tmo.049ef576.png"
   },
   {
     "revision": "e244d6c3272544104c0bf0669a230af2",
