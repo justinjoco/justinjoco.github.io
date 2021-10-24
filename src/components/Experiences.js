@@ -12,6 +12,7 @@ import purdue from './assets/purdue.jpeg'
 import stony from './assets/stonybrook.png'
 import google from './assets/google.jpeg'
 import cmu from './assets/cmu.png'
+import msoft from './assets/msoft.png'
 
 const Experiences = () => {
   return (
@@ -33,11 +34,11 @@ const Experiences = () => {
                 iconStyle={{ background: '#ffffff', color: '#ffffff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #dc3545' }}
                 date="Sept 2025 - Present"
-                icon={<Image fluid src={google} alt="Logo" roundedCircle/>}
+                icon={<Image fluid src={msoft} alt="Logo" roundedCircle/>}
                 >
-                    <h3 className="vertical-timeline-element-title">Google LLC</h3>
+                    <h3 className="vertical-timeline-element-title">Microsoft Corporation</h3>
                     <h5 className="vertical-timeline-element-subtitle">Senior Software Engineer</h5>
-                    <h6 className="vertical-timeline-element-subtitle">Kirkland, WA</h6>
+                    <h6 className="vertical-timeline-element-subtitle">Redmond, WA</h6>
                     <p> Develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. </p>
                     <p> Kubernetes | Docker | Golang </p>
                 </VerticalTimelineElement>
