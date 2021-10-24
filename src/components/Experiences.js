@@ -10,6 +10,8 @@ import lfg from './assets/lfg.jpeg'
 import cornell from './assets/cornell.png'
 import purdue from './assets/purdue.jpeg'
 import stony from './assets/stonybrook.png'
+import google from './assets/google.jpeg'
+import cmu from './assets/cmu.png'
 
 const Experiences = () => {
   return (
@@ -25,18 +27,35 @@ const Experiences = () => {
             <h2 style={{ textAlign: 'center' }}>Professional Experience</h2>
 
             <VerticalTimeline>
-            <VerticalTimelineElement
+                <VerticalTimelineElement
                 className="vertical-timeline-element--work--head"
                 contentStyle={{ color: '#ffffff' }}
                 iconStyle={{ background: '#ffffff', color: '#ffffff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #dc3545' }}
-                date="Sept 2021 - Present"
+                date="Sept 2025 - Present"
+                icon={<Image fluid src={google} alt="Logo" roundedCircle/>}
+                >
+                    <h3 className="vertical-timeline-element-title">Google LLC</h3>
+                    <h5 className="vertical-timeline-element-subtitle">Senior Software Engineer</h5>
+                    <h6 className="vertical-timeline-element-subtitle">Kirkland, WA</h6>
+                    <p> Develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. </p>
+                    <p> Kubernetes | Docker | Golang </p>
+                </VerticalTimelineElement>
+
+                <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                iconStyle={{ background: '#ffffff', color: '#ffffff' }}
+                date="Sept 2021 - Sept 2025"
                 icon={<Image fluid src={lessen} alt="Logo" roundedCircle/>}
                 >
                     <h3 className="vertical-timeline-element-title">Lessen, Inc.</h3>
-                    <h5 className="vertical-timeline-element-subtitle">Software Engineer III</h5>
+                    <h5 className="vertical-timeline-element-subtitle">Senior Software Engineer</h5>
                     <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
-                    <p> Work on back-end services of high-growth PropTech startup </p>
+                    <p> Designed, implemented, and tested implementations across several projects </p>
+                    <hr/>
+                    <h5 className="vertical-timeline-element-subtitle">Software Engineer III</h5>
+                    <p> Worked on back-end services of high-growth PropTech startup </p>
+                    <hr/>
                     <p> Typescript | Node.js | Express.js | Hasura | GraphQL  | Kafka |  Docker | Kubernetes | AWS | CI/CD | Git (Github) </p>
                 </VerticalTimelineElement>
 
@@ -115,9 +134,24 @@ const Experiences = () => {
                 <VerticalTimeline>
                 <VerticalTimelineElement
                 className="vertical-timeline-element--education--head"
-                date="Aug 2018 - Dec 2019"
+                date="Sept 2025 - May 2028"
                 contentStyle={{ color: '#ffffff' }}
-                contentArrowStyle={{ borderRight: '7px solid  #292929' }}
+                contentArrowStyle={{ borderRight: '7px solid  #6c757d' }}
+                iconStyle={{ background: '#ffffff', color: '#ffffff' }}
+                icon={<Image fluid src={cmu} alt="Logo" roundedCircle/>}
+                >
+
+                   <h3 className="vertical-timeline-element-title">Carnegie Mellon University</h3>
+                    <h5 className="vertical-timeline-element-subtitle">Master of Business Administration</h5>
+                    <h6 className="vertical-timeline-element-subtitle">Pittsburgh, PA</h6>
+                    <p>Track: Technology Strategy and Product Management</p>
+                    <p>Concentrations: Strategy, Business Technologies, Operations Research</p>
+
+                </VerticalTimelineElement>
+
+                <VerticalTimelineElement
+                className="vertical-timeline-element--education"
+                date="Aug 2018 - Dec 2019"
                 iconStyle={{ background: '#6c757d', color: '#ffffff' }}
                 icon={<Image fluid src={cornell} alt="Logo" roundedCircle/>}
                 >
