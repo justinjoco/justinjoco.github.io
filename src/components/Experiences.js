@@ -51,11 +51,11 @@ const Experiences = () => {
                     <h3 className="vertical-timeline-element-title">Lessen, Inc.</h3>
                     <h5 className="vertical-timeline-element-subtitle">Senior Software Engineer</h5>
                     <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
-                    <p> Designed, implemented, and tested implementations across several projects </p>
-                    <hr/>
+                    <p> Work on back-end services of high-growth PropTech startup </p>
+                    <hr color="gray"/>
                     <h5 className="vertical-timeline-element-subtitle">Software Engineer III</h5>
-                    <p> Worked on back-end services of high-growth PropTech startup </p>
-                    <hr/>
+                    <p> Work on back-end services of high-growth PropTech startup </p>
+                    <hr color="gray"/>
                     <p> Typescript | Node.js | Express.js | Hasura | GraphQL  | Kafka |  Docker | Kubernetes | AWS | CI/CD | Git (Github) </p>
                 </VerticalTimelineElement>
 
@@ -72,6 +72,7 @@ const Experiences = () => {
                     <p> Designed REST APIs using Open API 2/3 spec, automated CICD with Jenkins, reported server and client-side metrics using TIG stack, uploaded server logs to Splunk for adhoc debugging and to Kafka for long-term retention, and monitored availability with AppDynamics </p>
                     <p> Developed the new VVM Android client, handling API integration and implementing features such as push notifications, accessibility, metrics reporting, and app activation</p>
                     <p> Developed new Consumer Digits desktop client, improving messaging and group call functionality </p>
+                    <hr color="gray"/>
                     <p> Kotlin for Android | Go (Golang) | Python | Docker | API Development | Unit and Integration Testing | Git (Bitbucket) | Typescript | React | Electron | Redux </p>
                 </VerticalTimelineElement>
 
@@ -85,6 +86,7 @@ const Experiences = () => {
                     <h5 className="vertical-timeline-element-subtitle">Graduate Teaching Assistant</h5>
                     <h6 className="vertical-timeline-element-subtitle">Ithaca, NY</h6>
                     <p>Led recitations of 30-40 students, aided design of course content with the professor and peer teaching assistants, and held office hours for material review and code debugging</p>
+                    <hr color="gray"/>
                     <p>Computer Systems Programming (C/C++) |  Intro to Probability Theory for Signals and Systems | Math of Signals and Systems</p>
                 </VerticalTimelineElement>
 
@@ -98,6 +100,7 @@ const Experiences = () => {
                     <h5 className="vertical-timeline-element-subtitle">System Architecture Engineering Intern</h5>
                     <h6 className="vertical-timeline-element-subtitle">Bellevue, WA</h6>
                     <p>Built an MVC Android/iOS app and a desktop app end-to-end that integrate cloud storage APIs to streamline the internal releases of T-Mobile DIGITS' builds to QA</p>
+                    <hr color="gray"/>
                     <p>Android SDK (Kotlin) | React Native (JSX) | Electron | AWS-Amplify | HockeyApp API | Git (Bitbucket)</p>
 
                 </VerticalTimelineElement>
@@ -112,6 +115,7 @@ const Experiences = () => {
                     <h5 className="vertical-timeline-element-subtitle">Software Engineering Intern</h5>
                     <h6 className="vertical-timeline-element-subtitle">Chicago, IL</h6>
                     <p>Developed a B2B web portal that streamlined account opening for commercial clients in 23+ countries</p>
+                    <hr color="gray"/>
                     <p>HTML/CSS/Javascript (JS) | jQuery | Ember Bootstrap | Handlebars | Git (Bitbucket)</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
@@ -124,6 +128,7 @@ const Experiences = () => {
                     <h5 className="vertical-timeline-element-subtitle">Enterprise Architecture Intern</h5>
                     <h6 className="vertical-timeline-element-subtitle">Fort Wayne, IN</h6>
                     <p>Refactored majority of email service legacy codebase (Java); liaised Lincoln with SaaS providers to improve operational efficiency</p>
+                    <hr color="gray"/>
                     <p>Java | SVN | Market Research </p>
                 </VerticalTimelineElement>
                 </VerticalTimeline>
