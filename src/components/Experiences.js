@@ -36,9 +36,9 @@ const Experiences = () => {
                     <h3 className="vertical-timeline-element-title">Lessen, Inc.</h3>
                     <h5 className="vertical-timeline-element-subtitle">Software Engineer III</h5>
                     <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
-                    <p> Work on back-end services of a high-growth PropTech startup </p>
+                    <p> Design, develop, monitor, and deploy back-end services of a rapidly growing PropTech startup with emphases on scalability, security, and resiliency </p>
                     <hr color="white"/>
-                    <p> Typescript | Node.js | Express.js | Hasura | GraphQL  | Kafka |  Docker | Kubernetes | AWS | CI/CD | Git (Github) </p>
+                    <p> Typescript | Node.js | GraphQL | Docker | Kubernetes | AWS | CI/CD | Java | Spring Boot | Git (Github) </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
