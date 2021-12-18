@@ -38,7 +38,7 @@ const Experiences = () => {
                     <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
                     <p> Design, develop, monitor, and deploy microservices plus back-end infrastructure of a rapidly growing PropTech startup, with emphases on scalability, security, and resiliency </p>
                     <hr color="white"/>
-                    <p> Docker | Kubernetes | Helm | AWS | GraphQL | Typescript | Java | PostgreSQL </p>
+                    <p> Docker | Kubernetes (K8s) | Helm | AWS | GraphQL | Typescript | Java | PostgreSQL </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
@@ -54,7 +54,7 @@ const Experiences = () => {
                     <p> Developed the new VVM Android client, handling API integration and implementing features such as push notifications, accessibility, metrics reporting, and app activation</p>
                     <p> Developed new Consumer Digits desktop client, improving messaging and group call functionality </p>
                     <hr color="gray"/>
-                    <p> Kotlin for Android | Go (Golang) | Python | Docker | API Development | Unit and Integration Testing | Git (Bitbucket) | Typescript | React | Electron | Redux </p>
+                    <p> Kotlin for Android | Golang (Go) | Python | Docker | API Development | Unit and Integration Testing | Git (Bitbucket) | Typescript | React | Electron | Redux </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
