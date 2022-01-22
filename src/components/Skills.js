@@ -15,10 +15,8 @@ const Skills = () => {
 
             <Row>
                 <Col>
-                <p> <B>Relevant Background: </B> Distributed Computing Principles, Machine Learning, Database Systems, Data-Driven Web Apps,
-                    Object-Oriented Programming, Data Structures and Algorithms, Computer Vision, Design with Embedded OS,
-                    Advanced Microcontrollers
-
+                <p> <B>Relevant Coursework: </B> Distributed Computing Principles, Machine Learning, Database Systems, Data-Driven Web Apps,
+                    Object-Oriented Programming, Data Structures and Algorithms, Computer Vision
                 </p>
              </Col>
              </Row>
@@ -28,21 +26,21 @@ const Skills = () => {
                 <FaCode size={'10vh'} color={'#ffffff'} />
                 <br/> <br/>
                 <h2>Programming</h2>
-                <p>Python, Go (Golang), Kotlin, HTML/CSS/Javascript (JS), Typescript (TS), C/C++, Java</p>
+                <p>Python, Java, Typescript (TS), Go (Golang), Kotlin, HTML/CSS/Javascript (JS), C/C++</p>
 
                 </Col>
                 <Col>
                 <FaDatabase size={'10vh'} color={'#ffffff'}/>
                 <br/> <br/>
                 <h2>Tools/Technologies</h2>
-                <p>Git (Github, Bitbucket), Docker, Linux/Unix, Windows, Mac OSX</p><p>Koin, React.js, Electron, Jest, Node.js, </p> <p> Numpy, Jupyter Notebook, OpenCV, Keras Tensorflow, PyTorch, Pygame</p>
+                <p>Git, Docker, Kubernetes, Minikube, PostgreSQL, AWS</p><p>Spring Boot, React.js, Jest, TestNG, Node.js, </p> <p> Numpy, Jupyter Notebook, OpenCV, Keras Tensorflow, PyTorch, Pygame</p>
 
                 </Col>
                 <Col>
                 <FaComments size={'10vh'} color={'#ffffff'}/>
                 <br/> <br/>
                 <h2>Soft Skills</h2>
-                <p>Agile development, time management, effective communication and teamwork, conflict negotiation</p>
+                <p>Agile development, API and backend design, time management, effective communication and teamwork, conflict resolution</p>
 
                 </Col>
             </Row>
