@@ -20,10 +20,10 @@ const CustomNavbar = (props) => {
 						<Nav.Link href="#about"><B>About</B></Nav.Link>
 					</Nav.Item>
 					<Nav.Item>
-						<Nav.Link href="#projects"><B>Projects</B></Nav.Link>
+						<Nav.Link href="#experiences"><B>Experiences</B></Nav.Link>
 					</Nav.Item>
 					<Nav.Item>
-						<Nav.Link href="#experiences"><B>Experiences</B></Nav.Link>
+						<Nav.Link href="#projects"><B>Projects</B></Nav.Link>
 					</Nav.Item>
 					<Nav.Item>
 						<Nav.Link href="https://github.com/justinjoco"><B>Github</B></Nav.Link>

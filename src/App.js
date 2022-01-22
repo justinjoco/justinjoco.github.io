@@ -22,8 +22,8 @@ const App = () => {
         <Navbar />
         <Route exact path="/" component={Home}/>
         <Route path="/about" component={()=>(<div><About/><Skills/><More/></div>)} />
-        <Route path="/projects" component={Projects}/>
         <Route path="/experiences" component={Experiences}/>
+        <Route path="/projects" component={Projects}/>
         <Footer />
       </div>
      </Router>

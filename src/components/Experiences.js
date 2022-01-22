@@ -38,7 +38,7 @@ const Experiences = () => {
                     <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
                     <p> Design, develop, monitor, and deploy microservices plus back-end infrastructure of a rapidly growing PropTech startup, with emphases on scalability, security, and resiliency </p>
                     <hr color="white"/>
-                    <p> Docker | Kubernetes (K8s) | Helm | AWS | GraphQL | Typescript | Java | PostgreSQL </p>
+                    <p> Docker | Kubernetes (K8s) | Helm | AWS | GraphQL | Typescript | Java | Spring Boot | PostgreSQL </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
