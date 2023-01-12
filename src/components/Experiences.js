@@ -36,9 +36,12 @@ const Experiences = () => {
                     <h3 className="vertical-timeline-element-title">Lessen, Inc.</h3>
                     <h5 className="vertical-timeline-element-subtitle">Software Engineer III</h5>
                     <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
-                    <p> Lead multiple teams to develop back-end microservices of a rapidly growing PropTech startup, with emphases on scalability, security, and resiliency </p>
+                    <p> Build and deliver common libraries, microservices, and tools that support mobile apps, web portals, and services across Lessen’s Experiences platform, with emphases on usability, scalability, security, and resiliency </p>
+                    <p> Establish and uphold strong backend development practices to require static and dynamic code analysis with 85% minimum unit test coverage, maintain high observability for operational monitoring using structured logging with tracing and custom metrics, and automate
+CICD with integration/E2E testing </p>
+                    <p> Led multiple teams to design and develop a mobile/web push notification service, pro work order assignment service, photo upload service, and pro onboarding service in AWS Elastic Kubernetes Service </p>
                     <hr color="white"/>
-                    <p> Docker | Kubernetes (K8s) | Helm | AWS | GraphQL | Typescript | Java | Spring Boot | PostgreSQL </p>
+                    <p> Kotlin | Java | Typescript | Node | Docker | Kubernetes (K8s) | Helm | AWS | REST | GraphQL | Kafka | Spring Boot  | PostgreSQL </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
