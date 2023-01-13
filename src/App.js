@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
-import logo from './transparent_logo.png';
-import './App.css';
-import {HashRouter as Router, Route} from "react-router-dom";
+import React, { Component } from "react";
+import logo from "./transparent_logo.png";
+import "./App.css";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -12,23 +12,32 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import Experiences from "./components/Experiences";
 const App = () => {
-
-    return (
-     <Router>
+  return (
+    <Router>
       <ScrollToTop />
-      <div style={{
-        backgroundColor: '#292929',
-      }}>
+      <div
+        style={{
+          backgroundColor: "#292929",
+        }}
+      >
         <Navbar />
-        <Route exact path="/" component={Home}/>
-        <Route path="/about" component={()=>(<div><About/><Skills/><More/></div>)} />
-        <Route path="/experiences" component={Experiences}/>
-        <Route path="/projects" component={Projects}/>
+        <Route exact path="/" component={Home} />
+        <Route
+          path="/about"
+          component={() => (
+            <div>
+              <About />
+              <Skills />
+              <More />
+            </div>
+          )}
+        />
+        <Route path="/experiences" component={Experiences} />
+        <Route path="/projects" component={Projects} />
         <Footer />
       </div>
-     </Router>
-    );
-  
-}
+    </Router>
+  );
+};
 
 export default App;
