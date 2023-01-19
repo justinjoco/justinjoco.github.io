@@ -49,10 +49,10 @@ const Experiences = () => {
           <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
           <p>
             {" "}
-            Build and deliver common libraries, microservices, and tools that
-            support mobile apps, web portals, and services across Lessen’s
-            Experiences platform, with emphases on usability, scalability,
-            security, and resiliency{" "}
+            Build, deliver, and maintain libraries, microservices, and tools
+            that support mobile apps, web portals, and services across a
+            fast-paced startup's B2B platform, with emphases on usability,
+            scalability, security, and resiliency{" "}
           </p>
           <p>
             {" "}
@@ -72,8 +72,9 @@ const Experiences = () => {
           <hr color="white" />
           <p>
             {" "}
-            Kotlin | Java | Typescript | Node | Docker | Kubernetes (K8s) | Helm
-            | AWS | REST | GraphQL | Kafka | Spring Boot | PostgreSQL{" "}
+            Kotlin | Java | Typescript | Python | Node | Docker | Kubernetes
+            (K8s) | Helm | AWS | REST | GraphQL | Kafka | Spring Boot |
+            PostgreSQL{" "}
           </p>
         </VerticalTimelineElement>
 
