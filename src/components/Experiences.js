@@ -50,9 +50,9 @@ const Experiences = () => {
           <p>
             {" "}
             Build, deliver, and maintain libraries, microservices, and tools
-            that support mobile apps, web portals, and services across a
-            fast-paced startup's B2B platform, with emphases on usability,
-            scalability, security, and resiliency{" "}
+            that support mobile/web apps and services across a fast-paced
+            startup's B2B platform, with emphases on scalability, availability,
+            security, and reliability{" "}
           </p>
           <p>
             {" "}

@@ -40,7 +40,7 @@ const Projects = () => {
       <br />
 
       <h2>
-        <B>MEng Design Project</B>: Acoustic Localization and Tracking via
+        <B>Master Design Project</B>: Acoustic Localization and Tracking via
         Machine Learning
       </h2>
       <p>
