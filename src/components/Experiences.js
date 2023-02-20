@@ -74,7 +74,7 @@ const Experiences = () => {
             {" "}
             Kotlin | Java | Typescript | Python | Node | Docker | Kubernetes
             (K8s) | Helm | AWS | REST | GraphQL | Kafka | Spring Boot |
-            PostgreSQL{" "}
+            PostgreSQL | Terraform{" "}
           </p>
         </VerticalTimelineElement>
 
