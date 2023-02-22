@@ -49,32 +49,42 @@ const Experiences = () => {
           <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
           <p>
             {" "}
-            Build, deliver, and maintain libraries, microservices, and tools
-            that support mobile/web apps and services across a fast-paced
-            startup's B2B platform, with emphases on scalability, availability,
-            security, and reliability{" "}
+            Led multiple backend teams of a 4.9-star mobile app launch,
+            architecting and delivering an event-driven push notification
+            service, a work order assignment service, a resumable photo upload
+            service, and an onboarding service in AWS Elastic Kubernetes Service
+            on EC2 nodes{" "}
           </p>
           <p>
             {" "}
-            Establish and uphold strong backend development practices to require
-            static and dynamic code analysis with 85% minimum unit test
+            Accelerated multiple projects in a fast-paced B2B startup by
+            creating and supporting initiatives that expedite deployment of
+            reliable, scalable, and maintainable microservices, such as logging
+            libraries, infrastructure pipelines, custom Kafka-abstraction
+            packages, and service templates with code quality and local
+            development tooling{" "}
+          </p>
+          <p>
+            {" "}
+            Established and upheld strong backend development practices to
+            require static and dynamic code analysis with 85\% minimum unit test
             coverage, maintain high observability for operational monitoring
             using structured logging with tracing and custom metrics, and
             automate CICD with integration/E2E testing{" "}
           </p>
           <p>
             {" "}
-            Led multiple teams to design and develop a mobile/web push
-            notification service, pro work order assignment service, photo
-            upload service, and pro onboarding service in AWS Elastic Kubernetes
-            Service{" "}
+            Designed and implemented a scheduled Kafka topic scanner, and
+            deployed an S3-triggered AWS Lambda parquet file processor to
+            populate relevant databases with project supervisor KPIs and tasks
+            for Homepages feature{" "}
           </p>
           <hr color="white" />
           <p>
             {" "}
             Kotlin | Java | Typescript | Python | Node | Docker | Kubernetes
-            (K8s) | Helm | AWS | REST | GraphQL | Kafka | Spring Boot |
-            PostgreSQL | Terraform{" "}
+            (K8s) | Helm | AWS | S3 | EC2 | Lambda | CDK | Minikube | REST |
+            GraphQL | Kafka | Spring Boot | PostgreSQL | Terraform{" "}
           </p>
         </VerticalTimelineElement>
 
