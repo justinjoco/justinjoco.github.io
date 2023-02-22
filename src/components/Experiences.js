@@ -66,8 +66,8 @@ const Experiences = () => {
           </p>
           <p>
             {" "}
-            Established and upheld strong backend development practices to
-            require static and dynamic code analysis with 85\% minimum unit test
+            Established and upheld strong engineering practices that
+            require static and dynamic code analysis with 85% minimum unit test
             coverage, maintain high observability for operational monitoring
             using structured logging with tracing and custom metrics, and
             automate CICD with integration/E2E testing{" "}
