@@ -86,10 +86,10 @@ const Experiences = () => {
           </p>
           <p>
             {" "}
-            Established and upheld strong engineering processes that require
-            static and dynamic code analysis with 85\% minimum test coverage,
-            structured logging and custom metrics, and CICD with automated
-            integration/E2E testing{" "}
+            Established and upheld development processes that require static
+            analysis with 85% minimum test coverage, structured logging and
+            custom metrics, and CICD with automated integration/E2E testing to
+            proactively mitigate bugs, reduce tech debt, and quickly RCA issues{" "}
           </p>
           <p>
             {" "}
