@@ -13,7 +13,7 @@ import lfg from "./assets/lfg.jpeg";
 import cornell from "./assets/cornell.png";
 import purdue from "./assets/purdue.jpeg";
 import stony from "./assets/stonybrook.png";
-
+import obviohealth from "./assets/obviohealth.png";
 const Experiences = () => {
   return (
     <Container fluid style={{ padding: "20px" }}>
@@ -39,7 +39,29 @@ const Experiences = () => {
           contentStyle={{ color: "#ffffff" }}
           iconStyle={{ background: "#ffffff", color: "#ffffff" }}
           contentArrowStyle={{ borderRight: "7px solid  #dc3545" }}
-          date="Sept 2021 - Present"
+          date="April 2023 - Present"
+          icon={<Image fluid src={obviohealth} alt="Logo" roundedCircle />}
+        >
+          <h3 className="vertical-timeline-element-title">ObvioHealth</h3>
+          <h5 className="vertical-timeline-element-subtitle">
+            Software Engineer
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
+          <p>
+            {" "}
+            Develop a platform and a set of shared services, patterns, and
+            libraries in the digital platform team at a fast-paced, high-growth
+            health technology startup to accelerate application development
+            teams by reducing technical debt and burden{" "}
+          </p>
+          <hr color="white" />
+          <p> Typescript | Node.js | Docker | Kubernetes (K8s) | GCP </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          iconStyle={{ background: "#ffffff", color: "#ffffff" }}
+          date="Sept 2021 - Mar 2023"
           icon={<Image fluid src={lessen} alt="Logo" roundedCircle />}
         >
           <h3 className="vertical-timeline-element-title">Lessen, Inc.</h3>
@@ -49,42 +71,40 @@ const Experiences = () => {
           <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
           <p>
             {" "}
-            Led multiple backend teams of a 4.9-star mobile app launch,
-            architecting and delivering an event-driven push notification
-            service, a work order assignment service, a resumable photo upload
-            service, and an onboarding service in AWS Elastic Kubernetes Service
-            on EC2 nodes{" "}
+            Spearheaded multiple teams to architect, deploy, and maintain
+            microservices in a fast-paced B2B proptech startup, including a
+            message-driven push notification service, a state-managing work
+            order offer service, event-driven task and metrics services, and
+            third-party integrated services in AWS Elastic Kubernetes Service{" "}
           </p>
           <p>
             {" "}
-            Accelerated multiple projects in a fast-paced B2B startup by
-            creating and supporting initiatives that expedite deployment of
-            reliable, scalable, and maintainable microservices, such as logging
-            libraries, infrastructure pipelines, custom Kafka-abstraction
-            packages, and service templates with code quality and local
-            development tooling{" "}
+            Accelerated dozens of projects by building initiatives, such as
+            infrastructure pipelines, common libraries, and service templates,
+            to expedite delivery of reliable, scalable, and maintainable
+            microservices{" "}
           </p>
           <p>
             {" "}
-            Established and upheld strong engineering practices that
-            require static and dynamic code analysis with 85% minimum unit test
-            coverage, maintain high observability for operational monitoring
-            using structured logging with tracing and custom metrics, and
-            automate CICD with integration/E2E testing{" "}
+            Established and upheld strong engineering processes that require
+            static and dynamic code analysis with 85\% minimum test coverage,
+            structured logging and custom metrics, and CICD with automated
+            integration/E2E testing{" "}
           </p>
           <p>
             {" "}
-            Designed and implemented a scheduled Kafka topic scanner, and
-            deployed an S3-triggered AWS Lambda parquet file processor to
-            populate relevant databases with project supervisor KPIs and tasks
-            for Homepages feature{" "}
+            Applied subject matter expertise of significant portions of the
+            company backend and knowledge of industry practices to mentor junior
+            engineers, influence peers, and present regularly at company-wide
+            engineering roundtables
           </p>
-          <hr color="white" />
+          <hr color="gray" />
           <p>
             {" "}
-            Kotlin | Java | Typescript | Python | Node | Docker | Kubernetes
-            (K8s) | Helm | AWS | S3 | EC2 | Lambda | CDK | Minikube | REST |
-            GraphQL | Kafka | Spring Boot | PostgreSQL | Terraform{" "}
+            Kotlin | Java | Typescript | Python | Node | Docker | Kubernetes |
+            Helm | AWS | S3 | EC2 | Lambda | CDK | Minikube | REST | GraphQL |
+            Kafka | Spring Boot | PostgreSQL | Terraform | Behavior-Driven
+            Development{" "}
           </p>
         </VerticalTimelineElement>
 
