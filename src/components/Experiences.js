@@ -71,11 +71,17 @@ const Experiences = () => {
           <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
           <p>
             {" "}
-            Spearheaded multiple teams to architect, deploy, and maintain
-            microservices in a fast-paced B2B proptech startup, including a
-            message-driven push notification service, a state-managing work
-            order offer service, event-driven task and metrics services, and
-            third-party integrated services in AWS Elastic Kubernetes Service{" "}
+            Spearheaded multiple backend teams of a fast-paced B2B proptech
+            startup, culminating in a 4.9 star vendor mobile app launch, a
+            vastly-improved vendor onboarding relaunch, and a unique homepage
+            experience to be migrated to the post-merger platform{" "}
+          </p>
+          <p>
+            {" "}
+            Designed, implemented, and maintained a message-driven push
+            notification service, a state-managing work order offer service,
+            event-driven task and KPI services, and third-party integrated
+            services{" "}
           </p>
           <p>
             {" "}
