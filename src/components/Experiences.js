@@ -51,11 +51,15 @@ const Experiences = () => {
             {" "}
             Develop a platform and a set of shared services, patterns, and
             libraries in the digital platform team at a fast-paced, high-growth
-            health technology startup to accelerate application development
-            teams by reducing technical debt and burden{" "}
+            healthtech startup to accelerate application development teams by
+            reducing technical debt and burden{" "}
           </p>
           <hr color="white" />
-          <p> Typescript | Node.js | Docker | Kubernetes (K8s) | GCP </p>
+          <p>
+            {" "}
+            TypeScript | Node.js | Express | MongoDB | Docker | Kubernetes (K8s)
+            | GCP{" "}
+          </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -107,7 +111,7 @@ const Experiences = () => {
           <hr color="gray" />
           <p>
             {" "}
-            Kotlin | Java | Typescript | Python | Node | Docker | Kubernetes |
+            Kotlin | Java | TypeScript | Python | Node | Docker | Kubernetes |
             Helm | AWS | S3 | EC2 | Lambda | CDK | Minikube | REST | GraphQL |
             Kafka | Spring Boot | PostgreSQL | Terraform | Behavior-Driven
             Development{" "}
@@ -147,7 +151,7 @@ const Experiences = () => {
           <p>
             {" "}
             Kotlin for Android | Golang (Go) | Python | Docker | API Development
-            | Unit and Integration Testing | Git (Bitbucket) | Typescript |
+            | Unit and Integration Testing | Git (Bitbucket) | TypeScript |
             React | Electron | Redux{" "}
           </p>
         </VerticalTimelineElement>
