@@ -14,6 +14,7 @@ import cornell from "./assets/cornell.png";
 import purdue from "./assets/purdue.jpeg";
 import stony from "./assets/stonybrook.png";
 import obviohealth from "./assets/obviohealth.png";
+import disney from "./assets/disney.svg";
 const Experiences = () => {
   return (
     <Container fluid style={{ padding: "20px" }}>
@@ -34,12 +35,31 @@ const Experiences = () => {
       <h2 style={{ textAlign: "center" }}>Professional Experience</h2>
 
       <VerticalTimeline>
-        <VerticalTimelineElement
+      <VerticalTimelineElement
           className="vertical-timeline-element--work--head"
           contentStyle={{ color: "#ffffff" }}
           iconStyle={{ background: "#ffffff", color: "#ffffff" }}
           contentArrowStyle={{ borderRight: "7px solid  #dc3545" }}
-          date="April 2023 - Present"
+          date="June 2024 - Present"
+          icon={<Image fluid src={disney} alt="Logo" roundedCircle />}
+        >
+          <h3 className="vertical-timeline-element-title">The Walt Disney Company</h3>
+          <h5 className="vertical-timeline-element-subtitle">
+            Senior Software Engineer
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
+          <p>
+            {" "}
+            Work on the Product and Data Engineering Team in Disney Streaming
+          </p>
+          <hr color="white" />
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          iconStyle={{ background: "#ffffff", color: "#ffffff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #dc3545" }}
+          date="April 2023 - June 2024"
           icon={<Image fluid src={obviohealth} alt="Logo" roundedCircle />}
         >
           <h3 className="vertical-timeline-element-title">ObvioHealth</h3>
@@ -49,16 +69,36 @@ const Experiences = () => {
           <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
           <p>
             {" "}
-            Develop a platform and a set of shared services, patterns, and
-            libraries in the digital platform team at a fast-paced, high-growth
-            healthtech startup to accelerate application development teams by
-            reducing technical debt and burden{" "}
+            Developed platform of shared services, patterns, and libraries at a
+            high-growth healthtech startup, which includes the auth security
+            system, the event-driven architecture, the monitoring and
+            observability stack, and automated testing frameworks
           </p>
-          <hr color="white" />
+          <p>
+            {" "}
+            Reduced average latencies by 40% across distributed services by
+            scaling deployments and optimizing code to mitigate bottlenecks
+          </p>
+          <p>
+            Designed, implemented, and deployed critical event-driven
+            application services, devising study participant randomization
+            algorithms and the event processing logic{" "}
+          </p>
+          <p>
+            Implemented inbox and outbox patterns to guarantee message delivery
+            and to improve performance and reliability of the event system
+          </p>
+          <p>
+            Significantly increased code coverage, monitoring, and code quality
+            in team-owned services by 60%, minimizing the severity and number of
+            bugs while expediting root cause analysis of issues by 200%
+          </p>
+
+          <hr color="gray" />
           <p>
             {" "}
             TypeScript | Node.js | Express | MongoDB | Docker | Kubernetes (K8s)
-            | GCP{" "}
+            | OpenTelemetry | Grafana | GCP | Argo | Backstage{" "}
           </p>
         </VerticalTimelineElement>
 
