@@ -42,20 +42,23 @@ const Skills = () => {
           <br /> <br />
           <h2>Programming</h2>
           <p>
-            TypeScript (TS)/JavaScript (JS), Python, Kotlin, Java, Golang (Go),
-            C/C++
+            Python, TypeScript (TS)/JavaScript (JS), Kotlin, Java, Golang (Go),
+            C/C++, Verilog
           </p>
         </Col>
         <Col>
           <FaDatabase size={"10vh"} color={"#ffffff"} />
           <br /> <br />
           <h2>Tools/Technologies</h2>
-          <p>Git, Docker, Kubernetes, Helm, PostgreSQL, MongoDB, AWS, GCP</p>
+          <p>
+            Git, Docker, Kubernetes, Helm, PostgreSQL, MongoDB, AWS, GCP, REST,
+            GraphQL
+          </p>
           <p>Spring Boot, React.js, Jest, TestNG, Node.js, Express </p>{" "}
           <p>
             {" "}
             Microservices, event-driven architecture, message-driven
-            architecture
+            architecture, continuous integration/continuous delivery (CI/CD)
           </p>
         </Col>
         <Col>
@@ -63,9 +66,8 @@ const Skills = () => {
           <br /> <br />
           <h2>Soft Skills</h2>
           <p>
-            Agile development, REST and GraphQL API and backend design, time
-            management, effective communication and teamwork, conflict
-            resolution
+            Agile development, API and backend system design, time management,
+            effective communication and teamwork, conflict resolution
           </p>
         </Col>
       </Row>

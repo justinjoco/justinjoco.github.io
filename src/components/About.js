@@ -27,8 +27,10 @@ const About = (props) => {
         I enjoy learning new things by tackling different challenges. Through my
         industry experience, I've gained practical skill in the{" "}
         <I> design, development, monitoring, and deployment</I> of{" "}
-        <B> mobile/web applications and microservices</B>. I've also gained a
-        breadth of skill in <B>embedded systems, machine learning </B>, and{" "}
+        <B> mobile/web applications and microservices</B>. I've also implemented
+        several <B>libraries, developer tools, and CI/CD pipelines </B>. In
+        addition, I've gained a breadth of skill in{" "}
+        <B>embedded systems, machine learning </B>, and{" "}
         <B>distributed systems</B> through hackathons and class projects by
         applying{" "}
         <I> data structures, algorithms, and object-oriented principles</I>.

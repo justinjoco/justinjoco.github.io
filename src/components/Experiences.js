@@ -35,7 +35,7 @@ const Experiences = () => {
       <h2 style={{ textAlign: "center" }}>Professional Experience</h2>
 
       <VerticalTimeline>
-      <VerticalTimelineElement
+        <VerticalTimelineElement
           className="vertical-timeline-element--work--head"
           contentStyle={{ color: "#ffffff" }}
           iconStyle={{ background: "#ffffff", color: "#ffffff" }}
@@ -43,7 +43,9 @@ const Experiences = () => {
           date="June 2024 - Present"
           icon={<Image fluid src={disney} alt="Logo" roundedCircle />}
         >
-          <h3 className="vertical-timeline-element-title">The Walt Disney Company</h3>
+          <h3 className="vertical-timeline-element-title">
+            The Walt Disney Company
+          </h3>
           <h5 className="vertical-timeline-element-subtitle">
             Senior Software Engineer
           </h5>
