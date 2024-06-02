@@ -15,6 +15,10 @@ import go_logo from "./assets/go-logo.svg";
 import paxos from "./assets/paxos-map.jpg";
 import cops from "./assets/cops-map.png";
 
+import iam from "./assets/iam.png";
+
+import shopping_cart from "./assets/shopping_cart.jpeg";
+
 const Projects = () => {
   const B = (props) => (
     <span style={{ fontWeight: "bold" }}>{props.children}</span>
@@ -84,6 +88,173 @@ const Projects = () => {
           </a>
         </Col>
       </Row>
+      <br />
+      <h3>Full Stack Applications</h3>
+
+      <CardDeck style={{ justifyContent: "center" }}>
+        <Card
+          className="bg-light text-dark border-dark"
+          style={{ maxWidth: 500 }}
+        >
+          <Card.Header>
+            <B>Identity and Access Management (IAM) System</B>
+          </Card.Header>
+          <Card.Img variant="top" src={iam} />
+          <Card.Body>
+            <Card.Title>
+              Auth system with user login/logout and registration, and
+              roles/permission granting, updating, and revoking
+            </Card.Title>
+            <Card.Text>
+              I implemented selected OAuth 2.0 flows, specifically Authorization
+              Code (with/without Proof of Key Exchange (PKCE)), Client
+              Credentials, and Resource Owner Password.
+            </Card.Text>
+            <a href="https://justinjoco.github.io/iam-system-details/">
+              <Button variant="danger" style={{ margin: "5px" }}>
+                Details
+              </Button>
+            </a>
+            <a href="https://github.com/justinjoco/iam-system">
+              <Button variant="secondary" style={{ margin: "5px" }}>
+                Code
+              </Button>
+            </a>
+          </Card.Body>
+          <Card.Footer>
+            React, Python, Flask, PostgreSQL, Docker, OAuth 2.0
+          </Card.Footer>
+        </Card>
+
+        <Card
+          className="bg-light text-dark border-dark"
+          style={{ maxWidth: 500 }}
+        >
+          <Card.Header>
+            <B>Shopping Store</B>
+          </Card.Header>
+          <Card.Img variant="top" src={shopping_cart} />
+          <Card.Body>
+            <Card.Title>
+              Full-stack shopping store with customer ordering and inventory
+              updates
+            </Card.Title>
+            <Card.Text>
+              I implemented separate flows for customers and admins, in which
+              customers can make orders for current items in the store, and
+              admins can add, update, or delete items from the store inventory.
+            </Card.Text>
+            <a href="https://justinjoco.github.io/shopping-store-details/">
+              <Button variant="danger" style={{ margin: "5px" }}>
+                Details
+              </Button>
+            </a>
+            <a href="https://github.com/justinjoco/shopping-store">
+              <Button variant="secondary" style={{ margin: "5px" }}>
+                Code
+              </Button>
+            </a>
+          </Card.Body>
+
+          <Card.Footer>React, Python, Flask, PostgreSQL, Docker</Card.Footer>
+        </Card>
+      </CardDeck>
+      <br />
+
+      <h3>Distributed Systems</h3>
+      <CardDeck style={{ justifyContent: "center" }}>
+        <Card
+          className="bg-light text-dark border-dark"
+          style={{ maxWidth: 500 }}
+        >
+          <Card.Header>
+            <B>COPS for Distributed Key Value Storage</B>
+          </Card.Header>
+          <Card.Img variant="top" src={cops} />
+          <Card.Body>
+            <Card.Subtitle className="mb-2">
+              <I>
+                Reference:{" "}
+                <a href="https://www.cs.cornell.edu/courses/cs5414/2017fa/papers/Lloyd11Cops.pdf">
+                  COPS paper
+                </a>
+              </I>
+            </Card.Subtitle>
+
+            <Card.Title>
+              A sharded, replicated key-value store that guarantees ALPS and
+              causal+ consistency
+            </Card.Title>
+
+            <Card.Text>
+              {" "}
+              I implemented this data store as an in-memory database. This
+              maintains the properties of available, low latency, partition
+              tolerant, and scalable (ALPS) datastores whilst maintaining causal
+              consistency with convergent conflict handling (causal+) by
+              tracking causal dependencies.
+            </Card.Text>
+            <Card.Text>
+              In this asynchronous setting, keys are sharded amongst partitions
+              in a particular cluster, and every key-value pair is replicated
+              across all clusters.
+            </Card.Text>
+            <a href="https://github.com/justinjoco/COPS">
+              <Button variant="secondary" style={{ margin: "5px" }}>
+                Code
+              </Button>
+            </a>
+          </Card.Body>
+          <Card.Footer>Go</Card.Footer>
+        </Card>
+
+        <Card
+          className="bg-light text-dark border-dark"
+          style={{ maxWidth: 500 }}
+        >
+          <Card.Header>
+            <B>Paxos Consensus for Message Ordering</B>
+          </Card.Header>
+          <Card.Img variant="top" src={paxos} />
+          <Card.Body>
+            <Card.Subtitle className="mb-2">
+              <I>
+                References:{" "}
+                <a href="https://www.cs.cornell.edu/courses/cs5414/2017fa/papers/PaxosComplex.pdf">
+                  Renesse paper
+                </a>
+                ,{" "}
+                <a href="https://www.cs.cornell.edu/courses/cs5414/2017fa/papers/paxos-simple.pdf">
+                  Lamport paper
+                </a>
+              </I>
+            </Card.Subtitle>
+            <Card.Title>
+              Implementation that solves consensus on message ordering across
+              replicated state machines
+            </Card.Title>
+            <Card.Text>
+              This project implements a distributed chatroom in an asychronous
+              setting with crash failures, in which all servers maintain
+              consistent message ordering using the Paxos consensus algorithm.
+            </Card.Text>
+
+            <Card.Text>
+              Each process plays all five roles of Multi-Paxos (Acceptor,
+              Leader, Proposer, Scout, and Commander) outlined in Renesse's
+              paper, but generally, this implementation follows the simpler
+              algorithm detailed in Lamport's paper.
+            </Card.Text>
+            <a href="https://github.com/justinjoco/paxos">
+              <Button variant="secondary" style={{ margin: "5px" }}>
+                Code
+              </Button>
+            </a>
+          </Card.Body>
+          <Card.Footer>Go</Card.Footer>
+        </Card>
+      </CardDeck>
+
       <br />
       <h3>Web Applications</h3>
 
@@ -209,104 +380,6 @@ const Projects = () => {
           </Card.Footer>
         </Card>
       </CardDeck>
-      <br />
-
-      <h3>Distributed Systems</h3>
-      <CardDeck style={{ justifyContent: "center" }}>
-        <Card
-          className="bg-light text-dark border-dark"
-          style={{ maxWidth: 500 }}
-        >
-          <Card.Header>
-            <B>COPS for Distributed Key Value Storage</B>
-          </Card.Header>
-          <Card.Img variant="top" src={cops} />
-          <Card.Body>
-            <Card.Subtitle className="mb-2">
-              <I>
-                Reference:{" "}
-                <a href="https://www.cs.cornell.edu/courses/cs5414/2017fa/papers/Lloyd11Cops.pdf">
-                  COPS paper
-                </a>
-              </I>
-            </Card.Subtitle>
-
-            <Card.Title>
-              A sharded, replicated key-value store that guarantees ALPS and
-              causal+ consistency
-            </Card.Title>
-
-            <Card.Text>
-              {" "}
-              I implemented this data store as an in-memory database. This
-              maintains the properties of available, low latency, partition
-              tolerant, and scalable (ALPS) datastores whilst maintaining causal
-              consistency with convergent conflict handling (causal+) by
-              tracking causal dependencies.
-            </Card.Text>
-            <Card.Text>
-              In this asynchronous setting, keys are sharded amongst partitions
-              in a particular cluster, and every key-value pair is replicated
-              across all clusters.
-            </Card.Text>
-            <a href="https://github.com/justinjoco/COPS">
-              <Button variant="secondary" style={{ margin: "5px" }}>
-                Code
-              </Button>
-            </a>
-          </Card.Body>
-          <Card.Footer>Go</Card.Footer>
-        </Card>
-
-        <Card
-          className="bg-light text-dark border-dark"
-          style={{ maxWidth: 500 }}
-        >
-          <Card.Header>
-            <B>Paxos Consensus for Message Ordering</B>
-          </Card.Header>
-          <Card.Img variant="top" src={paxos} />
-          <Card.Body>
-            <Card.Subtitle className="mb-2">
-              <I>
-                References:{" "}
-                <a href="https://www.cs.cornell.edu/courses/cs5414/2017fa/papers/PaxosComplex.pdf">
-                  Renesse paper
-                </a>
-                ,{" "}
-                <a href="https://www.cs.cornell.edu/courses/cs5414/2017fa/papers/paxos-simple.pdf">
-                  Lamport paper
-                </a>
-              </I>
-            </Card.Subtitle>
-            <Card.Title>
-              Implementation that solves consensus on message ordering across
-              replicated state machines
-            </Card.Title>
-            <Card.Text>
-              This project implements a distributed chatroom in an asychronous
-              setting with crash failures, in which all servers maintain
-              consistent message ordering using the Paxos consensus algorithm.
-            </Card.Text>
-
-            <Card.Text>
-              Each process plays all five roles of Multi-Paxos (Acceptor,
-              Leader, Proposer, Scout, and Commander) outlined in Renesse's
-              paper, but generally, this implementation follows the simpler
-              algorithm detailed in Lamport's paper.
-            </Card.Text>
-            <a href="https://github.com/justinjoco/paxos">
-              <Button variant="secondary" style={{ margin: "5px" }}>
-                Code
-              </Button>
-            </a>
-          </Card.Body>
-          <Card.Footer>Go</Card.Footer>
-        </Card>
-      </CardDeck>
-
-      <br />
-
       <br />
 
       <h3>Embedded/Firmware</h3>
