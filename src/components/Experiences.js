@@ -52,7 +52,7 @@ const Experiences = () => {
           <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
           <p>
             {" "}
-            Work on the Product and Data Engineering Team in Disney Streaming
+            Working on the Product and Data Engineering Team at Disney Streaming
           </p>
           <hr color="white" />
         </VerticalTimelineElement>
