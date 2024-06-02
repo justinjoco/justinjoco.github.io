@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.d9ec3196.chunk.css",
-    "main.js": "/static/js/main.d72583aa.chunk.js",
-    "main.js.map": "/static/js/main.d72583aa.chunk.js.map",
+    "main.js": "/static/js/main.424836a1.chunk.js",
+    "main.js.map": "/static/js/main.424836a1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f9335059.js",
     "runtime-main.js.map": "/static/js/runtime-main.f9335059.js.map",
     "static/css/2.a641e29a.chunk.css": "/static/css/2.a641e29a.chunk.css",
-    "static/js/2.4da10ce8.chunk.js": "/static/js/2.4da10ce8.chunk.js",
-    "static/js/2.4da10ce8.chunk.js.map": "/static/js/2.4da10ce8.chunk.js.map",
+    "static/js/2.7582cae4.chunk.js": "/static/js/2.7582cae4.chunk.js",
+    "static/js/2.7582cae4.chunk.js.map": "/static/js/2.7582cae4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.90f4cbdf5550ca5c76584ba5a7f81552.js": "/precache-manifest.90f4cbdf5550ca5c76584ba5a7f81552.js",
+    "precache-manifest.1cf7117680046718be59d2b6d7d60342.js": "/precache-manifest.1cf7117680046718be59d2b6d7d60342.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a641e29a.chunk.css.map": "/static/css/2.a641e29a.chunk.css.map",
     "static/css/main.d9ec3196.chunk.css.map": "/static/css/main.d9ec3196.chunk.css.map",
-    "static/js/2.4da10ce8.chunk.js.LICENSE.txt": "/static/js/2.4da10ce8.chunk.js.LICENSE.txt",
+    "static/js/2.7582cae4.chunk.js.LICENSE.txt": "/static/js/2.7582cae4.chunk.js.LICENSE.txt",
     "static/media/Python_logo_icon.png": "/static/media/Python_logo_icon.10327dc6.png",
     "static/media/air_canvas.jpg": "/static/media/air_canvas.9b55f78b.jpg",
     "static/media/background_mac.jpg": "/static/media/background_mac.43637dc3.jpg",
@@ -22,11 +22,13 @@
     "static/media/disney.svg": "/static/media/disney.aabba7f1.svg",
     "static/media/energy_weather.png": "/static/media/energy_weather.9f3fc79c.png",
     "static/media/go-logo.svg": "/static/media/go-logo.b9c6dd84.svg",
+    "static/media/iam.png": "/static/media/iam.62d39fb1.png",
     "static/media/jpmc.png": "/static/media/jpmc.0c23bb97.png",
     "static/media/pathfinder.png": "/static/media/pathfinder.2c161852.png",
     "static/media/paxos-map.jpg": "/static/media/paxos-map.69450104.jpg",
     "static/media/profile_pic.jpg": "/static/media/profile_pic.f9da7b8b.jpg",
     "static/media/purdue.jpeg": "/static/media/purdue.e547a9bd.jpeg",
+    "static/media/shopping_cart.jpeg": "/static/media/shopping_cart.e4bffb46.jpeg",
     "static/media/stonybrook.png": "/static/media/stonybrook.a3de9938.png",
     "static/media/take_me.png": "/static/media/take_me.2f902c77.png",
     "static/media/tmo.png": "/static/media/tmo.049ef576.png",
@@ -35,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.f9335059.js",
     "static/css/2.a641e29a.chunk.css",
-    "static/js/2.4da10ce8.chunk.js",
+    "static/js/2.7582cae4.chunk.js",
     "static/css/main.d9ec3196.chunk.css",
-    "static/js/main.d72583aa.chunk.js"
+    "static/js/main.424836a1.chunk.js"
   ]
 }
