@@ -122,7 +122,7 @@ const Projects = () => {
             </a>
           </Card.Body>
           <Card.Footer>
-            React, Python, Flask, Postgres, Docker, OAuth 2.0
+            React, Python, Flask, PostgreSQL, Docker, OAuth 2.0
           </Card.Footer>
         </Card>
 
@@ -156,7 +156,7 @@ const Projects = () => {
             </a>
           </Card.Body>
 
-          <Card.Footer>React, Python, Flask, Postgres, Docker</Card.Footer>
+          <Card.Footer>React, Python, Flask, PostgreSQL, Docker</Card.Footer>
         </Card>
       </CardDeck>
       <br />
