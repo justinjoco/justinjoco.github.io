@@ -85,7 +85,7 @@ const Projects = () => {
         </Col>
       </Row>
       <br />
-      <h3>Web Applications</h3>
+      <h3>Full Stack Applications</h3>
 
       <CardDeck style={{ justifyContent: "center" }}>
         <Card
@@ -93,7 +93,7 @@ const Projects = () => {
           style={{ maxWidth: 500 }}
         >
           <Card.Header>
-            <B>Weather and Energy Generation in the USA</B>
+            <B>Identity and Access Management System</B>
           </Card.Header>
           <Card.Img variant="top" src={energy_weather} />
           <Card.Body>
@@ -121,56 +121,13 @@ const Projects = () => {
           </Card.Body>
           <Card.Footer>HTML/CSS/JavaScript, D3.js</Card.Footer>
         </Card>
-        <Card
-          className="bg-light text-dark border-dark"
-          style={{ maxWidth: 500 }}
-        >
-          <Card.Header>
-            <B>Pathing Simulator</B>
-          </Card.Header>
-          <Card.Img variant="top" src={pathfinder} />
-          <Card.Body>
-            <Card.Title>
-              Web application that shows an avatar navigating around walls to
-              move to an end location
-            </Card.Title>
-            <Card.Text>
-              {" "}
-              Built upon Clement Mihailescu's{" "}
-              <a href="https://github.com/clementmihailescu/Pathfinding-Visualizer-Tutorial">
-                Pathfinding Visualizer
-              </a>{" "}
-              project.
-            </Card.Text>
-            <Card.Text>
-              {" "}
-              I migrated core logic from JS to TS for type-safety, and I added
-              DFS, BFS, and A* algorithms to show different pathing techniques
-              that MOBA-RTS games use in their AI and avatar pathing. User can
-              also set the start and end locations and watch the avatar node
-              move in real time.
-            </Card.Text>
-
-            <a href="https://justinjoco.github.io/pathing-simulator/">
-              <Button variant="danger" style={{ margin: "5px" }}>
-                Link
-              </Button>
-            </a>
-            <a href="https://github.com/justinjoco/pathing-simulator">
-              <Button variant="secondary" style={{ margin: "5px" }}>
-                Code
-              </Button>
-            </a>
-          </Card.Body>
-          <Card.Footer>Typescript, React-Typescript, Reactstrap</Card.Footer>
-        </Card>
 
         <Card
           className="bg-light text-dark border-dark"
           style={{ maxWidth: 500 }}
         >
           <Card.Header>
-            <B>Take Me to the Streets</B>
+            <B>Shopping Store</B>
           </Card.Header>
           <Card.Img variant="top" src={take_me} />
           <Card.Body>
@@ -306,7 +263,130 @@ const Projects = () => {
       </CardDeck>
 
       <br />
+      <h3>Web Applications</h3>
 
+<CardDeck style={{ justifyContent: "center" }}>
+  <Card
+    className="bg-light text-dark border-dark"
+    style={{ maxWidth: 500 }}
+  >
+    <Card.Header>
+      <B>Weather and Energy Generation in the USA</B>
+    </Card.Header>
+    <Card.Img variant="top" src={energy_weather} />
+    <Card.Body>
+      <Card.Title>
+        Interactive data visualization that shows how changes in
+        temperature over a given year affected energy generation in
+        various US states
+      </Card.Title>
+      <Card.Text>
+        I implemented slider and line graph interactivity such that user
+        can use the slider or click the line graph to change the month.
+        The US map and the line and bar graphs update their displayed data
+        based on the month selected or year selected (via dropdown).
+      </Card.Text>
+      <a href="https://justinjoco.github.io/energy_v_weather_in_us">
+        <Button variant="danger" style={{ margin: "5px" }}>
+          Link
+        </Button>
+      </a>
+      <a href="https://github.com/nsterling4/Info5100P2">
+        <Button variant="secondary" style={{ margin: "5px" }}>
+          Code
+        </Button>
+      </a>
+    </Card.Body>
+    <Card.Footer>HTML/CSS/JavaScript, D3.js</Card.Footer>
+  </Card>
+  <Card
+    className="bg-light text-dark border-dark"
+    style={{ maxWidth: 500 }}
+  >
+    <Card.Header>
+      <B>Pathing Simulator</B>
+    </Card.Header>
+    <Card.Img variant="top" src={pathfinder} />
+    <Card.Body>
+      <Card.Title>
+        Web application that shows an avatar navigating around walls to
+        move to an end location
+      </Card.Title>
+      <Card.Text>
+        {" "}
+        Built upon Clement Mihailescu's{" "}
+        <a href="https://github.com/clementmihailescu/Pathfinding-Visualizer-Tutorial">
+          Pathfinding Visualizer
+        </a>{" "}
+        project.
+      </Card.Text>
+      <Card.Text>
+        {" "}
+        I migrated core logic from JS to TS for type-safety, and I added
+        DFS, BFS, and A* algorithms to show different pathing techniques
+        that MOBA-RTS games use in their AI and avatar pathing. User can
+        also set the start and end locations and watch the avatar node
+        move in real time.
+      </Card.Text>
+
+      <a href="https://justinjoco.github.io/pathing-simulator/">
+        <Button variant="danger" style={{ margin: "5px" }}>
+          Link
+        </Button>
+      </a>
+      <a href="https://github.com/justinjoco/pathing-simulator">
+        <Button variant="secondary" style={{ margin: "5px" }}>
+          Code
+        </Button>
+      </a>
+    </Card.Body>
+    <Card.Footer>Typescript, React-Typescript, Reactstrap</Card.Footer>
+  </Card>
+
+  <Card
+    className="bg-light text-dark border-dark"
+    style={{ maxWidth: 500 }}
+  >
+    <Card.Header>
+      <B>Take Me to the Streets</B>
+    </Card.Header>
+    <Card.Img variant="top" src={take_me} />
+    <Card.Body>
+      <Card.Title>
+        A neighborhood discovery experience that can be customized to the
+        guest and the property, with optional gamification
+      </Card.Title>
+      <Card.Subtitle className="mb-2">
+        {" "}
+        <I>
+          Won "Expand Explore" challenge at{" "}
+          <a href="https://hospitalityhack.splashthat.com/">
+            Cornell Hospitality Hackathon 2018
+          </a>
+        </I>
+      </Card.Subtitle>
+      <Card.Text>
+        I prototyped the features, which included routing users to a
+        community and gaving them options to display that area’s locations
+        of interest and to show route back to hotel.
+      </Card.Text>
+      <a href="https://drive.google.com/file/d/1-AjMSllvR6Nlzw_mbkeCCSgcGCuy-R3J/view">
+        <Button variant="danger" style={{ margin: "5px" }}>
+          Details
+        </Button>
+      </a>
+      <a href="https://github.com/justinjoco/take_me_to_the_streets">
+        <Button variant="secondary" style={{ margin: "5px" }}>
+          Code
+        </Button>
+      </a>
+    </Card.Body>
+
+    <Card.Footer>
+      HTML/CSS/JavaScript, Google Maps JS API, Flask
+    </Card.Footer>
+  </Card>
+</CardDeck>
       <br />
 
       <h3>Embedded/Firmware</h3>
