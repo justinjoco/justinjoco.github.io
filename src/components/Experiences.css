@@ -34,8 +34,18 @@
     opacity: 1;
   }
 
+  .vertical-timeline-element--work .vertical-timeline-element-date {
+    color: black;
+    opacity: 1;
+  }
+
   .vertical-timeline-element--education--head .vertical-timeline-element-date {
     color: white;
+    opacity: 1;
+  }
+
+  .vertical-timeline-element--education .vertical-timeline-element-date {
+    color: black;
     opacity: 1;
   }
 }
