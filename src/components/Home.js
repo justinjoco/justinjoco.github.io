@@ -36,7 +36,7 @@ const Home = () => {
             </Button>
             <Button
               variant="danger"
-              href="https://drive.google.com/open?id=1GDuHzcNG2cZYs0UtkElK76sbslUixAsD"
+              href="https://drive.google.com/file/d/1Pyc81_-sCCLt07xsjemfVhmuVCXqlkyU/view?usp=sharing"
               style={{ margin: "5px" }}
             >
               Resume

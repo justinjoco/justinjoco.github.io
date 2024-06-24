@@ -103,12 +103,12 @@ const Projects = () => {
           <Card.Body>
             <Card.Title>
               Auth system with user login/logout and registration, and
-              roles/permission granting, updating, and revoking
+              permission granting, updating, and revoking via RBAC
             </Card.Title>
             <Card.Text>
-              I implemented selected OAuth 2.0 flows, specifically Authorization
-              Code (with/without Proof of Key Exchange (PKCE)), Client
-              Credentials, and Resource Owner Password.
+              I'm implementing selected OAuth 2.0 flows, specifically Authorization
+              Code with Proof of Key Exchange (PKCE), Client
+              Credentials, and Refresh Token.
             </Card.Text>
             <a href="https://justinjoco.github.io/iam-system-details/">
               <Button variant="danger" style={{ margin: "5px" }}>
