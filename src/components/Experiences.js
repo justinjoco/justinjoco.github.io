@@ -55,6 +55,10 @@ const Experiences = () => {
             Working on the Product and Data Engineering Team at Disney Streaming
           </p>
           <hr color="white" />
+          <p>
+            {" "}
+            Java | Spring Boot | Typescript | Svelte | AWS | Terraform | Jenkins | Artifactory | Spinnaker | Kubernetes | Docker
+          </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
