@@ -126,7 +126,7 @@ const Projects = () => {
             </a>
           </Card.Body>
           <Card.Footer>
-            Python, Django (REST Framework), PostgreSQL, Svelte, Docker, OAuth
+            Python, Django (REST Framework), PostgreSQL, React, Docker, OAuth
             2.0
           </Card.Footer>
         </Card>
