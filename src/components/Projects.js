@@ -97,18 +97,22 @@ const Projects = () => {
           style={{ maxWidth: 500 }}
         >
           <Card.Header>
-            <B>Identity and Access Management (IAM) System</B>
+            <B>
+              (In-Progress) Org Hierarchy Dashboard with Identity Access
+              Management (IAM)
+            </B>
           </Card.Header>
           <Card.Img variant="top" src={iam} />
           <Card.Body>
             <Card.Title>
-              Auth system with user login/logout and registration, and
-              permission granting, updating, and revoking via RBAC
+              Organizational hierarchy dashboard with an IAM system
             </Card.Title>
             <Card.Text>
-              I'm implementing selected OAuth 2.0 flows, specifically Authorization
-              Code with Proof of Key Exchange (PKCE), Client
-              Credentials, and Refresh Token.
+              Features include user login/logout and registration, and
+              permission granting, updating, and revoking via RBAC. I'm also
+              implementing selected OAuth 2.0 flows, specifically Authorization
+              Code with Proof of Key Exchange (PKCE), Client Credentials, and
+              Refresh Token.
             </Card.Text>
             <a href="https://justinjoco.github.io/iam-system-details/">
               <Button variant="danger" style={{ margin: "5px" }}>
@@ -122,7 +126,8 @@ const Projects = () => {
             </a>
           </Card.Body>
           <Card.Footer>
-            React, Python, Flask, PostgreSQL, Docker, OAuth 2.0
+            Python, Django (REST Framework), PostgreSQL, Svelte, Docker, OAuth
+            2.0
           </Card.Footer>
         </Card>
 
@@ -156,7 +161,9 @@ const Projects = () => {
             </a>
           </Card.Body>
 
-          <Card.Footer>React, Python, Flask, SQLAlchemy, PostgreSQL, Docker</Card.Footer>
+          <Card.Footer>
+            React, Python, Flask, SQLAlchemy, PostgreSQL, Docker
+          </Card.Footer>
         </Card>
       </CardDeck>
       <br />

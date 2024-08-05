@@ -40,10 +40,10 @@ const Skills = () => {
         <Col>
           <FaCode size={"10vh"} color={"#ffffff"} />
           <br /> <br />
-          <h2>Programming</h2>
+          <h2>Programming Languages</h2>
           <p>
-            Python, TypeScript (TS)/JavaScript (JS), Kotlin, Java, Golang (Go),
-            C/C++, Verilog
+            Python, Java, TypeScript (TS)/JavaScript (JS), Scala, Kotlin, Golang
+            (Go), C/C++
           </p>
         </Col>
         <Col>
@@ -51,14 +51,18 @@ const Skills = () => {
           <br /> <br />
           <h2>Tools/Technologies</h2>
           <p>
-            Git, Docker, Kubernetes, Helm, PostgreSQL, MongoDB, AWS, GCP, REST,
-            GraphQL
+            Git, Docker, Kubernetes, Helm, PostgreSQL, Liquibase, MongoDB, AWS,
+            GCP, REST, GraphQL, Terraform, Spinnaker, Jenkins, Argo
           </p>
-          <p>Spring Boot, React.js, Jest, TestNG, Node.js, Express </p>{" "}
+          <p>
+            Spring (Boot, WebFlux), Django (REST Framework), Flask, React,
+            Svelte, Jest, TestNG, Node.js, Express, OpenAPI{" "}
+          </p>{" "}
           <p>
             {" "}
             Microservices, event-driven architecture, message-driven
-            architecture, continuous integration/continuous delivery (CI/CD)
+            architecture, continuous integration/continuous delivery (CI/CD),
+            reactive programming
           </p>
         </Col>
         <Col>
