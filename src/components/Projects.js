@@ -92,45 +92,7 @@ const Projects = () => {
       <h3>Full Stack Applications</h3>
 
       <CardDeck style={{ justifyContent: "center" }}>
-        <Card
-          className="bg-light text-dark border-dark"
-          style={{ maxWidth: 500 }}
-        >
-          <Card.Header>
-            <B>
-              (In-Progress) Org Hierarchy Dashboard with Identity Access
-              Management (IAM)
-            </B>
-          </Card.Header>
-          <Card.Img variant="top" src={iam} />
-          <Card.Body>
-            <Card.Title>
-              Organizational hierarchy dashboard with an IAM system
-            </Card.Title>
-            <Card.Text>
-              Features include user login/logout and registration, and
-              permission granting, updating, and revoking via RBAC. I'm also
-              implementing selected OAuth 2.0 flows, specifically Authorization
-              Code with Proof of Key Exchange (PKCE), Client Credentials, and
-              Refresh Token.
-            </Card.Text>
-            <a href="https://justinjoco.github.io/iam-system-details/">
-              <Button variant="danger" style={{ margin: "5px" }}>
-                Details
-              </Button>
-            </a>
-            <a href="https://github.com/justinjoco/iam-system">
-              <Button variant="secondary" style={{ margin: "5px" }}>
-                Code
-              </Button>
-            </a>
-          </Card.Body>
-          <Card.Footer>
-            Python, Django (REST Framework), PostgreSQL, React, Docker, OAuth
-            2.0
-          </Card.Footer>
-        </Card>
-
+       
         <Card
           className="bg-light text-dark border-dark"
           style={{ maxWidth: 500 }}
