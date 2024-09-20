@@ -15,7 +15,7 @@ import go_logo from "./assets/go-logo.svg";
 import paxos from "./assets/paxos-map.jpg";
 import cops from "./assets/cops-map.png";
 
-import iam from "./assets/iam.png";
+import four_function from "./assets/four_function.png";
 
 import shopping_cart from "./assets/shopping_cart.jpeg";
 
@@ -92,7 +92,6 @@ const Projects = () => {
       <h3>Full Stack Applications</h3>
 
       <CardDeck style={{ justifyContent: "center" }}>
-       
         <Card
           className="bg-light text-dark border-dark"
           style={{ maxWidth: 500 }}
@@ -347,6 +346,43 @@ const Projects = () => {
           <Card.Footer>
             HTML/CSS/JavaScript, Google Maps JS API, Flask
           </Card.Footer>
+        </Card>
+      </CardDeck>
+
+      <br />
+      <CardDeck style={{ justifyContent: "center" }}>
+        <Card
+          className="bg-light text-dark border-dark"
+          style={{ maxWidth: 500 }}
+        >
+          <Card.Header>
+            <B>Basic Calculators</B>
+          </Card.Header>
+          <Card.Img variant="top" src={four_function} />
+          <Card.Body>
+            <Card.Title>
+              Four function calculators with increasing complexity
+            </Card.Title>
+            <Card.Text>
+              I implemented three four-function calculators. The first
+              calculator has addition, subtraction, multiplication, and division
+              with the same priority. The second calculator has
+              multiplication/division take priority over addition/subtraction.
+              The third includes parentheses taking precedence over the
+              operation priorities of the second calculator.
+            </Card.Text>
+            <a href="https://justinjoco.github.io/react-calculator">
+              <Button variant="danger" style={{ margin: "5px" }}>
+                Link
+              </Button>
+            </a>
+            <a href="https://github.com/justinjoco/react-calculator">
+              <Button variant="secondary" style={{ margin: "5px" }}>
+                Code
+              </Button>
+            </a>
+          </Card.Body>
+          <Card.Footer> Javascript, ReactJS, Algorithms</Card.Footer>
         </Card>
       </CardDeck>
       <br />
