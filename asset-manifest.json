@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.ead19251.chunk.css",
-    "main.js": "/static/js/main.23bc08e7.chunk.js",
-    "main.js.map": "/static/js/main.23bc08e7.chunk.js.map",
+    "main.js": "/static/js/main.75a9e946.chunk.js",
+    "main.js.map": "/static/js/main.75a9e946.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f9335059.js",
     "runtime-main.js.map": "/static/js/runtime-main.f9335059.js.map",
     "static/css/2.a641e29a.chunk.css": "/static/css/2.a641e29a.chunk.css",
-    "static/js/2.7bdcbcfa.chunk.js": "/static/js/2.7bdcbcfa.chunk.js",
-    "static/js/2.7bdcbcfa.chunk.js.map": "/static/js/2.7bdcbcfa.chunk.js.map",
+    "static/js/2.7582cae4.chunk.js": "/static/js/2.7582cae4.chunk.js",
+    "static/js/2.7582cae4.chunk.js.map": "/static/js/2.7582cae4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b8172226e0cb21b17e0d342afd12c7a9.js": "/precache-manifest.b8172226e0cb21b17e0d342afd12c7a9.js",
+    "precache-manifest.e7fb33d89d353f1bc0673cdd4ea96432.js": "/precache-manifest.e7fb33d89d353f1bc0673cdd4ea96432.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a641e29a.chunk.css.map": "/static/css/2.a641e29a.chunk.css.map",
     "static/css/main.ead19251.chunk.css.map": "/static/css/main.ead19251.chunk.css.map",
-    "static/js/2.7bdcbcfa.chunk.js.LICENSE.txt": "/static/js/2.7bdcbcfa.chunk.js.LICENSE.txt",
+    "static/js/2.7582cae4.chunk.js.LICENSE.txt": "/static/js/2.7582cae4.chunk.js.LICENSE.txt",
     "static/media/Python_logo_icon.png": "/static/media/Python_logo_icon.10327dc6.png",
     "static/media/air_canvas.jpg": "/static/media/air_canvas.9b55f78b.jpg",
     "static/media/background_mac.jpg": "/static/media/background_mac.43637dc3.jpg",
@@ -21,8 +21,8 @@
     "static/media/cornell.png": "/static/media/cornell.b1a6521d.png",
     "static/media/disney.svg": "/static/media/disney.aabba7f1.svg",
     "static/media/energy_weather.png": "/static/media/energy_weather.9f3fc79c.png",
+    "static/media/four_function.png": "/static/media/four_function.78b11f59.png",
     "static/media/go-logo.svg": "/static/media/go-logo.b9c6dd84.svg",
-    "static/media/iam.png": "/static/media/iam.62d39fb1.png",
     "static/media/jpmc.png": "/static/media/jpmc.0c23bb97.png",
     "static/media/pathfinder.png": "/static/media/pathfinder.2c161852.png",
     "static/media/paxos-map.jpg": "/static/media/paxos-map.69450104.jpg",
@@ -37,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.f9335059.js",
     "static/css/2.a641e29a.chunk.css",
-    "static/js/2.7bdcbcfa.chunk.js",
+    "static/js/2.7582cae4.chunk.js",
     "static/css/main.ead19251.chunk.css",
-    "static/js/main.23bc08e7.chunk.js"
+    "static/js/main.75a9e946.chunk.js"
   ]
 }
