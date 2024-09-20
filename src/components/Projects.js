@@ -475,7 +475,7 @@ const Projects = () => {
           style={{ maxWidth: 500 }}
         >
           <Card.Header>
-            <B>Mandlebrot Set Visualizer</B>
+            <B>Mandelbrot Set Visualizer</B>
           </Card.Header>
           <Card.Img variant="top" src={mandelbrot_fullset} />
           <Card.Body>
