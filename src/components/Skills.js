@@ -23,27 +23,14 @@ const Skills = () => {
     >
       <h1 className="display-4">Skills</h1>
       <hr style={{ color: "#ffffff", borderColor: "#ffffff" }} />
-
-      <Row>
-        <Col>
-          <p>
-            {" "}
-            <B>Relevant Coursework: </B> Distributed Computing Principles,
-            Machine Learning, Database Systems, Data-Driven Web Apps,
-            Object-Oriented Programming, Data Structures and Algorithms,
-            Computer Vision
-          </p>
-        </Col>
-      </Row>
-      <br />
       <Row>
         <Col>
           <FaCode size={"10vh"} color={"#ffffff"} />
           <br /> <br />
           <h2>Programming Languages</h2>
           <p>
-            Python, Java, TypeScript (TS)/JavaScript (JS), Scala, Kotlin, Golang
-            (Go), C/C++
+            Python, Java, TypeScript (TS)/JavaScript (JS), SQL, Scala, Rust,
+            Kotlin, Golang (Go), C/C++
           </p>
         </Col>
         <Col>
@@ -51,12 +38,17 @@ const Skills = () => {
           <br /> <br />
           <h2>Tools/Technologies</h2>
           <p>
-            Git, Docker, Kubernetes, Helm, PostgreSQL, Liquibase, MongoDB, AWS,
-            GCP, REST, GraphQL, Terraform, Spinnaker, Jenkins, Argo
+            Git, Unix/Linux, Docker, Kubernetes, Helm, PostgreSQL, Liquibase,
+            MongoDB, Apache Kafka, REST, GraphQL, Terraform, Spinnaker, Jenkins,
+            Argo
           </p>
           <p>
-            Spring (Boot, WebFlux), Django (REST Framework), Flask, React,
-            Svelte, Jest, TestNG, Node.js, Express, OpenAPI{" "}
+            Spring (Boot, WebFlux), Django (REST Framework), Flask, React, Jest,
+            JUnit, TestNG, Node.js, Express, OpenAPI{" "}
+          </p>{" "}
+          <p>
+            AWS (EKS, S3, EC2, RDS, Kinesis, DynamoDB, Lambda), GCP, Firebase
+            Cloud Messaging{" "}
           </p>{" "}
           <p>
             {" "}
