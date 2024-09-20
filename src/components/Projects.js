@@ -19,6 +19,8 @@ import four_function from "./assets/four_function.png";
 
 import shopping_cart from "./assets/shopping_cart.jpeg";
 
+import mandelbrot_fullset from "./assets/mandelbrot_fullset.jpg";
+
 const Projects = () => {
   const B = (props) => (
     <span style={{ fontWeight: "bold" }}>{props.children}</span>
@@ -466,6 +468,36 @@ const Projects = () => {
             </a>
           </Card.Body>
           <Card.Footer>Python, OpenCV-Python, PyGame</Card.Footer>
+        </Card>
+
+        <Card
+          className="bg-light text-dark border-dark"
+          style={{ maxWidth: 500 }}
+        >
+          <Card.Header>
+            <B>Mandlebrot Set Visualizer</B>
+          </Card.Header>
+          <Card.Img variant="top" src={mandelbrot_fullset} />
+          <Card.Body>
+            <Card.Title>
+              FPGA-accelerated interactive mandelbrot set GUI{" "}
+            </Card.Title>
+            <Card.Text>
+              We designed and implemented an interactive tool to visualize a
+              mandelbrot set. Users are able to use a mouse to click wherever
+              they want on the mandelbrot set to zoom-in or zoom-out of a
+              particular region. The graphics of these zoomed-in and zoomed-out
+              regions are accelerated via an FPGA with multiple solvers
+              parallelizing the calculations, thereby making a simple, yet
+              specialized GPU.
+            </Card.Text>
+            <a href="https://drive.google.com/file/d/1MtvCLOZhPkopz-Y9ifDJeZWBvTJKJMgr/view?usp=sharing">
+              <Button variant="danger" style={{ margin: "5px" }}>
+                Details
+              </Button>
+            </a>
+          </Card.Body>
+          <Card.Footer>C, Verilog</Card.Footer>
         </Card>
       </CardDeck>
 
