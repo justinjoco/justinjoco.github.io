@@ -19,7 +19,7 @@ const About = (props) => {
 
       <h1 className="display-3">About Me</h1>
 
-      <p>
+      <p style={{ fontSize: "1.5vmin" }}>
         Backend software engineer (can do some front-end) experienced in
         application and platform engineering, with focus on Kubernetes,
         microservices, and developer tooling. I've led multiple teams to ship
