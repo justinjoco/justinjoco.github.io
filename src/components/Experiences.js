@@ -14,7 +14,7 @@ import cornell from "./assets/cornell.png";
 import purdue from "./assets/purdue.jpeg";
 import stony from "./assets/stonybrook.png";
 import obviohealth from "./assets/obviohealth.png";
-import disney from "./assets/disney.svg";
+import disney from "./assets/disney_d_logo.png";
 const Experiences = () => {
   return (
     <Container fluid style={{ padding: "20px" }}>
