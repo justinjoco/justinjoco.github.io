@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.ead19251.chunk.css",
-    "main.js": "/static/js/main.661a3d90.chunk.js",
-    "main.js.map": "/static/js/main.661a3d90.chunk.js.map",
+    "main.js": "/static/js/main.03c09f4b.chunk.js",
+    "main.js.map": "/static/js/main.03c09f4b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f9335059.js",
     "runtime-main.js.map": "/static/js/runtime-main.f9335059.js.map",
     "static/css/2.a641e29a.chunk.css": "/static/css/2.a641e29a.chunk.css",
     "static/js/2.fbcc86d5.chunk.js": "/static/js/2.fbcc86d5.chunk.js",
     "static/js/2.fbcc86d5.chunk.js.map": "/static/js/2.fbcc86d5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.71601bd61f8cd179d9df5133fc6f77ea.js": "/precache-manifest.71601bd61f8cd179d9df5133fc6f77ea.js",
+    "precache-manifest.e6d4f1f90bdb95977198c71194e41165.js": "/precache-manifest.e6d4f1f90bdb95977198c71194e41165.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a641e29a.chunk.css.map": "/static/css/2.a641e29a.chunk.css.map",
     "static/css/main.ead19251.chunk.css.map": "/static/css/main.ead19251.chunk.css.map",
@@ -19,7 +19,7 @@
     "static/media/background_mac.jpg": "/static/media/background_mac.43637dc3.jpg",
     "static/media/cops-map.png": "/static/media/cops-map.fd4a008d.png",
     "static/media/cornell.png": "/static/media/cornell.b1a6521d.png",
-    "static/media/disney.svg": "/static/media/disney.aabba7f1.svg",
+    "static/media/disney_d_logo.png": "/static/media/disney_d_logo.a40e3f53.png",
     "static/media/energy_weather.png": "/static/media/energy_weather.9f3fc79c.png",
     "static/media/four_function.png": "/static/media/four_function.78b11f59.png",
     "static/media/go-logo.svg": "/static/media/go-logo.b9c6dd84.svg",
@@ -40,6 +40,6 @@
     "static/css/2.a641e29a.chunk.css",
     "static/js/2.fbcc86d5.chunk.js",
     "static/css/main.ead19251.chunk.css",
-    "static/js/main.661a3d90.chunk.js"
+    "static/js/main.03c09f4b.chunk.js"
   ]
 }
