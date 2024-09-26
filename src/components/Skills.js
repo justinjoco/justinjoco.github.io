@@ -29,7 +29,7 @@ const Skills = () => {
           <br /> <br />
           <h2>Programming Languages</h2>
           <p>
-            Python, Java, TypeScript (TS)/JavaScript (JS)
+            Python, Java, TypeScript (TS)/JavaScript (JS),
             Kotlin, Golang (Go), C/C++, SQL, GraphQL
           </p>
         </Col>
