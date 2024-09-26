@@ -264,7 +264,7 @@ const Experiences = () => {
           </h5>
           <h6 className="vertical-timeline-element-subtitle">Chicago, IL</h6>
           <p>
-            Developed a B2B web portal that streamlined account opening for
+            Developed a B2B web portal (Data Once &reg;) that streamlined account opening for
             commercial clients in 23+ countries
           </p>
           <hr color="gray" />
