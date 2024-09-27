@@ -114,7 +114,7 @@ const Experiences = () => {
           date="Sept 2021 - Mar 2023"
           icon={<Image fluid src={lessen} alt="Logo" roundedCircle />}
         >
-          <h3 className="vertical-timeline-element-title">Lessen, Inc.</h3>
+          <h3 className="vertical-timeline-element-title">Lessen</h3>
           <h5 className="vertical-timeline-element-subtitle">
             Software Engineer III
           </h5>
@@ -170,7 +170,7 @@ const Experiences = () => {
           date="Jan 2020 - Sept 2021"
           icon={<Image fluid src={tmo} alt="Logo" roundedCircle />}
         >
-          <h3 className="vertical-timeline-element-title">T-Mobile US, Inc.</h3>
+          <h3 className="vertical-timeline-element-title">T-Mobile</h3>
           <h5 className="vertical-timeline-element-subtitle">
             Software Engineer
           </h5>
@@ -233,7 +233,7 @@ const Experiences = () => {
           iconStyle={{ background: "#dc3545", color: "#ffffff" }}
           icon={<Image fluid src={tmo} alt="Logo" roundedCircle />}
         >
-          <h3 className="vertical-timeline-element-title">T-Mobile US, Inc.</h3>
+          <h3 className="vertical-timeline-element-title">T-Mobile</h3>
           <h5 className="vertical-timeline-element-subtitle">
             System Architecture Engineering Intern
           </h5>
