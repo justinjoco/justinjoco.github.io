@@ -37,7 +37,6 @@ const Footer = (props) => {
       <ColoredLine color="white" />
       <p>Justin-Anthony Ampil Joco</p>
       <p>U.S. Citizen</p>
-      <p>914-727-2032</p>
       <p>Email: justin.joco@gmail.com</p>
       <ColoredLine color="white" />
       <Row>
