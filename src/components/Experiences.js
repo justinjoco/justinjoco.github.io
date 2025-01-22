@@ -57,8 +57,8 @@ const Experiences = () => {
           <p>
             {" "}
             Java | Spring (Boot, WebFlux, Security) | Reactive Programming |
-            Typescript | Scala | AWS (DynamoDB, RDS, EKS, Kinesis) | Terraform | Jenkins
-            | Artifactory | Spinnaker | Kubernetes | Docker
+            Typescript | Scala | AWS (DynamoDB, RDS, S3, EC2, EKS, Kinesis) |
+            Terraform | Jenkins | Artifactory | Spinnaker | Kubernetes | Docker
           </p>
         </VerticalTimelineElement>
 

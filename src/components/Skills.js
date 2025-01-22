@@ -17,7 +17,7 @@ const Skills = () => {
       style={{
         textAlign: "center",
         padding: "20px",
-        backgroundColor: "#dc3545",
+        backgroundColor: "#800000",
         color: "#ffffff",
       }}
     >
@@ -27,20 +27,25 @@ const Skills = () => {
         <Col>
           <FaCode size={"10vh"} color={"#ffffff"} />
           <br /> <br />
-          <h2>Programming Languages</h2>
+          <h2>Programming</h2>
           <p>
-            Python, Java, TypeScript (TS)/JavaScript (JS), Kotlin, Golang (Go),
-            C/C++, SQL, GraphQL
+            <B>Languages</B>: Python, Java, TypeScript (TS)/JavaScript (JS),
+            Kotlin, Golang (Go), Scala, Rust, C/C++, SQL
           </p>
+          <p>
+            <B>Paradigms</B>: Object-oriented, reactive, concurrent,
+            asynchronous
+          </p>
+          <p></p>
         </Col>
         <Col>
           <FaDatabase size={"10vh"} color={"#ffffff"} />
           <br /> <br />
-          <h2>Tools/Technologies</h2>
+          <h2>Tools and Technologies</h2>
           <p>
             Git, Unix/Linux, Docker, Kubernetes, Helm, PostgreSQL, Liquibase,
-            MongoDB, Apache Kafka, Artifactory, REST, Terraform, Spinnaker,
-            Jenkins, Argo
+            MongoDB, Apache Kafka, Artifactory, REST, GraphQL, Terraform,
+            Spinnaker, Jenkins, Argo
           </p>
           <p>
             Spring (Boot, WebFlux), Django (REST Framework), Flask, React, Jest,
@@ -50,20 +55,23 @@ const Skills = () => {
             AWS (EKS, S3, EC2, RDS, Kinesis, DynamoDB, Lambda), GCP, Firebase
             Cloud Messaging{" "}
           </p>{" "}
-          <p>
-            {" "}
-            Microservices, event-driven architecture, message-driven
-            architecture, continuous integration/continuous delivery (CI/CD),
-            reactive programming
-          </p>
         </Col>
         <Col>
           <FaComments size={"10vh"} color={"#ffffff"} />
           <br /> <br />
-          <h2>Soft Skills</h2>
+          <h2>Architecture and Soft Skills</h2>
           <p>
-            Agile development, API and backend system design, time management,
-            effective communication and teamwork, conflict resolution
+            {" "}
+            Microservices, event-driven architecture, message-driven
+            architecture, continuous integration/continuous delivery (CI/CD),
+            unit/integration/end-to-end testing
+          </p>
+          <p>
+            REST/GraphQL API design, database design, technical documentation
+          </p>
+          <p>
+            Agile development, leadership, time management, effective
+            communication and teamwork, conflict resolution
           </p>
         </Col>
       </Row>
