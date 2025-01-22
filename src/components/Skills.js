@@ -29,8 +29,8 @@ const Skills = () => {
           <br /> <br />
           <h2>Programming Languages</h2>
           <p>
-            Python, Java, TypeScript (TS)/JavaScript (JS),
-            Kotlin, Golang (Go), C/C++, SQL, GraphQL
+            Python, Java, TypeScript (TS)/JavaScript (JS), Kotlin, Golang (Go),
+            C/C++, SQL, GraphQL
           </p>
         </Col>
         <Col>
@@ -39,8 +39,8 @@ const Skills = () => {
           <h2>Tools/Technologies</h2>
           <p>
             Git, Unix/Linux, Docker, Kubernetes, Helm, PostgreSQL, Liquibase,
-            MongoDB, Apache Kafka, Artifactory, REST, Terraform, Spinnaker, Jenkins,
-            Argo
+            MongoDB, Apache Kafka, Artifactory, REST, Terraform, Spinnaker,
+            Jenkins, Argo
           </p>
           <p>
             Spring (Boot, WebFlux), Django (REST Framework), Flask, React, Jest,

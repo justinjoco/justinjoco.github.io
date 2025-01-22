@@ -27,7 +27,10 @@ const Home = () => {
             <h1 className="display-1" style={{ fontSize: "10vmin" }}>
               Justin Joco
             </h1>
-            <h3 style={{ fontSize: "3vmin" }}> Backend/Platform Software Engineer</h3>
+            <h3 style={{ fontSize: "3vmin" }}>
+              {" "}
+              Backend/Platform Software Engineer
+            </h3>
 
             <Button variant="dark" href="#about" style={{ margin: "5px" }}>
               About

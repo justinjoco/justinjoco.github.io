@@ -50,13 +50,14 @@ const Experiences = () => {
           <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
           <p>
             {" "}
-            Working on the Product and Data Engineering Team at Disney Streaming
+            Working on developer tooling with respect to the event-driven
+            architecture of Disney Entertainment & ESPN Technology
           </p>
           <hr color="white" />
           <p>
             {" "}
             Java | Spring (Boot, WebFlux, Security) | Reactive Programming |
-            Typescript | AWS (DynamoDB, RDS, EKS, Kinesis) | Terraform | Jenkins
+            Typescript | Scala | AWS (DynamoDB, RDS, EKS, Kinesis) | Terraform | Jenkins
             | Artifactory | Spinnaker | Kubernetes | Docker
           </p>
         </VerticalTimelineElement>
@@ -264,8 +265,8 @@ const Experiences = () => {
           </h5>
           <h6 className="vertical-timeline-element-subtitle">Chicago, IL</h6>
           <p>
-            Developed a B2B web portal (Data Once &reg;) that streamlined account opening for
-            commercial clients in 23+ countries
+            Developed a B2B web portal (Data Once &reg;) that streamlined
+            account opening for commercial clients in 23+ countries
           </p>
           <hr color="gray" />
           <p>
