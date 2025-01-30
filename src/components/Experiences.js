@@ -50,15 +50,15 @@ const Experiences = () => {
           <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
           <p>
             {" "}
-            Working on developer tooling with respect to the event-driven
+            Working on internal developer tools with respect to the event-driven
             architecture of Disney Entertainment & ESPN Technology
           </p>
           <hr color="white" />
           <p>
             {" "}
-            Java | Spring (Boot, WebFlux, Security) | Reactive Programming |
+            Java | Spring (Boot, WebFlux, Security) | Reactive Programming | Python |
             Typescript | Scala | AWS (DynamoDB, RDS, S3, EC2, EKS, Kinesis) |
-            Terraform | Jenkins | Artifactory | Spinnaker | Kubernetes | Docker
+            Terraform | Jenkins | Artifactory | Spinnaker | Datadog | Databricks | Apache Spark
           </p>
         </VerticalTimelineElement>
 

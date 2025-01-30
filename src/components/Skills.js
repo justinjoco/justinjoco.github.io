@@ -45,7 +45,7 @@ const Skills = () => {
           <p>
             Git, Unix/Linux, Docker, Kubernetes, Helm, PostgreSQL, Liquibase,
             MongoDB, Apache Kafka, Artifactory, REST, GraphQL, Terraform,
-            Spinnaker, Jenkins, Argo
+            Spinnaker, Jenkins, Argo, Datadog, Databricks, Apache Spark
           </p>
           <p>
             Spring (Boot, WebFlux), Django (REST Framework), Flask, React, Jest,
