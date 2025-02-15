@@ -49,10 +49,10 @@ const Skills = () => {
           </p>
           <p>
             Spring (Boot, WebFlux), Django (REST Framework), Flask, React, Jest,
-            JUnit, TestNG, Node.js, Express, OpenAPI{" "}
+            JUnit, TestNG, Node.js, Express, OpenAPI, OpenTelemetry, OAuth 2.0/Open ID Connect{" "}
           </p>{" "}
           <p>
-            AWS (EKS, S3, EC2, RDS, Kinesis, DynamoDB, Lambda), GCP, Firebase
+            AWS (EKS, S3, EC2, RDS, Kinesis, DynamoDB, Lambda, OpenSearch), GCP, Firebase
             Cloud Messaging{" "}
           </p>{" "}
         </Col>
