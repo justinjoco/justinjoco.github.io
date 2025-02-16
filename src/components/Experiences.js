@@ -50,8 +50,7 @@ const Experiences = () => {
           <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
           <p>
             {" "}
-            Working on internal developer tools with respect to the event-driven
-            architecture of Disney Entertainment & ESPN Technology
+            Build internal tools for Disney Plus's event-driven architecture
           </p>
           <hr color="white" />
           <p>
