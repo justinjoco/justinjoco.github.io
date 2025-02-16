@@ -56,9 +56,10 @@ const Experiences = () => {
           <hr color="white" />
           <p>
             {" "}
-            Java | Spring (Boot, WebFlux, Security) | Reactive Programming | Python |
-            Typescript | Scala | AWS (DynamoDB, RDS, S3, EC2, EKS, Kinesis) |
-            Terraform | Jenkins | Artifactory | Spinnaker | Datadog | Databricks | Apache Spark
+            Java | Spring (Boot, WebFlux, Security) | Reactive Programming |
+            Python | Typescript | Scala | AWS (DynamoDB, RDS, S3, EC2, EKS,
+            Kinesis) | Terraform | Jenkins | Artifactory | Spinnaker | Datadog |
+            Databricks | Apache Spark
           </p>
         </VerticalTimelineElement>
 

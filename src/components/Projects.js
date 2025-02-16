@@ -21,6 +21,8 @@ import shopping_cart from "./assets/shopping_cart.jpeg";
 
 import mandelbrot_fullset from "./assets/mandelbrot_fullset.jpg";
 
+import fullstack from "./assets/fullstack.png";
+
 const Projects = () => {
   const B = (props) => (
     <span style={{ fontWeight: "bold" }}>{props.children}</span>
@@ -126,6 +128,52 @@ const Projects = () => {
 
           <Card.Footer>
             React, Python, Flask, SQLAlchemy, PostgreSQL, Docker
+          </Card.Footer>
+        </Card>
+
+        <Card
+          className="bg-light text-dark border-dark"
+          style={{ maxWidth: 500 }}
+        >
+          <Card.Header>
+            <B>Template Repositories</B>
+          </Card.Header>
+          <Card.Img variant="top" src={fullstack} />
+          <Card.Body>
+            <Card.Title>
+              Full-stack template repositories with database and caching layers
+            </Card.Title>
+            <Card.Text>
+              I created template repositories of full-stack containerized apps,
+              featuring CRUD API services written in different backend
+              frameworks with a React frontend, a PostgreSQL database, and a
+              Redis cache
+            </Card.Text>
+            <a href="https://github.com/justinjoco/flask_fullstack_template">
+              <Button variant="secondary" style={{ margin: "5px" }}>
+                Python - Flask
+              </Button>
+            </a>
+            <a href="https://github.com/justinjoco/django_fullstack_template">
+              <Button variant="secondary" style={{ margin: "5px" }}>
+                Python - Django
+              </Button>
+            </a>
+            <a href="https://github.com/justinjoco/rust_fullstack_template">
+              <Button variant="secondary" style={{ margin: "5px" }}>
+                Rust - Actix Web
+              </Button>
+            </a>
+            <a href="https://github.com/justinjoco/go_fullstack_template">
+              <Button variant="secondary" style={{ margin: "5px" }}>
+                Go - Gin
+              </Button>
+            </a>
+          </Card.Body>
+
+          <Card.Footer>
+            Python (Flask, Django REST Framework), Rust (Actix Web), Go (Gin),
+            PostgreSQL, Redis, React, Docker
           </Card.Footer>
         </Card>
       </CardDeck>
