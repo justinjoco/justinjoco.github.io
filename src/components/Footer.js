@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Jumbotron, Container, Row, Col, Image, Button } from "react-bootstrap";
 import logo from "./assets/my_logo_white.png";
-import { FaFacebookSquare, FaLinkedin, FaGithubSquare } from "react-icons/fa";
+import { FaFacebookSquare, FaLinkedin, FaGithubSquare, FaDev } from "react-icons/fa";
 
 const Footer = (props) => {
   const I = (props) => (
@@ -10,7 +10,7 @@ const Footer = (props) => {
   );
   const [linkedInColor, setLinkedInColor] = useState("#e0e0e0");
   const [githubColor, setGithubColor] = useState("#e0e0e0");
-  const [facebookColor, setFacebookColor] = useState("#e0e0e0");
+  const [devColor, setDevColor] = useState("#e0e0e0");
 
   const ColoredLine = ({ color }) => (
     <hr
@@ -57,6 +57,16 @@ const Footer = (props) => {
               color={githubColor}
               onMouseEnter={() => setGithubColor("#696969")}
               onMouseLeave={() => setGithubColor("#e0e0e0")}
+            />
+          </a>
+        </Col>
+        <Col xs>
+          <a href="https://dev.to/justinjoco">
+            <FaDev
+              size={"7vh"}
+              color={devColor}
+              onMouseEnter={() => setDevColor("#696969")}
+              onMouseLeave={() => setDevColor("#e0e0e0")}
             />
           </a>
         </Col>

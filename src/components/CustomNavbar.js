@@ -46,6 +46,11 @@ const CustomNavbar = (props) => {
               <B>Github</B>
             </Nav.Link>
           </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href="https://dev.to/justinjoco">
+              <B>Blog</B>
+            </Nav.Link>
+          </Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
