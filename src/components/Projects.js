@@ -159,11 +159,6 @@ const Projects = () => {
                 Python - Django
               </Button>
             </a>
-            <a href="https://github.com/justinjoco/rust_fullstack_template">
-              <Button variant="secondary" style={{ margin: "5px" }}>
-                Rust - Actix Web
-              </Button>
-            </a>
             <a href="https://github.com/justinjoco/go_fullstack_template">
               <Button variant="secondary" style={{ margin: "5px" }}>
                 Go - Gin
@@ -172,7 +167,7 @@ const Projects = () => {
           </Card.Body>
 
           <Card.Footer>
-            Python (Flask, Django REST Framework), Rust (Actix Web), Go (Gin),
+            Python (Flask, Django REST Framework), Go (Gin),
             PostgreSQL, Redis, React, Docker
           </Card.Footer>
         </Card>
