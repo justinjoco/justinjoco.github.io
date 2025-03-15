@@ -164,10 +164,15 @@ const Projects = () => {
                 Go - Gin
               </Button>
             </a>
+            <a href="https://github.com/justinjoco/rust_fullstack_template">
+              <Button variant="secondary" style={{ margin: "5px" }}>
+                Rust - Actix Web
+              </Button>
+            </a>
           </Card.Body>
 
           <Card.Footer>
-            Python (Flask, Django REST Framework), Go (Gin),
+            Python (Flask, Django REST Framework), Rust (Actix Web), Go (Gin), 
             PostgreSQL, Redis, React, Docker
           </Card.Footer>
         </Card>

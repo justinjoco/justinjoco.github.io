@@ -48,8 +48,8 @@ const Skills = () => {
             Spinnaker, Jenkins, Argo, Datadog, Databricks, Apache Spark
           </p>
           <p>
-            Spring (Boot, WebFlux), Django (REST Framework), Flask, React, Jest,
-            JUnit, TestNG, Node.js, Express, OpenAPI, OpenTelemetry, OAuth
+            Spring (Boot, WebFlux), Django (REST Framework), Flask, Actix Web, Gin, React, Jest,
+            JUnit, TestNG, NodeJS, Express, OpenAPI, OpenTelemetry, OAuth
             2.0/Open ID Connect{" "}
           </p>{" "}
           <p>
