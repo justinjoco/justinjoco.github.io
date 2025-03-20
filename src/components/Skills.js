@@ -29,12 +29,17 @@ const Skills = () => {
           <br /> <br />
           <h2>Programming</h2>
           <p>
-            <B>Languages</B>: Python, Java, TypeScript (TS)/JavaScript (JS),
-            Kotlin, Golang (Go), Scala, Rust, C/C++, SQL
+            <B>Languages</B>: Python, Java, Scala, Golang (Go), Rust, TypeScript (TS)/JavaScript (JS),
+            Kotlin, C/C++, SQL
           </p>
           <p>
             <B>Paradigms</B>: Object-oriented, reactive, concurrent,
             asynchronous
+          </p>
+          <p>
+            <B>Frameworks</B>: Spring (Boot, WebFlux), Django REST Framework, Flask, Actix Web, Gin, React, Jest,
+            JUnit, TestNG, NodeJS, Express.js, OpenAPI, OpenTelemetry, OAuth
+            2.0/Open ID Connect{" "}
           </p>
           <p></p>
         </Col>
@@ -47,11 +52,6 @@ const Skills = () => {
             MongoDB, Apache Kafka, Artifactory, REST, GraphQL, Terraform,
             Spinnaker, Jenkins, Argo, Datadog, Databricks, Apache Spark
           </p>
-          <p>
-            Spring (Boot, WebFlux), Django (REST Framework), Flask, Actix Web, Gin, React, Jest,
-            JUnit, TestNG, NodeJS, Express, OpenAPI, OpenTelemetry, OAuth
-            2.0/Open ID Connect{" "}
-          </p>{" "}
           <p>
             AWS (EKS, S3, EC2, RDS, Kinesis, DynamoDB, Lambda, OpenSearch), GCP,
             Firebase Cloud Messaging{" "}
