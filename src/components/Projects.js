@@ -146,8 +146,8 @@ const Projects = () => {
             <Card.Text>
               I created template repositories of full-stack containerized apps,
               featuring CRUD API services written in different backend
-              frameworks with a React frontend, a PostgreSQL database, and a
-              Redis cache
+              frameworks with a React frontend, a PostgreSQL database, a
+              Redis cache, and DB migrations
             </Card.Text>
             <a href="https://github.com/justinjoco/flask_fullstack_template">
               <Button variant="secondary" style={{ margin: "5px" }}>
