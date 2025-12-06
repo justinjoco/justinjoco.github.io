@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Jumbotron, Container, Row, Col, Image, Button } from "react-bootstrap";
 import logo from "./assets/my_logo_white.png";
-import { FaFacebookSquare, FaLinkedin, FaGithubSquare, FaDev } from "react-icons/fa";
+import {
+  FaFacebookSquare,
+  FaLinkedin,
+  FaGithubSquare,
+  FaDev,
+} from "react-icons/fa";
 
 const Footer = (props) => {
   const I = (props) => (

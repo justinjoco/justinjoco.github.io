@@ -50,7 +50,38 @@ const Experiences = () => {
           <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
           <p>
             {" "}
-            Build internal tools for Disney Plus's event-driven architecture
+            Lead backend engineering for a novel internal platform enabling
+            event-schema discovery, validation, and analysis across Disney+'s
+            high-scale global event-driven architecture that handles 100+
+            million monthly active users and 1+ million events/sec
+          </p>
+          <p>
+            {" "}
+            Own core components of the platform by developing real-time
+            event-streaming and reporting tools, and building analytics
+            dashboards that improve observability and reduce RCA time by 40%+
+            for QA and internal teams
+          </p>
+          <p>
+            {" "}
+            Serve as the team specialist in Kubernetes, distributed backend
+            systems, JVM languages, and data structures to optimize existing
+            architectures, streamline deployments, standardize best practices,
+            and save millions in infrastructure costs
+          </p>
+          <p>
+            {" "}
+            Provide cross-team expertise on event validation and analytics,
+            translating stakeholder feedback into actionable solutions,
+            resolving issues quickly, and delivering stakeholder-requested
+            features that improve user experiences and tooling integrations
+          </p>
+          <p>
+            {" "}
+            Drive engineering excellence by mentoring junior engineers,
+            enforcing code quality standards with 80%+ test coverage, creating
+            service and library templates to accelerate development, leading
+            technical discussions, and troubleshooting on-call user issues
           </p>
           <hr color="white" />
           <p>

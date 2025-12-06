@@ -29,24 +29,24 @@ const Skills = () => {
           <br /> <br />
           <h2>Programming</h2>
           <p>
-            <B>Languages</B>: Python, Java, Scala, Golang (Go), Rust, TypeScript (TS)/JavaScript (JS),
-            Kotlin, C/C++, SQL
+            <B>Languages</B>: Python, Java, Scala, Golang (Go), Rust, TypeScript
+            (TS)/JavaScript (JS), Kotlin, C/C++, SQL
           </p>
           <p>
             <B>Paradigms</B>: Object-oriented, reactive, concurrent,
             asynchronous
           </p>
           <p>
-            <B>Frameworks</B>: Spring (Boot, WebFlux), Django REST Framework, Flask, Actix Web, Gin, React, Jest,
-            JUnit, TestNG, NodeJS, Express.js, OpenAPI, OpenTelemetry, OAuth
-            2.0/Open ID Connect{" "}
+            <B>Frameworks</B>: Spring (Boot, WebFlux, Security), Django REST Framework,
+            Flask, Actix Web, Gin, React, Jest, JUnit, TestNG, NodeJS,
+            ExpressJS, OpenAPI, OpenTelemetry, OAuth 2.0/Open ID Connect{" "}
           </p>
           <p></p>
         </Col>
         <Col>
           <FaDatabase size={"10vh"} color={"#ffffff"} />
           <br /> <br />
-          <h2>Tools and Technologies</h2>
+          <h2>Tools & Technologies</h2>
           <p>
             Git, Unix/Linux, Docker, Kubernetes, Helm, PostgreSQL, Liquibase,
             MongoDB, Apache Kafka, Artifactory, REST, GraphQL, Terraform,
@@ -60,7 +60,7 @@ const Skills = () => {
         <Col>
           <FaComments size={"10vh"} color={"#ffffff"} />
           <br /> <br />
-          <h2>Architecture and Soft Skills</h2>
+          <h2>Architecture & Practices</h2>
           <p>
             {" "}
             Microservices, event-driven architecture, message-driven
