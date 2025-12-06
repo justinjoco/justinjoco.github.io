@@ -34,7 +34,7 @@ const Skills = () => {
           </p>
           <p>
             <B>Paradigms</B>: Object-oriented, reactive, concurrent,
-            asynchronous
+            asynchronous, functional, declarative
           </p>
           <p>
             <B>Frameworks</B>: Spring (Boot, WebFlux, Security), Django REST Framework,
