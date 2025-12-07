@@ -50,14 +50,14 @@ const Experiences = () => {
           <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
           <p>
             {" "}
-            Lead backend engineering for a novel internal platform enabling
+            Lead key components of a novel internal platform enabling
             event-schema discovery, validation, and analysis across Disney+'s
             high-scale global event-driven architecture that handles 100+
             million monthly active users and 1+ million events/sec
           </p>
           <p>
             {" "}
-            Own core components of the platform by developing real-time
+            Own core platform functionality by developing real-time
             event-streaming and reporting tools, and building analytics
             dashboards that improve observability and reduce RCA time by 40%+
             for QA and internal teams
