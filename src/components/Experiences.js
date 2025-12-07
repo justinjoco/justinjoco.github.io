@@ -57,10 +57,10 @@ const Experiences = () => {
           </p>
           <p>
             {" "}
-            Own core platform functionality by developing real-time
-            event-streaming and reporting tools, and building analytics
-            dashboards that improve observability and reduce RCA time by 40%+
-            for QA and internal teams
+            Architect and implement core platform functionality, including
+            real-time event-streaming & reporting tools and analytics dashboards
+            that improve observability and reduce RCA time by 40%+ for QA and
+            internal teams
           </p>
           <p>
             {" "}

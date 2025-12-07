@@ -37,9 +37,9 @@ const Skills = () => {
             asynchronous, functional, declarative
           </p>
           <p>
-            <B>Frameworks</B>: Spring (Boot, WebFlux, Security), Django REST Framework,
-            Flask, Actix Web, Gin, React, Jest, JUnit, TestNG, NodeJS,
-            ExpressJS, OpenAPI, OpenTelemetry, OAuth 2.0/Open ID Connect{" "}
+            <B>Frameworks</B>: Spring (Boot, WebFlux, Security), Django REST
+            Framework, Flask, Actix Web, Gin, React, Jest, JUnit, TestNG,
+            NodeJS, ExpressJS, OpenAPI, OpenTelemetry, OAuth 2.0/Open ID Connect{" "}
           </p>
           <p></p>
         </Col>
