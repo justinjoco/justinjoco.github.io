@@ -50,17 +50,23 @@ const Experiences = () => {
           <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
           <p>
             {" "}
-            Lead key components of a novel internal platform enabling
-            event-schema discovery, validation, and analysis across Disney+'s
+            Lead key components of a novel internal platform that facilitate
+            event-schema discovery, verification, and analytics across Disney+'s
             high-scale global event-driven architecture that handles 100+
             million monthly active users and 1+ million events/sec
           </p>
           <p>
             {" "}
             Architect and implement core platform functionality, including
-            real-time event-streaming & reporting tools and analytics dashboards
-            that improve observability and reduce RCA time by 40%+ for QA and
-            internal teams
+            real-time event-streaming & reporting tools that provide end-to-end
+            observability and reduce validation time by 65%+ for QA and other
+            engineering teams
+          </p>
+          <p>
+            {" "}
+            Champion critical parts of the platform rearchitecture to improve
+            performance and observability and to enhance system reliability and
+            developer productivity
           </p>
           <p>
             {" "}
@@ -79,9 +85,15 @@ const Experiences = () => {
           <p>
             {" "}
             Drive engineering excellence by mentoring junior engineers,
-            enforcing code quality standards with 80%+ test coverage, creating
-            service and library templates to accelerate development, leading
-            technical discussions, and troubleshooting on-call user issues
+            enforcing code quality with 80%+ test coverage and static analysis,
+            instrumenting applications to accelerate RCA, leading technical
+            discussions, and resolving on-call user issues
+          </p>
+          <p>
+            {" "}
+            Evangelize the internal platform across engineering teams, expanding
+            adoption and awareness while promoting alignment via demos,
+            workshops, and technical advocacy
           </p>
           <hr color="white" />
           <p>

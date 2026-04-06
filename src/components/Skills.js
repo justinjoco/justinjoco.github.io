@@ -29,8 +29,8 @@ const Skills = () => {
           <br /> <br />
           <h2>Programming</h2>
           <p>
-            <B>Languages</B>: Python, Java, Scala, Golang (Go), Rust, TypeScript
-            (TS)/JavaScript (JS), Kotlin, C/C++, SQL
+            <B>Languages</B>: Python, Java, Scala, TypeScript (TS)/JavaScript
+            (JS), Kotlin, Golang (Go), Rust, C/C++, SQL
           </p>
           <p>
             <B>Paradigms</B>: Object-oriented, reactive, concurrent,
@@ -50,11 +50,12 @@ const Skills = () => {
           <p>
             Git, Unix/Linux, Docker, Kubernetes, Helm, PostgreSQL, Liquibase,
             MongoDB, Apache Kafka, Artifactory, REST, GraphQL, Terraform,
-            Spinnaker, Jenkins, Argo, Datadog, Databricks, Apache Spark
+            Spinnaker, Jenkins, Argo, Datadog, Databricks, Apache Spark, Redis,
+            Elasticsearch
           </p>
           <p>
-            AWS (EKS, S3, EC2, RDS, Kinesis, DynamoDB, Lambda, OpenSearch), GCP,
-            Firebase Cloud Messaging{" "}
+            AWS (EKS, S3, EC2, RDS, Kinesis, DynamoDB, Lambda, OpenSearch, MSK),
+            GCP, Firebase Cloud Messaging{" "}
           </p>{" "}
         </Col>
         <Col>
