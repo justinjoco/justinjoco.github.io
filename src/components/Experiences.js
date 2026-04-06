@@ -59,7 +59,7 @@ const Experiences = () => {
             {" "}
             Architect and implement core platform functionality, including
             real-time event-streaming & reporting tools that provide end-to-end
-            observability and reduce validation time by 65%+ for QA and other
+            observability and reduce validation time by 95%+ for QA and other
             engineering teams
           </p>
           <p>
