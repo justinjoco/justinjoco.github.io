@@ -64,9 +64,7 @@ const Experiences = () => {
           </p>
           <p>
             {" "}
-            Champion critical parts of the platform rearchitecture to improve
-            performance and observability and to enhance system reliability and
-            developer productivity
+            Champion the design and execution of critical portions of the platform rearchitecture to improve system performance, telemetry, reliability, and extensibility
           </p>
           <p>
             {" "}
