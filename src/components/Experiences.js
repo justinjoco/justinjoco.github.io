@@ -48,59 +48,6 @@ const Experiences = () => {
             Senior Software Engineer
           </h5>
           <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
-          <p>
-            {" "}
-            Lead key components of a novel internal platform that facilitate
-            event-schema discovery, verification, and analytics across Disney+'s
-            high-scale global event-driven architecture that handles 100+
-            million monthly active users and 1+ million events/sec
-          </p>
-          <p>
-            {" "}
-            Architect and implement core platform functionality, including
-            real-time event-streaming & reporting tools that provide end-to-end
-            observability and reduce validation time by 95%+ for QA and other
-            engineering teams
-          </p>
-          <p>
-            {" "}
-            Champion the design and execution of critical portions of the platform rearchitecture to improve system performance, telemetry, reliability, and extensibility
-          </p>
-          <p>
-            {" "}
-            Serve as the team specialist in Kubernetes, distributed backend
-            systems, JVM languages, and data structures to optimize existing
-            architectures, streamline deployments, standardize best practices,
-            and save millions in infrastructure costs
-          </p>
-          <p>
-            {" "}
-            Provide cross-team expertise on event validation and analytics,
-            translating stakeholder feedback into actionable solutions,
-            resolving issues quickly, and delivering stakeholder-requested
-            features that improve user experiences and tooling integrations
-          </p>
-          <p>
-            {" "}
-            Drive engineering excellence by mentoring junior engineers,
-            enforcing code quality with 80%+ test coverage and static analysis,
-            instrumenting applications to accelerate RCA, leading technical
-            discussions, and resolving on-call user issues
-          </p>
-          <p>
-            {" "}
-            Evangelize the internal platform across engineering teams, expanding
-            adoption and awareness while promoting alignment via demos,
-            workshops, and technical advocacy
-          </p>
-          <hr color="white" />
-          <p>
-            {" "}
-            Java | Spring (Boot, WebFlux, Security) | Reactive Programming |
-            Python | Typescript | Scala | AWS (DynamoDB, RDS, S3, EC2, EKS,
-            Kinesis) | Terraform | Jenkins | Artifactory | Spinnaker | Datadog |
-            Databricks | Apache Spark
-          </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -115,39 +62,6 @@ const Experiences = () => {
             Software Engineer
           </h5>
           <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
-          <p>
-            {" "}
-            Developed platform of shared services, patterns, and libraries at a
-            high-growth healthtech startup, which includes the auth security
-            system, the event-driven architecture, the monitoring and
-            observability stack, and automated testing frameworks
-          </p>
-          <p>
-            {" "}
-            Reduced average latencies by 40% across distributed services by
-            scaling deployments and optimizing code to mitigate bottlenecks
-          </p>
-          <p>
-            Designed, implemented, and deployed critical event-driven
-            application services, devising study participant randomization
-            algorithms and the event processing logic{" "}
-          </p>
-          <p>
-            Implemented inbox and outbox patterns to guarantee message delivery
-            and to improve performance and reliability of the event system
-          </p>
-          <p>
-            Significantly increased code coverage, monitoring, and code quality
-            in team-owned services by 60%, minimizing the severity and number of
-            bugs while expediting root cause analysis of issues by 200%
-          </p>
-
-          <hr color="gray" />
-          <p>
-            {" "}
-            TypeScript | Node.js | Express | MongoDB | Docker | Kubernetes (K8s)
-            | OpenTelemetry | Grafana | GCP | Argo | Backstage{" "}
-          </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -161,49 +75,6 @@ const Experiences = () => {
             Software Engineer III
           </h5>
           <h6 className="vertical-timeline-element-subtitle">Seattle, WA</h6>
-          <p>
-            {" "}
-            Spearheaded multiple backend teams of a fast-paced B2B proptech
-            startup, culminating in a 4.9 star vendor mobile app launch, a
-            vastly-improved vendor onboarding relaunch, and a unique homepage
-            experience to be migrated to the post-merger platform{" "}
-          </p>
-          <p>
-            {" "}
-            Designed, implemented, and maintained a message-driven push
-            notification service, a state-managing work order offer service,
-            event-driven task and KPI services, and third-party integrated
-            services{" "}
-          </p>
-          <p>
-            {" "}
-            Accelerated dozens of projects by building initiatives, such as
-            infrastructure pipelines, common libraries, and service templates,
-            to expedite delivery of reliable, scalable, and maintainable
-            microservices{" "}
-          </p>
-          <p>
-            {" "}
-            Established and upheld development processes that require static
-            analysis with 85% minimum test coverage, structured logging and
-            custom metrics, and CICD with automated integration/E2E testing to
-            proactively mitigate bugs, reduce tech debt, and quickly RCA issues{" "}
-          </p>
-          <p>
-            {" "}
-            Applied subject matter expertise of significant portions of the
-            company backend and knowledge of industry practices to mentor junior
-            engineers, influence peers, and present regularly at company-wide
-            engineering roundtables
-          </p>
-          <hr color="gray" />
-          <p>
-            {" "}
-            Kotlin | Java | TypeScript | Python | Node | Docker | Kubernetes |
-            Helm | AWS | S3 | EC2 | Lambda | CDK | Minikube | REST | GraphQL |
-            Kafka | Spring Boot | PostgreSQL | Terraform | Behavior-Driven
-            Development{" "}
-          </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -217,31 +88,6 @@ const Experiences = () => {
             Software Engineer
           </h5>
           <h6 className="vertical-timeline-element-subtitle">Bellevue, WA</h6>
-          <p>
-            {" "}
-            Led development, monitoring, and deployment of Visual Voicemail's
-            (VVM) new distributed microservices to scale to handle 25M active
-            users at 600 TPS, featuring FFmpeg audio transcoding and enforcing
-            90% API handler test coverage via unit and integration testing{" "}
-          </p>
-          <p>
-            {" "}
-            Developed the new VVM Android client, handling API integration and
-            implementing features such as push notifications, accessibility,
-            metrics reporting, and app activation
-          </p>
-          <p>
-            {" "}
-            Developed new Consumer Digits desktop client, improving messaging
-            and group call functionality{" "}
-          </p>
-          <hr color="gray" />
-          <p>
-            {" "}
-            Kotlin for Android | Golang (Go) | Python | Docker | API Development
-            | Unit and Integration Testing | Git (Bitbucket) | TypeScript |
-            React | Electron | Redux{" "}
-          </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -257,16 +103,6 @@ const Experiences = () => {
             Graduate Teaching Assistant
           </h5>
           <h6 className="vertical-timeline-element-subtitle">Ithaca, NY</h6>
-          <p>
-            Led recitations of 30-40 students, aided design of course content
-            with the professor and peer teaching assistants, and held office
-            hours for material review and code debugging
-          </p>
-          <hr color="gray" />
-          <p>
-            Computer Systems Programming (C/C++) | Intro to Probability Theory
-            for Signals and Systems | Math of Signals and Systems
-          </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -280,16 +116,6 @@ const Experiences = () => {
             System Architecture Engineering Intern
           </h5>
           <h6 className="vertical-timeline-element-subtitle">Bellevue, WA</h6>
-          <p>
-            Built an MVC Android/iOS app and a desktop app end-to-end that
-            integrate cloud storage APIs to streamline the internal releases of
-            T-Mobile DIGITS' builds to QA
-          </p>
-          <hr color="gray" />
-          <p>
-            Android SDK (Kotlin) | React Native (JSX) | Electron | AWS-Amplify |
-            HockeyApp API | Git (Bitbucket)
-          </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -305,15 +131,6 @@ const Experiences = () => {
             Software Engineering Intern
           </h5>
           <h6 className="vertical-timeline-element-subtitle">Chicago, IL</h6>
-          <p>
-            Developed a B2B web portal (Data Once &reg;) that streamlined
-            account opening for commercial clients in 23+ countries
-          </p>
-          <hr color="gray" />
-          <p>
-            HTML/CSS/Javascript (JS) | jQuery | Ember Bootstrap | Handlebars |
-            Git (Bitbucket)
-          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -328,12 +145,6 @@ const Experiences = () => {
             Enterprise Architecture Intern
           </h5>
           <h6 className="vertical-timeline-element-subtitle">Fort Wayne, IN</h6>
-          <p>
-            Refactored majority of email service legacy codebase (Java); liaised
-            Lincoln with SaaS providers to improve operational efficiency
-          </p>
-          <hr color="gray" />
-          <p>Java | SVN | Market Research </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
       <br />
